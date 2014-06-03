@@ -1,0 +1,67 @@
+Welcome to the official first Git readme you've made!
+
+Remember that git is just a simple versioning, server storage, file
+sharing program.  Use it just like you would Dropbox or more similarly
+SVN.
+
+Commands
+______________________________________________________________________
+One Time Use:
+
+git config --flag [arguments]
+    For configuring some necessary global varibles: 
+      git config --global user.name "gitHub user account name"
+      git config --global user.email "gitHub user account email"
+
+git init			-Make the current folder able to track
+    				  changes of files for commits and
+				  pushes to the git server
+
+git remote add [name] [address]	-Adds a variable with the reference
+    	       	      		  "name" to the local machine's
+    	       	      		  git. This variable name will be used
+    	       	      		  to refer to the given web address
+    	       	      		  from here on out.  For example:
+
+      $ git remote add test https://github.com/username/Folder.git
+
+      # Creates a remote named "test" pointing at your GitHub
+        repository, this assumes that "Folder" is the folder that you
+        ran "git init" on. 
+
+______________________________________________________________________
+Frequent Use:
+
+git status			-Lists the status of all files in the
+    				  current git directory (I'm not sure
+    				  if it does subdirectories or not)
+
+git add [filename]		-Begin tracking the changes for the
+    				  filename given, mark it to be stored
+    				  on the git server.
+
+git commit -m "Comment"		-Make all of the changes official and
+    				  update the .git file in your current
+				  folder so that all changes will be
+				  made on the server in the next push
+
+git push -u [remote] [branch]	-Send all updated files to the git
+    				  server that was specified before git
+				  init command.  This will require the
+				  username and password of the desired
+				  user account to update.  For this
+    				  .git folder, 
+				    remote = MonoNav
+    				    branch = master
+
+				  remote is a variable that was set
+    				  with git commands earlier.  To my
+    				  understanding it is a pointer the
+    				  the location on github servers that
+    				  you will be saving information.
+				  
+				  branch to my understanding is the
+				  name of the branch that you have on
+				  your local machine that you would
+				  like to push the the given remote. 
+______________________________________________________________________
