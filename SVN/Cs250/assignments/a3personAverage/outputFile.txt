@@ -1,5 +1,0 @@
-Group One:  People class: Jump 3 Dark 4 Harry 6 Truman 7 
-Average is 5
-Group Two:  People class: Loom 5 
-Average is 5
-Average difference: 0

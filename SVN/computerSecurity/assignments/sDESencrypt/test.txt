@@ -1,7 +1,0 @@
-Now I will proceed to test this file reader.
-This is a new line.
-
-This is two new lines from the last statement.
-I'm interested in whether or not this produces a list.
-
-Thank you, and goodbye.

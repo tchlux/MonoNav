@@ -1,7 +1,0 @@
-print('')
-print('A mole of Moles weighs 3.3e25 in grams')
-print('A mole of Moles would amount to 3.3e22 liters of space.')
-print('If packed into a sphere, a mole of Moles would have a diameter of 48268539.74')
-print('meters')
-print('In comparison, the moon has a diameter of 3474800 meters, that is a big sphere!')
-print('')

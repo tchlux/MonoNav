@@ -1,8 +1,0 @@
-# Blender MTL File: ''
-# Material Count: 1
-newmtl Material.001
-
-Ka 0.188700 0.524542 0.640000
-Kd 0.200000 0.800000 1.000000
-Ks 0.248457 0.248457 0.248457
-Ns 96.078431

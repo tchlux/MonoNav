@@ -1,6 +1,0 @@
-Big O of maze traversing program thing:
-
-O(n)
-
-Because at worst case, every point in the map will be checked once.
-That means that it will have gone through n computations.

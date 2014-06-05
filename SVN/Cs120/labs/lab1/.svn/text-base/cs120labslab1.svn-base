@@ -1,8 +1,0 @@
-print("Name\tHometown\tIntended Major\t\tAge")
-print("====\t========\t======== =====\t\t===")
-print("Maya\tRoanoke\t\tComputer Science\t19")
-print("Thomas\tAshland\t\tComputer Science\t18")
-print("Nick\tBrewster\tMathematics\t\t20")
-print("Greg\tGermington\tPsychology\t\t19")
-print("")
-print("The average age is",(19+18+20+19)/4,"years")

@@ -1,6 +1,0 @@
-John 5
-Jack 6
-Jane 5
-Julia 6
-Jerry 5
-June 6
