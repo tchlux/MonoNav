@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core
+END
+core_type_vec2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_vec2.cpp
+END
+core_func_trigonometric.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_trigonometric.cpp
+END
+core_type_vec3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_vec3.cpp
+END
+core_func_exponential.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_exponential.cpp
+END
+core_type_vec4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_vec4.cpp
+END
+core_func_common.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_common.cpp
+END
+core_setup_message.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_setup_message.cpp
+END
+core_type_float.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_float.cpp
+END
+core_func_integer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_integer.cpp
+END
+core_type_half.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_half.cpp
+END
+core_setup_precision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_setup_precision.cpp
+END
+core_type_mat2x2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat2x2.cpp
+END
+core_func_matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_matrix.cpp
+END
+core_type_mat2x3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat2x3.cpp
+END
+core_type_mat3x2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat3x2.cpp
+END
+core_type_mat4x2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat4x2.cpp
+END
+core_type_mat3x3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat3x3.cpp
+END
+core_type_mat2x4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat2x4.cpp
+END
+core_type_mat4x3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat4x3.cpp
+END
+core_type_mat3x4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat3x4.cpp
+END
+core_type_mat4x4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_mat4x4.cpp
+END
+core_type_length.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_length.cpp
+END
+core_func_swizzle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_swizzle.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/CMakeLists.txt
+END
+core_func_vector_relational.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_vector_relational.cpp
+END
+core_func_packing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_packing.cpp
+END
+core_func_noise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_noise.cpp
+END
+core_func_geometric.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_func_geometric.cpp
+END
+core_type_int.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_int.cpp
+END
+core_type_vec1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glm-0.9.4.0/test/core/core_type_vec1.cpp
+END

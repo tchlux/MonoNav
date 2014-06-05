@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/inftrees.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/zconf.h
+END
+inflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/inflate.h
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/trees.h
+END
+zconf.in.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/zconf.in.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/inffast.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/compress.c
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/adler32.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/CMakeLists.txt
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/inffast.h
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/inffixed.h
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/deflate.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/zlib.h
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/zutil.c
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/deflate.h
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/zutil.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/README
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/crc32.c
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/inftrees.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/crc32.h
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/trees.c
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/zlib/inflate.c
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/thlux/!svn/ver/261/Cs250/labs/avlTrees
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/thlux/!svn/ver/158/Cs250/labs/avlTrees/defs.h
+END
+AVLTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/thlux/!svn/ver/261/Cs250/labs/avlTrees/AVLTree.h
+END
+AVLMain.cc
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/thlux/!svn/ver/255/Cs250/labs/avlTrees/AVLMain.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/thlux/!svn/ver/158/Cs250/labs/avlTrees/Makefile
+END
+AVLnode.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/thlux/!svn/ver/261/Cs250/labs/avlTrees/AVLnode.h
+END

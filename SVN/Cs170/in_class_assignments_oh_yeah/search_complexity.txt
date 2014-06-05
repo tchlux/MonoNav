@@ -1,0 +1,1 @@
+The big O of the Binary Tree search is BigO(n) because in worst case you are searching for a value that does not exist in the BinaryTrue and the depth is equal to the number of values in the tree. So the worst case is n computations.

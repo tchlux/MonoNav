@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/thlux/!svn/ver/4/Cs170/python3.3/bigfloat-0.3.0a2/bigfloat
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/thlux/!svn/ver/4/Cs170/python3.3/bigfloat-0.3.0a2/bigfloat/__init__.py
+END
+context.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/4/Cs170/python3.3/bigfloat-0.3.0a2/bigfloat/context.py
+END
+ieee.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/4/Cs170/python3.3/bigfloat-0.3.0a2/bigfloat/ieee.py
+END
+core.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/4/Cs170/python3.3/bigfloat-0.3.0a2/bigfloat/core.py
+END
+rounding_mode.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/thlux/!svn/ver/4/Cs170/python3.3/bigfloat-0.3.0a2/bigfloat/rounding_mode.py
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run
+END
+john
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run/john
+END
+digits.chr
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/digits.chr
+END
+john.pot
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run/john.pot
+END
+hashFile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run/hashFile.txt
+END
+password.lst
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/password.lst
+END
+ascii.chr
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/ascii.chr
+END
+unique
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run/unique
+END
+mailer
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/mailer
+END
+makechr
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/makechr
+END
+unafs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run/unafs
+END
+john.log
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run/john.log
+END
+relbench
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/relbench
+END
+john.conf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/john.conf
+END
+unshadow
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/run/unshadow
+END
+lm_ascii.chr
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/run/lm_ascii.chr
+END

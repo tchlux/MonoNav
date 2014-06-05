@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability
+END
+FloatingPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/FloatingPoint.h
+END
+CppUnitSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/CppUnitSet.h
+END
+CppUnitMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/CppUnitMap.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/Makefile.am
+END
+CppUnitVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/CppUnitVector.h
+END
+CppUnitDeque.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/CppUnitDeque.h
+END
+CppUnitStack.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/CppUnitStack.h
+END
+Stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/Stream.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/include/cppunit/portability/Makefile.in
+END

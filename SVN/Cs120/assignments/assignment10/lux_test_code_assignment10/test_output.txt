@@ -1,0 +1,3 @@
+Connectedness score for "a" is : 0
+
+(my program will also pull up the turtle window and draw the picture, for some reason if you use a small list like the one I've provided it doesn't actually draw the last line.  I checked through just about everywhere and all the code is running but the line is not showing up on the turtle window.  I'm guessing it is something similar to a sys.stdout.flush() statement that i need somewhere, but it words well on larger files.  Also the larger the list put in, the more circular looking the shape being made is.)

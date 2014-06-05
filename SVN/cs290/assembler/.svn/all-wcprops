@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/thlux/!svn/ver/187/cs290/assembler
+END
+assemble.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/thlux/!svn/ver/185/cs290/assembler/assemble.h
+END
+registers.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/thlux/!svn/ver/185/cs290/assembler/registers.txt
+END
+opcodes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/thlux/!svn/ver/185/cs290/assembler/opcodes.txt
+END
+syntaxCheck.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/thlux/!svn/ver/185/cs290/assembler/syntaxCheck.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/thlux/!svn/ver/185/cs290/assembler/README.txt
+END
+testCases.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/thlux/!svn/ver/185/cs290/assembler/testCases.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/thlux/!svn/ver/187/cs290/assembler/Makefile
+END
+assemble.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/thlux/!svn/ver/185/cs290/assembler/assemble.cc
+END
+numToBin.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/thlux/!svn/ver/185/cs290/assembler/numToBin.cc
+END

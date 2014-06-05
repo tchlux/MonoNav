@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests
+END
+Makefile.x11.in
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/Makefile.x11.in
+END
+fsaa.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/fsaa.c
+END
+Makefile.win32.cross-mgw
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/Makefile.win32.cross-mgw
+END
+Makefile.win32.mingw
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/Makefile.win32.mingw
+END
+peter.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/peter.c
+END
+Makefile.cocoa
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/Makefile.cocoa
+END
+joysticks.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/joysticks.c
+END
+dynamic.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/dynamic.c
+END
+version.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/version.c
+END
+Makefile.win32.msys
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/Makefile.win32.msys
+END
+reopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/reopen.c
+END
+fsinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/fsinput.c
+END
+tearing.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/tearing.c
+END
+accuracy.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/accuracy.c
+END
+Makefile.carbon
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/Makefile.carbon
+END
+iconify.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/iconify.c
+END
+bundle.sh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/bundle.sh
+END
+getopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/getopt.c
+END
+events.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/events.c
+END
+Makefile.carbon.universal
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/Makefile.carbon.universal
+END
+getopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/getopt.h
+END
+defaults.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/tests/defaults.c
+END

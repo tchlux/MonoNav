@@ -1,0 +1,514 @@
+#include <iostream>
+#include "File.h"
+#include "LinkedList.h"
+#define WRONG_NUM_ARGS 1
+#define INVALID_FLAG 2
+#define ENCRYPT_FLAG 1
+#define DECRYPT_FLAG 2
+
+
+using namespace std;
+
+// Pre:  two defined char *s of equal length
+// Post: bool:: these char*s are equivalent
+bool isEqual(char * st1, char * st2){
+  int index = 0;
+  bool returnValue = true;
+  while (st1[index] != '\0'){
+    if (st1[index] != st2[index]){
+      returnValue = false;
+    }
+    index ++;
+  }
+  return (returnValue);
+}
+
+// Pre:  length = length of args
+//       flagStatus is defined, likewise for returnStatus
+// Post: flagStatus and returnStatus are edited appropriately
+void getFlagStatus(int length, char * args[],
+		   int & flagStatus, int & returnStatus){
+  if (length != 3){
+    returnStatus = WRONG_NUM_ARGS;
+  }
+  char * flag = args[1];
+  if ((isEqual(flag, "-e"))||(isEqual(flag, "-d"))){
+    if (isEqual(flag, "-e")){
+      flagStatus = ENCRYPT_FLAG;
+    }
+    if (isEqual(flag, "-d")){
+      flagStatus = ENCRYPT_FLAG;
+    }
+  }
+  else{
+    returnStatus = INVALID_FLAG;
+  }
+}
+
+// Pre:  text is input file, chars is defined as well as occs
+// Post: chars and occs is appropriately filled
+void countChars(File & text, LinkedList & chars){
+  char * fileArray = text.retArray();
+  int index = 0;
+  while (fileArray[index] != '\0'){
+    if (! chars.has(fileArray[index] )){
+      chars.add(fileArray[index]);
+      occs.add(text.count(fileArray[index]));
+    }
+    index ++;
+  }
+}
+
+// Pre:  Will take flags and input files, then either encrypt or
+//       decrypt 
+// Post: The file is either encrypted or decrypted
+int main(int argc, char * argv[]){
+  int returnStatus = 0; //normal execution
+  int flagStatus = 0;
+  getFlagStatus(argc, argv, flagStatus, returnStatus);
+  char * fileName(argv[2]);
+  if (flagStatus == 1){
+    fileName = fileName + ".txt";
+    File text(fileName); //read in the text file
+    LinkedList<char><int> chars;    //Initialize lists for chars
+    //and occurances
+    countChars(text, chars); //fill the list
+    chars.sort();  //sort the list
+    Tree huffTree; //initialize the huffTree
+    buildTree(huffTree, chars); //build the tree
+    //then encode with the tree and write to file
+  }
+  if (flagStatus == 2){
+    //Find the encoding scheme
+    //transfer it into a tree
+    //use the tree while reading in the file to decompress
+    //save the decompressed text file
+  }
+  return(returnStatus);
+}
+#include <iostream>
+#include "File.h"
+#include "LinkedList.h"
+#define WRONG_NUM_ARGS 1
+#define INVALID_FLAG 2
+#define ENCRYPT_FLAG 1
+#define DECRYPT_FLAG 2
+
+
+using namespace std;
+
+// Pre:  two defined char *s of equal length
+// Post: bool:: these char*s are equivalent
+bool isEqual(char * st1, char * st2){
+  int index = 0;
+  bool returnValue = true;
+  while (st1[index] != '\0'){
+    if (st1[index] != st2[index]){
+      returnValue = false;
+    }
+    index ++;
+  }
+  return (returnValue);
+}
+
+// Pre:  length = length of args
+//       flagStatus is defined, likewise for returnStatus
+// Post: flagStatus and returnStatus are edited appropriately
+void getFlagStatus(int length, char * args[],
+		   int & flagStatus, int & returnStatus){
+  if (length != 3){
+    returnStatus = WRONG_NUM_ARGS;
+  }
+  char * flag = args[1];
+  if ((isEqual(flag, "-e"))||(isEqual(flag, "-d"))){
+    if (isEqual(flag, "-e")){
+      flagStatus = ENCRYPT_FLAG;
+    }
+    if (isEqual(flag, "-d")){
+      flagStatus = ENCRYPT_FLAG;
+    }
+  }
+  else{
+    returnStatus = INVALID_FLAG;
+  }
+}
+
+// Pre:  text is input file, chars is defined as well as occs
+// Post: chars and occs is appropriately filled
+void countChars(File & text, LinkedList & chars){
+  char * fileArray = text.retArray();
+  int index = 0;
+  while (fileArray[index] != '\0'){
+    if (! chars.has(fileArray[index] )){
+      chars.add(fileArray[index]);
+      occs.add(text.count(fileArray[index]));
+    }
+    index ++;
+  }
+}
+
+// Pre:  Will take flags and input files, then either encrypt or
+//       decrypt 
+// Post: The file is either encrypted or decrypted
+int main(int argc, char * argv[]){
+  int returnStatus = 0; //normal execution
+  int flagStatus = 0;
+  getFlagStatus(argc, argv, flagStatus, returnStatus);
+  char * fileName(argv[2]);
+  if (flagStatus == 1){
+    fileName = fileName + ".txt";
+    File text(fileName); //read in the text file
+    LinkedList<char><int> chars;    //Initialize lists for chars
+    //and occurances
+    countChars(text, chars); //fill the list
+    chars.sort();  //sort the list
+    Tree huffTree; //initialize the huffTree
+    buildTree(huffTree, chars); //build the tree
+    //then encode with the tree and write to file
+  }
+  if (flagStatus == 2){
+    //Find the encoding scheme
+    //transfer it into a tree
+    //use the tree while reading in the file to decompress
+    //save the decompressed text file
+  }
+  return(returnStatus);
+}
+#include <iostream>
+#include "Tree.h"
+
+using namespace std;
+
+//Pre:  
+//Post: default constructor
+Tree::Tree(){
+  root = NULL;
+}
+
+//Pre:  startingNode is defined
+//Post: root is set to the given node
+Tree::Tree(Node * startingNode){
+  root = startingNode;
+}
+
+//Pre:  startingNode is defined
+//Post: root is set to the given node
+void Tree::setRoot(Node * startingNode){
+  root = startingNode;
+}
+
+//Pre:  newNode is defined
+//Post: The newNode is placed appropriately in huffman tree format
+void Tree::huffmanAdd(Node & newNode){
+  if (root == NULL){
+    root = newNode;
+  }
+  else{
+    Node<int> * newInternal = new Node;
+    if ((root->getRight() == NULL) || (root->getLeft() == NULL)){
+      //ASSERT:  the tree only has one node currently
+      newInternal->setLeft(root); //set the current node and the new
+      newInternal->setRight(newNode);// node to be children of the
+      root = newInternal;         // new root
+
+    }
+    else{ //ASSERT: root has two children
+      int left = root->getLeft()->getData();
+      int right = root->getRight()->getData();
+      int newData = newNode->getData();
+      if ((left<=right<=newData)||(right<=left<=newData)){
+	//ASSERT: The left and right children should be combined
+n	newInternal->setRight(root->getRight());
+	newInternal->setLeft(root->getLeft());
+	root->setLeft(newInternal);
+	root->setRight(newNode);
+      }
+      if ((left<=newData<=right)||(newData<=left<=right)){
+	//ASSERT: The left child and the new data should be combined
+	newInternal->setRight(root->getLeft());
+	newInternal->setLeft(newNode);
+	root->setLeft(newInternal);
+      }      
+      if ((newData<=right<=left)||(right<=newData<=left)){
+	//ASSERT: The right child and the new data should be combined
+	newInternal->setRight(root->getRight());
+	newInternal->setLeft(newNode);
+	root->setRight(newInternal);
+      }      
+    }
+  }
+  root->sumData(); //recalculate all of the data sums
+}
+#ifndef INCLUDED_Tree
+#define INCLUDED_Tree
+
+template <class T>
+class Node{
+  //CI:  Node is an element in a Tree class, node can hold any data
+  //     type 
+ private:
+  T data; //the data 
+  Node * left; //left child
+  Node * right; //right child
+
+ public:
+  //Pre:  
+  //Post: default constructor
+  Node(){
+    left = NULL;
+    right = NULL;
+  };
+
+  //Pre:  newData is defined
+  //Post: newData is saved to data
+  Node(T newData){
+    data = newData;
+    left = NULL;
+    right = NULL;
+  };
+
+  //Pre:  newNode is defined
+  //Post: the left child is set to newNode
+  void setLeft(Node * newNode){
+    left = newNode;
+  };
+
+  //Pre:  newNode is defined
+  //Post: the right child is set to newNode
+  void setRight(Node * newNode){
+    right = newNode;
+  };
+
+  //Pre:  newData is defined
+  //Post: data is updated with its new value
+  void setData(T newData){
+    data = newData;
+  };
+
+  //Pre:  
+  //Post: data is returned after being dereferenced
+  T getData(){return(data);};
+
+  //Pre:  
+  //Post: The right child pointer is returned
+  Node * getRight(){return(right);};
+
+  //Pre:  
+  //Post: The left child pointer is returned
+  Node * getLeft(){return(left);};
+
+  //Pre:  All nodes either have no children or two
+  //Post: All child nodes' data is summed, and then the sum of the
+  //      data of the children of this node is saved to data.
+  //      Properly handles cases where the child is a NULL pointer
+  void sumData(){
+    if ((right != NULL)&&(left != NULL)){
+      right.sumData();      
+      left.sumData();
+      //ASSERT: all child data has been updated
+      data = right.getData() + left.getData();
+    }
+  };
+
+};
+
+
+
+class Tree {
+  //CI:  Tree is the head of a tree data type, root is a pointer to a
+  //     Node, and only Nodes can be elements in the subsequent tree
+
+ private:
+
+  Node * root; //the node that the Tree points to
+
+ public:
+
+  //Pre:  
+  //Post: default constructor
+  Tree();
+
+  //Pre:  startingNode is defined
+  //Post: root is set to the given node
+  Tree(Node * startingNode);
+
+  //Pre:  startingNode is defined
+  //Post: root is set to the given node
+  void setRoot(Node * startingNode);
+
+  //Pre:  newNode is defined
+  //Post: 
+  void huffmanAdd(Node & newNode);
+
+};
+
+#endif
+#include <iostream>
+#include "Tree.h"
+
+using namespace std;
+
+//Pre:  
+//Post: default constructor
+Tree::Tree(){
+  root = NULL;
+}
+
+//Pre:  startingNode is defined
+//Post: root is set to the given node
+Tree::Tree(Node * startingNode){
+  root = startingNode;
+}
+
+//Pre:  startingNode is defined
+//Post: root is set to the given node
+void Tree::setRoot(Node * startingNode){
+  root = startingNode;
+}
+
+//Pre:  newNode is defined
+//Post: The newNode is placed appropriately in huffman tree format
+void Tree::huffmanAdd(Node & newNode){
+  if (root == NULL){
+    root = newNode;
+  }
+  else{
+    Node<int> * newInternal = new Node;
+    if ((root->getRight() == NULL) || (root->getLeft() == NULL)){
+      //ASSERT:  the tree only has one node currently
+      newInternal->setLeft(root); //set the current node and the new
+      newInternal->setRight(newNode);// node to be children of the
+      root = newInternal;         // new root
+
+    }
+    else{ //ASSERT: root has two children
+      int left = root->getLeft()->getData();
+      int right = root->getRight()->getData();
+      int newData = newNode->getData();
+      if ((left<=right<=newData)||(right<=left<=newData)){
+	//ASSERT: The left and right children should be combined
+	newInternal->setRight(root->getRight());
+	newInternal->setLeft(root->getLeft());
+	root->setLeft(newInternal);
+	root->setRight(newNode);
+      }
+      if ((left<=newData<=right)||(newData<=left<=right)){
+	//ASSERT: The left child and the new data should be combined
+	newInternal->setRight(root->getLeft());
+	newInternal->setLeft(newNode);
+	root->setLeft(newInternal);
+      }      
+      if ((newData<=right<=left)||(right<=newData<=left)){
+	//ASSERT: The right child and the new data should be combined
+	newInternal->setRight(root->getRight());
+	newInternal->setLeft(newNode);
+	root->setRight(newInternal);
+      }      
+    }
+  }
+  root->sumData(); //recalculate all of the data sums
+}
+#ifndef INCLUDED_Tree
+#define INCLUDED_Tree
+
+template <class T>
+class Node{
+  //CI:  Node is an element in a Tree class, node can hold any data
+  //     type 
+ private:
+  T data; //the data 
+  Node * left; //left child
+  Node * right; //right child
+
+ public:
+  //Pre:  
+  //Post: default constructor
+  Node(){
+    left = NULL;
+    right = NULL;
+  };
+
+  //Pre:  newData is defined
+  //Post: newData is saved to data
+  Node(T newData){
+    data = newData;
+    left = NULL;
+    right = NULL;
+  };
+
+  //Pre:  newNode is defined
+  //Post: the left child is set to newNode
+  void setLeft(Node * newNode){
+    left = newNode;
+  };
+
+  //Pre:  newNode is defined
+  //Post: the right child is set to newNode
+  void setRight(Node * newNode){
+    right = newNode;
+  };
+
+  //Pre:  newData is defined
+  //Post: data is updated with its new value
+  void setData(T newData){
+    data = newData;
+  };
+
+  //Pre:  
+  //Post: data is returned after being dereferenced
+  T getData(){return(data);};
+
+  //Pre:  
+  //Post: The right child pointer is returned
+  Node * getRight(){return(right);};
+
+  //Pre:  
+  //Post: The left child pointer is returned
+  Node * getLeft(){return(left);};
+
+  //Pre:  All nodes either have no children or two
+  //Post: All child nodes' data is summed, and then the sum of the
+  //      data of the children of this node is saved to data.
+  //      Properly handles cases where the child is a NULL pointer
+  void sumData(){
+    if ((right != NULL)&&(left != NULL)){
+      right.sumData();      
+      left.sumData();
+      //ASSERT: all child data has been updated
+      data = right.getData() + left.getData();
+    }
+  };
+
+};
+
+
+
+class Tree {
+  //CI:  Tree is the head of a tree data type, root is a pointer to a
+  //     Node, and only Nodes can be elements in the subsequent tree
+
+ private:
+
+  Node * root; //the node that the Tree points to
+
+ public:
+
+  //Pre:  
+  //Post: default constructor
+  Tree();
+
+  //Pre:  startingNode is defined
+  //Post: root is set to the given node
+  Tree(Node * startingNode);
+
+  //Pre:  startingNode is defined
+  //Post: root is set to the given node
+  void setRoot(Node * startingNode);
+
+  //Pre:  newNode is defined
+  //Post: 
+  void huffmanAdd(Node & newNode);
+
+};
+
+#endif

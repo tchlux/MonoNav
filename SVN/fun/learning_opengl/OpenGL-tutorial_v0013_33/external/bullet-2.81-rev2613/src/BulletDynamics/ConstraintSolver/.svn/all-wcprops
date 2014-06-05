@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver
+END
+btSolve2LinearConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.h
+END
+btUniversalConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btUniversalConstraint.h
+END
+btSolverConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSolverConstraint.h
+END
+btConstraintSolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btConstraintSolver.h
+END
+btHinge2Constraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btHinge2Constraint.h
+END
+btGearConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGearConstraint.h
+END
+btGeneric6DofSpringConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h
+END
+btConeTwistConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btConeTwistConstraint.h
+END
+btTypedConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btTypedConstraint.cpp
+END
+btPoint2PointConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.cpp
+END
+btSliderConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSliderConstraint.h
+END
+btJacobianEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btJacobianEntry.h
+END
+btContactConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btContactConstraint.cpp
+END
+btGeneric6DofConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.cpp
+END
+btHingeConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btHingeConstraint.h
+END
+btSolve2LinearConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.cpp
+END
+btUniversalConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btUniversalConstraint.cpp
+END
+btSequentialImpulseConstraintSolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h
+END
+btHinge2Constraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btHinge2Constraint.cpp
+END
+btGearConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGearConstraint.cpp
+END
+btGeneric6DofSpringConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.cpp
+END
+btConeTwistConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btConeTwistConstraint.cpp
+END
+btSliderConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSliderConstraint.cpp
+END
+btSolverBody.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSolverBody.h
+END
+btTypedConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btTypedConstraint.h
+END
+btPoint2PointConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h
+END
+btHingeConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btHingeConstraint.cpp
+END
+btContactConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btContactConstraint.h
+END
+btGeneric6DofConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h
+END
+btContactSolverInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btContactSolverInfo.h
+END
+btSequentialImpulseConstraintSolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp
+END

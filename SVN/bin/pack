@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#pack thlux-CS290-ShellSimComm
+
+mkdir $1
+cp * $1
+
+for var in "$@"; do
+    if [ $var != $1 ]; then
+	cp $var $1;
+    fi;
+done;
+
+tar -czf $1.tgz $1
+rm -r $1

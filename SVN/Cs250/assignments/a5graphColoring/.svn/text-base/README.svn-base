@@ -1,0 +1,31 @@
+Author: Thomas Lux
+Program: Graph Colouring
+
+Purpose:
+
+This program will find valid coloring schemes for sets of vertices in
+a graph that are considered to be connected within a range of thresh
+and with color difference limitations specified by the delta vector.
+
+Usage:  Run the following commands-
+	$make
+	$./colour points.txt delta.txt
+
+points.txt can be any file with syntax being:
+x1 y1
+x2 y2
+...
+xn yn
+
+With single spaces between the coordinates, line length limit of 10
+digits, and no repeated vertices.
+
+
+
+delta.txt can be any file with syntax being:
+thresh
+d1 d2 d3 ... dn
+
+Where thres is a positive integer value for the threshold of
+connectivity and d1, d2, ..., d3 are single space seperated positive
+integer delta vector values.

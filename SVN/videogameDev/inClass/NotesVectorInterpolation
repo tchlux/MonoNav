@@ -1,0 +1,25 @@
+
+Let's say that we have a circle.
+
+       ----
+      /    \
+     |      |
+      \    /  
+       ----
+
+You can't just cast a line from one vector to another on a circle.
+-> This would result in a fast/slow/fast transition across the
+   interpolation because of the shape of the circle
+What we can do instead is interpolate across angle
+-> spherical linear interpolation (between two vectors) (SLIRP)
+-> This is different from (LIRP) linear interpolation
+
+With the vector perpindicular to your start vector, you can use 
+     v1*cos(ot) + v1p*sin(ot)  o = omega, angle between the vectors, p = perpendicular
+to calculate the position that v2 projects to on the line between v1
+and v1p
+
+-> the dot product of two vectors gives the cos(angle between vectors)
+
+Generally LIRP is a lot faster, so if the angle is < 90 degrees then
+use it, otherwise use SLIRP

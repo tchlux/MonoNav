@@ -1,0 +1,15 @@
+COMPILE = g++
+CLEAN   = rm -f
+UTIL = -I /home/thomas/thlux/util
+INCLUDES = $(UTIL)/Graph $(UTIL)/Tuple $(UTIL)/Loop $(UTIL)/Matrix
+
+
+letterFreq: letterFreq.o
+	$(COMPILE) letterFreq.o -o $@
+
+letterFreq.o: letterFreq.cc
+	$(COMPILE) $(INCLUDES) -c letterFreq.cc
+
+# Clean up everything that was built
+clean:
+	$(CLEAN) *~

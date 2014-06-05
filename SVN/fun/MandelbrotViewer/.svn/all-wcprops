@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/thlux/!svn/ver/212/fun/MandelbrotViewer
+END
+mandelbrot.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/thlux/!svn/ver/127/fun/MandelbrotViewer/mandelbrot.h
+END
+mandelbrot.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/thlux/!svn/ver/125/fun/MandelbrotViewer/mandelbrot.py
+END
+testMan.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/thlux/!svn/ver/127/fun/MandelbrotViewer/testMan.cc
+END
+progressbar.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/thlux/!svn/ver/3/fun/MandelbrotViewer/progressbar.py
+END
+Mandelbrot0.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/thlux/!svn/ver/208/fun/MandelbrotViewer/Mandelbrot0.ppm
+END
+ppm.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/thlux/!svn/ver/3/fun/MandelbrotViewer/ppm.py
+END
+messagebox.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/thlux/!svn/ver/3/fun/MandelbrotViewer/messagebox.py
+END
+viewing_window.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/thlux/!svn/ver/125/fun/MandelbrotViewer/viewing_window.py
+END
+data.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/thlux/!svn/ver/208/fun/MandelbrotViewer/data.txt
+END
+colorchooser.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/thlux/!svn/ver/3/fun/MandelbrotViewer/colorchooser.py
+END
+desktopMandelbrot.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/thlux/!svn/ver/212/fun/MandelbrotViewer/desktopMandelbrot.py
+END
+MandelbrotTemp.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/thlux/!svn/ver/212/fun/MandelbrotViewer/MandelbrotTemp.ppm
+END
+ttk.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/thlux/!svn/ver/3/fun/MandelbrotViewer/ttk.py
+END

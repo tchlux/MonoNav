@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#cpdir bin ~/cs250
+
+mkdir $2$1
+cp $1/* $2$1/

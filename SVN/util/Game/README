@@ -1,0 +1,41 @@
+To test the collision you can do:
+
+$ make Blocks
+
+-> This should compile about 9 or so things with the 03 flag, which
+   will take about 10 - 20 seconds
+
+and then do:
+
+$ ./Blocks
+
+-> Now that you did that for fun, (it's kind of broken but they're
+   more-so 'features'
+
+To actually see collision (without ejection) do:
+
+$ make test
+... (Compile ~2 more things)
+$ ./test testVN.obj
+
+-> This will run test giving it the obj for a cube with 6 different
+   colored faces and normals.  The other test objects (testV.obj,
+   testVT.obj, testVTN.obj) do not work right now since the shader
+   stuff is broken.
+-> You can control one of the blocks with the arrow keys, you can
+   twist the block by holdin "Space" and usin the arrow keys.
+-> If you want to see the ejection code working, go into "test.cc" and
+   change line 118 and make it read:
+
+      if (Clone::Collides(test, test1, true))
+                                       ^^^^ With this flipped to true
+
+==========================   
+     Location of Code        
+==========================   
+
+-> Box-box Collision is in Clone.cc under the function "Clone::Collides"
+
+-> Animation has not been written, I will do it or something like it
+   over the end of exam week and summer though if you care to see it
+   later

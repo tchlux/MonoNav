@@ -1,0 +1,165 @@
+#ifndef INCLUDED_intBinTree
+#define INCLUDED_intBinTree
+
+#include <iostream>      // Since we are using the type ostream.
+#include "intTreeNode.h"     // Since we are using the intTreeNode class here.
+
+using namespace std;
+
+class intBinTree {
+
+  // Class Invariant (CI): This object contains a defined pointer r
+  // that points to the root node (type intTreeNode) of a binary tree if any.
+  // n is defined and contains the number of intTreeNode objects
+  // in this binary tree object. 
+
+ private:
+  intNode * root;             // stores the pointer, denoted by r, to the root node
+			       // in the binary tree.
+  int numItems;                // stores the number, denoted by n, of items in the
+			       // binary tree.
+
+  // PRE: stream is a defined OS.
+  //      current is a defined pointer, possibly NULL, to an intTreeNode
+  //      object 
+  // POST: OS contains the elements in the left subtree of current
+  //      followed by the element at current, followed by the
+  //      elements in the right subtree of current.
+  void intBinTree::inOrderTraversal (ostream & stream, intTreeNode * current);
+
+ public:
+  
+  // ======================================== 
+  // constructors
+  // ======================================== 
+
+  // default constructor
+  // PRE: 
+  // POST: This object is defined with r = NULL and n = 0.
+  intBinTree();
+
+
+  // copy constructor
+  // PRE: T is defined.
+  // POST: This object is defined and is a deep copy of T.
+  //       Thus, r = T.r, with all the intTreeNodes in this object being physically
+  //         distinct from the intTreeNodes of T.
+  //       n = T.n
+  //       Note here that T is being passed by reference to avoid the
+  //        shallow copy of the actual parameter being passed as T. We
+  //        indicate that T does not change with the keyword const.
+  intBinTree(const intBinTree & T);
+
+  // PRE: T is defined.
+  // POST: This object is defined and is a deep copy of T.
+  //       Thus, r = T.r, with all the intTreeNodes in r being physically
+  //         distinct from the intTreeNodes of T.
+  //       n = T.n
+  //       Note here that T is being passed by reference to avoid the
+  //        shallow copy of the actual parameter being passed as T. We
+  //        indicate that T does not change with the keyword const.
+  intBinTree & operator= (const intList & L);
+
+
+  // ======================================== 
+  // destructor
+  // ======================================== 
+  
+  // PRE: This object is defined.
+  // POST: This object has no elements. r = NULL and n = 0.
+  //       All space allocated for this object is deallocated.
+  ~intBinTree();
+
+  // ======================================== 
+  //       accessor functions
+  // ======================================== 
+
+  // PRE: This object is defined.
+  // POST: RV = n.
+  int getSize () const;
+
+  // PRE: This object is defined and n > 0.
+  // POST: RV = the integer stored at the root of the tree.
+  int getRoot () const;
+
+  // ======================================== 
+  // modifier functions
+  // ======================================== 
+
+  // POST: This object is defined with n = (pre)n + 1. An intTreeNode
+  //       object t contains the integer data v.
+  //       If this tree object is empty, then the new node is made the
+  //         root of the tree.
+  //       Otherwise: 
+  //       Let x be the first leftmost descendent (this could be the
+  //         root) of this intBinTree
+  //         object that does not have two children. If x does not have
+  //         a left child, then t is added as the left child of x;
+  //         otherwise, t is added as the right child of x.
+  void addLeft (int num);
+
+  // PRE: num = v is defined. This object is defined.
+  // POST: This object is defined with n = (pre)n + 1. An intTreeNode
+  //       object t contains the integer data v.
+  //       If this tree object is empty, then the new node is made the
+  //         root of the tree.
+  //       Otherwise: 
+  //       Let x be the first rightmost descendent (this could be the
+  //         root) of this intBinTree
+  //         object that does not have both children. If x does not have
+  //         a right child, then t is added as the right child of x;
+  //         otherwise, t is added as the left child of x.
+  void addRight (int num);
+
+  // PRE: This object is defined. n > 0.
+  // POST: This object is defined.
+  //       n = (pre)n  -1
+  //       Let x be the leftmost descendent of this intBinTree object.
+  //       If x is the root of this intBinTree object, then the right
+  //         child of x (possibly NULL) is made the root of this object.
+  //       If x is not the root of this object:
+  //         Suppose x does not have a right child. Then the node x is
+  //           deleted.
+  //         Suppose x has a right child, say y, and the parent of x is
+  //           p. Then node x is deleted and y is made the left child of p.
+  void deleteLeft ();
+
+  // PRE: This object is defined. n > 0.
+  // POST: This object is defined.
+  //       n = (pre)n  -1
+  //       Let x be the rightmost descendent of this intBinTree object.
+  //       If x is the root of this intBinTree object, then the left
+  //         child of x (possibly NULL) is made the root of this object.
+  //       If x is not the root of this object:
+  //         Suppose x does not have a left child. Then the node x is
+  //           deleted.
+  //         Suppose x has a left child, say y, and the parent of x is
+  //           p. Then node x is deleted and y is made the right child of p.
+  void deleteRight ();
+
+  // PRE: This object is defined.
+  // POST: If the root is not NULL, then
+  //         one of the nodes of the tree, say x, is made the new root
+  //         of the tree and the parent/children relations are
+  //         revised, if necessary, so that 
+  //           for all nodes y not equal to x in the tree, 
+  //             any nodes in the left subtree of y before the deletion 
+  //               are still in the left subtree of y,
+  //             and 
+  //             any nodes in the right subtree of y before the deletion 
+  //               are still in the right subtree of y.
+  void deleteRoot ();
+
+
+  // ======================================== 
+  //     Input/Output
+  // ======================================== 
+
+  // PRE: T is defined.
+  // POST: stream contains the contents of the nodes of this
+  //       intBinTree object as visited in the infix traversal of the
+  //       object. 
+  friend ostream & operator<< (ostream & stream, const intList & T);
+
+};
+#endif

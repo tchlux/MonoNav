@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost
+END
+timer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/timer.hpp
+END
+scoped_ptr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/scoped_ptr.hpp
+END
+make_shared.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/make_shared.hpp
+END
+shared_array.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/shared_array.hpp
+END
+foreach.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/foreach.hpp
+END
+format.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/format.hpp
+END
+static_assert.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/static_assert.hpp
+END
+LICENSE_1_0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/LICENSE_1_0.txt
+END
+noncopyable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/noncopyable.hpp
+END
+pointer_cast.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/pointer_cast.hpp
+END
+lexical_cast.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/lexical_cast.hpp
+END
+scoped_array.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/scoped_array.hpp
+END
+shared_ptr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BoostWorkaround/boost/shared_ptr.hpp
+END

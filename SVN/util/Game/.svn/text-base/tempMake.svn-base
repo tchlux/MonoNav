@@ -1,0 +1,58 @@
+COMPILE = g++ -O3
+CLEAN = rm -f
+INCLUDES = -lGL -lglfw -lGLEW -lm
+ALL = viewGL.o Clone.o Camera.o PlayerClone.o Model.o Material.o Vertex.o Shaders.o strops.o
+RELY = constants.h Light.h List.h Link.h
+
+Blocks: Blocks.o $(ALL) $(RELY)
+	$(COMPILE) $@.o $(ALL) -o $@ $(INCLUDES)
+
+test: test.o $(ALL) $(RELY)
+	$(COMPILE) $@.o $(ALL) -o $@ $(INCLUDES)
+
+#==================
+#     .o files     
+#==================
+
+Blocks.o: Blocks.cc $(RELY) BlocksFunctions.cc
+	$(COMPILE) -c Blocks.cc $(INCLUDES)
+
+Camera.o: Camera.cc Camera.h $(RELY)
+	$(COMPILE) -c Camera.cc $(INCLUDES)
+
+Clone.o: Clone.cc Clone.h $(RELY)
+	$(COMPILE) -c Clone.cc $(INCLUDES)
+
+Gravity.o: Gravity.cc $(RELY)
+	$(COMPILE) -c Gravity.cc $(INCLUDES)
+
+Material.o: Material.cc Material.h $(RELY)
+	$(COMPILE) -c Material.cc $(INCLUDES)
+
+Model.o: Model.cc Model.h $(RELY)
+	$(COMPILE) -c Model.cc $(INCLUDES)
+
+PlayerClone.o: PlayerClone.cc PlayerClone.h $(RELY)
+	$(COMPILE) -c PlayerClone.cc $(INCLUDES)
+
+Shaders.o: Shaders.cc Shaders.h $(RELY)
+	$(COMPILE) -c Shaders.cc $(INCLUDES)
+
+strops.o: strops.h strops.cc $(RELY)
+	$(COMPILE) -c strops.cc $(INCLUDES)
+
+test.o: test.cc $(RELY)
+	$(COMPILE) -c test.cc $(INCLUDES)
+
+Vertex.o: Vertex.cc Vertex.h $(RELY)
+	$(COMPILE) -c Vertex.cc $(INCLUDES)
+
+viewGL.o: viewGL.cc viewGL.h Model.h $(RELY)
+	$(COMPILE) -c viewGL.cc $(INCLUDES)
+
+#===================================
+#     For removing excess files     
+#===================================
+
+clean:
+	$(CLEAN) *.o test Blocks

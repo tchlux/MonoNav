@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates
+END
+genericlauncher.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/genericlauncher.sh.in
+END
+vcxproj.user.in
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/vcxproj.user.in
+END
+launcher.env.cmd.in
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/launcher.env.cmd.in
+END
+targetlauncher.cmd.in
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/targetlauncher.cmd.in
+END
+perconfig.vcproj.user.in
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/perconfig.vcproj.user.in
+END
+genericlauncher.cmd.in
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/genericlauncher.cmd.in
+END
+vcproj.user.in
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/vcproj.user.in
+END
+launcher.env.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/launcher.env.sh.in
+END
+targetlauncher.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/targetlauncher.sh.in
+END
+perconfig.vcxproj.user.in
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/launcher-templates/perconfig.vcxproj.user.in
+END

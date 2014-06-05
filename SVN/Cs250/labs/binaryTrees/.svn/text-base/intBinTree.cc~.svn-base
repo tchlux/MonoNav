@@ -1,0 +1,215 @@
+
+#include <iostream>      // Since we are using the type ostream.
+#include "intTreeNode.h"     // Since we are using the intTreeNode class here.
+#include "intBinTree.h"     
+
+using namespace std;
+
+// ======================================== 
+// constructors
+// ======================================== 
+
+// default constructor
+// PRE: 
+// POST: This object is defined with r = NULL and n = 0.
+intBinTree::intBinTree() {
+  root = NULL;
+  numItems = 0;
+}
+
+
+
+// copy constructor
+// PRE: T is defined.
+// POST: This object is defined and is a deep copy of T.
+//       Thus, r = T.r, with all the intTreeNodes in this object being physically
+//         distinct from the intTreeNodes of T.
+//       n = T.n
+//       Note here that T is being passed by reference to avoid the
+//        shallow copy of the actual parameter being passed as T. We
+//        indicate that T does not change with the keyword const.
+intBinTree::intBinTree(const intBinTree & T) {
+
+}
+
+// PRE: T is defined.
+// POST: This object is defined and is a deep copy of T.
+//       Thus, r = T.r, with all the intTreeNodes in r being physically
+//         distinct from the intTreeNodes of T.
+//       n = T.n
+//       Note here that T is being passed by reference to avoid the
+//        shallow copy of the actual parameter being passed as T. We
+//        indicate that T does not change with the keyword const.
+intBinTree & intBinTree::operator= (const intList & L) {
+
+}
+
+// ======================================== 
+// destructor
+// ======================================== 
+
+// PRE: This object is defined.
+// POST: This object has no elements. r = NULL and n = 0.
+//       All space allocated for this object is deallocated.
+intBinTree::~intBinTree() {
+  detete (root);  // will recursively call the intTreeNode destructor
+  root = NULL;
+}
+
+// ======================================== 
+//       accessor functions
+// ======================================== 
+
+// PRE: This object is defined.
+// POST: RV = n.
+int intBinTree::getSize () const {
+  return (numItems);
+}
+
+// PRE: This object is defined and n > 0.
+// POST: RV = the integer stored at the root of the tree.
+int intBinTree::getRoot () const {
+  return (root->getData());
+  // Since the pre condition requires the tree object to have at least
+  // one element, root-> will not give us a "de-referencing a null
+  // pointer" error.
+}
+
+// ======================================== 
+// modifier functions
+// ======================================== 
+
+// PRE: num = v is defined. This object is defined.
+// POST: This object is defined with n = (pre)n + 1. An intTreeNode
+//       object t contains the integer data v.
+//       If this tree object is empty, then the new node is made the
+//         root of the tree.
+//       Otherwise: 
+//       Let x be the first leftmost descendent (this could be the
+//         root) of this intBinTree
+//         object that does not have two children. If x does not have
+//         a left child, then t is added as the left child of x;
+//         otherwise, t is added as the right child of x.
+void intBinTree::addLeft (int num) {
+  // Create a new intTreeNode pointed to by, say nodeToAddPtr, and
+  //   store num in this node. 
+  // Initialise an intTreeNode pointer, say currentPtr, to the root.
+  // If the current tree is empty, then the new node is the root of
+  //   the tree.
+  // else
+  //   Loop through the left child of currentPtr until a node is
+  //     found that does not have two children
+  //   ASSERT: currentPtr->getLeftChildPtr() == NULL or
+  //           currentPtr->getRightChildPtr() == NULL
+  //   if (currentPtr->getRightChildPtr() == NULL) {
+  //     add nodeToAddPtr as the left child of currentPtr
+  //   }
+  //   else {
+  //     add nodeToAddPtr as the right child of currentPtr
+  //   }
+}
+
+// PRE: num = v is defined. This object is defined.
+// POST: This object is defined with n = (pre)n + 1. An intTreeNode
+//       object t contains the integer data v.
+//       If this tree object is empty, then the new node is made the
+//         root of the tree.
+//       Otherwise: 
+//       Let x be the first rightmost descendent (this could be the
+//         root) of this intBinTree
+//         object that does not have both children. If x does not have
+//         a right child, then t is added as the right child of x;
+//         otherwise, t is added as the left child of x.
+void intBinTree::addRight (int num) {
+  // Similar to addLeft above.
+}
+
+// PRE: This object is defined. n > 0.
+// POST: This object is defined.
+//       n = (pre)n  -1
+//       Let x be the leftmost descendent of this intBinTree object.
+//       If x is the root of this intBinTree object, then the right
+//         child of x (possibly NULL) is made the root of this
+//         object, and the node x is deleted.
+//       If x is not the root of this object:
+//         Suppose x does not have a right child. Then the node x is
+//           deleted.
+//         Suppose x has a right child, say y, and the parent of x is
+//           p. Then node x is deleted and y is made the left child of p.
+void intBinTree::deleteLeft () {
+  // Initialise currrentPtr to the root.
+  // Loop through the left child of currentPtr until a node is
+  //   found that does not have a left child.
+  // If currentPtr is the root, then 
+  //   set a temp pointer to the current root
+  //   set the root to be the right child of the current root
+  //   delete the node pointed to by the temp pointer.
+  // else 
+  //   ASSERT: currentPtr does not have a left child
+  //   if currentPtr->getRightChild() == NULL
+  //     Set the left pointer of the parent of currentPtr to be NULL
+  //     delete (currentPtr)
+  //   else
+  //     set the left child of the parent of currentPtr to be the
+  //       right child of churrentPtr
+  //     delete (currentPtr)
+}
+
+// PRE: This object is defined. n > 0.
+// POST: This object is defined.
+//       n = (pre)n  -1
+//       Let x be the rightmost descendent of this intBinTree object.
+//       If x is the root of this intBinTree object, then the left
+//         child of x (possibly NULL) is made the root of this object.
+//       If x is not the root of this object:
+//         Suppose x does not have a left child. Then the node x is
+//           deleted.
+//         Suppose x has a left child, say y, and the parent of x is
+//           p. Then node x is deleted and y is made the right child of p.
+void intBinTree::deleteRight () {
+  // Similar to deleteLeft above
+}
+
+
+// PRE: This object is defined.
+// POST: If the root is not NULL, then
+//         one of the nodes of the tree, say x, is made the new root
+//         of the tree and the parent/children relations are
+//         revised, if necessary, so that 
+//           for all nodes y not equal to x in the tree, 
+//             any nodes in the left subtree of y before the deletion 
+//               are still in the left subtree of y,
+//             and 
+//             any nodes in the right subtree of y before the deletion 
+//               are still in the right subtree of y.
+void deleteRoot () {
+
+}
+
+// ======================================== 
+//     Input/Output
+// ======================================== 
+
+// PRE: T is defined.
+// POST: stream contains the contents of the nodes on one line of this
+//       intBinTree object as visited in the inorder traversal of the
+//       object. 
+ostream & operator<< (ostream & stream, const intList & T) {
+  intTreeNode * current = T.root;
+  inOrderTraversal (stream, current);
+  return (stream);
+}
+
+// PRE: stream is a defined OS.
+//      current is a defined pointer, possibly NULL, to an intTreeNode
+//      object 
+// POST: OS contains the elements in the left subtree of current
+//      followed by the element at current, followed by the
+//      elements in the right subtree of current.
+void intBinTree::inOrderTraversal (ostream & stream, intTreeNode * current) {
+  if (current != NULL) {
+    inOrderTraversal (stream, current->getLeftChildPtr());
+    stream << current->getData() << " ";
+    inOrderTraversal (stream, current->getRightChildPtr());
+  }
+}

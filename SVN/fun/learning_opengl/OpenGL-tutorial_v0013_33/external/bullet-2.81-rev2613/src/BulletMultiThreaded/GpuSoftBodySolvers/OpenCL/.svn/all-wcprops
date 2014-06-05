@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL
+END
+btSoftBodySolverBuffer_OpenCL.h
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+END
+btSoftBodySolver_OpenCL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp
+END
+btSoftBodySolverVertexBuffer_OpenGL.h
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexBuffer_OpenGL.h
+END
+btSoftBodySolver_OpenCLSIMDAware.h
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCLSIMDAware.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/CMakeLists.txt
+END
+btSoftBodySolver_OpenCL.h
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
+END
+btSoftBodySolverTriangleData_OpenCL.h
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverTriangleData_OpenCL.h
+END
+btSoftBodySolverOutputCLtoGL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverOutputCLtoGL.cpp
+END
+btSoftBodySolverLinkData_OpenCLSIMDAware.h
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCLSIMDAware.h
+END
+btSoftBodySolverOutputCLtoGL.h
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverOutputCLtoGL.h
+END
+btSoftBodySolverLinkData_OpenCL.h
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCL.h
+END
+btSoftBodySolver_OpenCLSIMDAware.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCLSIMDAware.cpp
+END
+btSoftBodySolverVertexData_OpenCL.h
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexData_OpenCL.h
+END

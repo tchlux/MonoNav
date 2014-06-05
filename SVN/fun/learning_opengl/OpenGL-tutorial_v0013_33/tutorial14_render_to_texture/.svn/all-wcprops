@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture
+END
+StandardShadingRTT.fragmentshader
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/StandardShadingRTT.fragmentshader
+END
+uvmap.DDS
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/uvmap.DDS
+END
+WobblyTexture.fragmentshader
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/WobblyTexture.fragmentshader
+END
+tutorial14.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/tutorial14.cpp
+END
+tutorial14_render_to_texture
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/tutorial14_render_to_texture
+END
+Passthrough.vertexshader
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/Passthrough.vertexshader
+END
+StandardShadingRTT.vertexshader
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/StandardShadingRTT.vertexshader
+END
+suzanne.obj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial14_render_to_texture/suzanne.obj
+END

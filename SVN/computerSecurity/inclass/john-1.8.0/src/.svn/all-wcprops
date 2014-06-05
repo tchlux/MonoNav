@@ -1,0 +1,1007 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src
+END
+formats.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/formats.c
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/crc32.c
+END
+DES_bs_b.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/DES_bs_b.o
+END
+BF_std.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/BF_std.o
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/compiler.h
+END
+formats.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/formats.h
+END
+batch.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/batch.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/crc32.h
+END
+single.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/single.c
+END
+DES_std.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/DES_std.c
+END
+batch.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/batch.h
+END
+single.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/single.h
+END
+compiler.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/compiler.o
+END
+formats.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/formats.o
+END
+crc32.o
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/crc32.o
+END
+DES_std.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/DES_std.h
+END
+path.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/path.c
+END
+x86-64.S
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86-64.S
+END
+single.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/single.o
+END
+batch.o
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/batch.o
+END
+signals.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/signals.c
+END
+path.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/path.h
+END
+DES_std.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/DES_std.o
+END
+signals.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/signals.h
+END
+wordlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/wordlist.c
+END
+path.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/path.o
+END
+wordlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/wordlist.h
+END
+signals.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/signals.o
+END
+tty.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/tty.c
+END
+x86-64.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86-64.h
+END
+sparc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/sparc32.h
+END
+wordlist.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/wordlist.o
+END
+tty.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/tty.h
+END
+symlink.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/symlink.c
+END
+mips64.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/mips64.h
+END
+math.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/math.c
+END
+rules.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/rules.c
+END
+tty.o
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/tty.o
+END
+math.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/math.h
+END
+rules.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/rules.h
+END
+ppc64.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/ppc64.h
+END
+Makefile.dep
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/Makefile.dep
+END
+alpha.S
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/alpha.S
+END
+math.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/math.o
+END
+rules.o
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/rules.o
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/list.c
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/list.h
+END
+list.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/list.o
+END
+common.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/common.c
+END
+alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/alpha.h
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/common.h
+END
+x86-sse.S
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86-sse.S
+END
+john.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/john.c
+END
+DES_bs.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/DES_bs.c
+END
+rpp.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/rpp.c
+END
+john.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/john.h
+END
+DES_bs.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/DES_bs.h
+END
+common.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/common.o
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/config.c
+END
+x86.S
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86.S
+END
+loader.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/loader.c
+END
+rpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/rpp.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/config.h
+END
+john.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/john.o
+END
+loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/loader.h
+END
+DES_bs.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/DES_bs.o
+END
+idle.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/idle.c
+END
+rpp.o
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/rpp.o
+END
+config.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/config.o
+END
+idle.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/idle.h
+END
+x86-sse.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86-sse.h
+END
+loader.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/loader.o
+END
+BSDI_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/BSDI_fmt.c
+END
+idle.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/idle.o
+END
+MD5_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/MD5_fmt.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/Makefile
+END
+miscnl.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/miscnl.o
+END
+ppc64alt.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/ppc64alt.h
+END
+BSDI_fmt.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/BSDI_fmt.o
+END
+pa-risc.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/pa-risc.h
+END
+MD5_fmt.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/MD5_fmt.o
+END
+memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/memory.c
+END
+c3_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/c3_fmt.c
+END
+memory.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/memory.h
+END
+x86-any.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86-any.h
+END
+bench.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/bench.c
+END
+generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/generic.h
+END
+mips32.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/mips32.h
+END
+memory.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/memory.o
+END
+bench.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/bench.h
+END
+unshadow.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/unshadow.c
+END
+bench.o
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/bench.o
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/misc.c
+END
+ppc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/ppc32.h
+END
+MD5_std.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/MD5_std.c
+END
+misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/misc.h
+END
+getopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/getopt.c
+END
+unshadow.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/unshadow.o
+END
+MD5_std.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/MD5_std.h
+END
+misc.o
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/misc.o
+END
+getopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/getopt.h
+END
+cracker.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/cracker.c
+END
+MD5_std.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/MD5_std.o
+END
+getopt.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/getopt.o
+END
+cracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/cracker.h
+END
+logger.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/logger.c
+END
+status.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/status.c
+END
+logger.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/logger.h
+END
+best.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/best.sh
+END
+times.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/times.h
+END
+cracker.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/cracker.o
+END
+status.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/status.h
+END
+options.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/options.c
+END
+dummy.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/dummy.c
+END
+logger.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/logger.o
+END
+recovery.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/recovery.c
+END
+status.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/status.o
+END
+options.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/options.h
+END
+vax.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/vax.h
+END
+recovery.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/recovery.h
+END
+options.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/options.o
+END
+dummy.o
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/dummy.o
+END
+inc.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/inc.c
+END
+recovery.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/recovery.o
+END
+inc.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/inc.h
+END
+AFS_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/AFS_fmt.c
+END
+external.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/external.c
+END
+arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/arch.h
+END
+params.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/params.c
+END
+inc.o
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/inc.o
+END
+sparc64.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/sparc64.h
+END
+external.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/external.h
+END
+params.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/params.h
+END
+charset.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/charset.c
+END
+john.com
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/john.com
+END
+AFS_fmt.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/AFS_fmt.o
+END
+john.asm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/john.asm
+END
+BF_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/BF_fmt.c
+END
+charset.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/charset.h
+END
+external.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/external.o
+END
+params.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/params.o
+END
+sboxes-s.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/sboxes-s.c
+END
+sboxes.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/sboxes.c
+END
+x86-mmx.S
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86-mmx.S
+END
+charset.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/charset.o
+END
+unique.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/unique.c
+END
+BF_fmt.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/BF_fmt.o
+END
+unafs.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/unafs.c
+END
+LM_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/LM_fmt.c
+END
+DES_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/DES_fmt.c
+END
+unique.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/unique.o
+END
+trip_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/trip_fmt.c
+END
+os.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/os.h
+END
+unafs.o
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/unafs.o
+END
+x86-mmx.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/x86-mmx.h
+END
+LM_fmt.o
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/LM_fmt.o
+END
+best.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/best.c
+END
+ppc32alt.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/ppc32alt.h
+END
+DES_fmt.o
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/DES_fmt.o
+END
+DES_bs_b.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/DES_bs_b.c
+END
+trip_fmt.o
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/127/computerSecurity/inclass/john-1.8.0/src/trip_fmt.o
+END
+BF_std.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/BF_std.c
+END
+nonstd.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/nonstd.c
+END
+BF_std.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/BF_std.h
+END
+ia64.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/ia64.h
+END
+detect.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/detect.c
+END
+compiler.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/thlux/!svn/ver/30/computerSecurity/inclass/john-1.8.0/src/compiler.c
+END

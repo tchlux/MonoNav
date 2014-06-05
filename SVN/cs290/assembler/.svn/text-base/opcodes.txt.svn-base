@@ -1,0 +1,8 @@
+add  r 0000
+nand r 0001
+addi i 0010
+lw   i 0011
+sw   i 0100
+beq  i 0101
+jalr j 0110
+halt o 0111

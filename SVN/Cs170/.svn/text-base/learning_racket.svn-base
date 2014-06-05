@@ -1,0 +1,38 @@
+#! /usr/bin/env racket
+#lang racket
+(substring "the boy out of the country" 4 7)
+(define (extract str)
+  (substring str 4 7))
+;testing conditional statemtents
+(define (right str)
+  (if (equal? str "right")
+      "Correct!"
+      (if (equal? str "wrong")
+          "Wrong!"
+          "Huh?")))
+;conditional if elif else
+(define (respond str)
+  (cond
+    [(equal? str "hello")
+     "Hey!"]
+    [(equal? str "goodbye")
+     "Goodbye!"]
+    [else "huh??"]))
+;another fun conditional
+(define (reply-more s)
+  (cond
+   [(equal? "hello" (substring s 0 5))
+    "hi!"]
+   [(equal? "goodbye" (substring s 0 7))
+    "bye!"]
+   [(equal? "?" (substring s (- (string-length s) 1)))
+    "I don't know"]
+   [else "huh?"]))
+;passing functions as arguments
+(define (twice fxn arg)
+  (fxn (fxn arg)))
+(define (louder str)
+  (string-append str "!"))
+;This lambda does the same thing as louder but without defining the fxn first
+(twice (lambda (str) (string-append str "!"))
+       "hello")

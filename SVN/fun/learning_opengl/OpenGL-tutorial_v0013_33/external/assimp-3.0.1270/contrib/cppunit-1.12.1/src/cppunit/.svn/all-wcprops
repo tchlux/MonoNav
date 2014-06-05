@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit
+END
+TestFactoryRegistry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestFactoryRegistry.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Makefile.in
+END
+cppunit.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/cppunit.vcproj
+END
+DynamicLibraryManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/DynamicLibraryManager.cpp
+END
+TestSuiteBuilderContext.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestSuiteBuilderContext.cpp
+END
+SynchronizedObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/SynchronizedObject.cpp
+END
+TestLeaf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestLeaf.cpp
+END
+SourceLine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/SourceLine.cpp
+END
+TestRunner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestRunner.cpp
+END
+XmlElement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/XmlElement.cpp
+END
+ShlDynamicLibraryManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/ShlDynamicLibraryManager.cpp
+END
+AdditionalMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/AdditionalMessage.cpp
+END
+TestResult.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestResult.cpp
+END
+TestCaseDecorator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestCaseDecorator.cpp
+END
+TestSuccessListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestSuccessListener.cpp
+END
+TextTestProgressListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TextTestProgressListener.cpp
+END
+DllMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/DllMain.cpp
+END
+TextOutputter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TextOutputter.cpp
+END
+cppunit_dll.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/cppunit_dll.dsp
+END
+TestDecorator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestDecorator.cpp
+END
+DynamicLibraryManagerException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/DynamicLibraryManagerException.cpp
+END
+Message.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Message.cpp
+END
+cppunitvc9.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/cppunitvc9.vcproj
+END
+TestPlugInDefaultImpl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestPlugInDefaultImpl.cpp
+END
+cppunit.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/cppunit.dsp
+END
+DefaultProtector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/DefaultProtector.cpp
+END
+TestFailure.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestFailure.cpp
+END
+StringTools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/StringTools.cpp
+END
+Asserter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Asserter.cpp
+END
+TestSuite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestSuite.cpp
+END
+RepeatedTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/RepeatedTest.cpp
+END
+ProtectorChain.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/ProtectorChain.h
+END
+ProtectorContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/ProtectorContext.h
+END
+Exception.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Exception.cpp
+END
+cppunit_dll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/cppunit_dll.vcproj
+END
+TestSetUp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestSetUp.cpp
+END
+TestAssert.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestAssert.cpp
+END
+TestComposite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestComposite.cpp
+END
+TestNamer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestNamer.cpp
+END
+CompilerOutputter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/CompilerOutputter.cpp
+END
+UnixDynamicLibraryManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/UnixDynamicLibraryManager.cpp
+END
+TestCase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestCase.cpp
+END
+BeOsDynamicLibraryManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/BeOsDynamicLibraryManager.cpp
+END
+XmlOutputterHook.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/XmlOutputterHook.cpp
+END
+TextTestRunner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TextTestRunner.cpp
+END
+Test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Test.cpp
+END
+Protector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Protector.cpp
+END
+BriefTestProgressListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/BriefTestProgressListener.cpp
+END
+PlugInParameters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/PlugInParameters.cpp
+END
+TextTestResult.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TextTestResult.cpp
+END
+ProtectorChain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/ProtectorChain.cpp
+END
+TestResultCollector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestResultCollector.cpp
+END
+Win32DynamicLibraryManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Win32DynamicLibraryManager.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/Makefile.am
+END
+PlugInManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/PlugInManager.cpp
+END
+DefaultProtector.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/DefaultProtector.h
+END
+TestPath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TestPath.cpp
+END
+XmlOutputter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/XmlOutputter.cpp
+END
+TypeInfoHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/TypeInfoHelper.cpp
+END
+XmlDocument.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/contrib/cppunit-1.12.1/src/cppunit/XmlDocument.cpp
+END

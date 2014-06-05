@@ -1,0 +1,34 @@
+LOOK AT ALL THE THINGS YOU CAN LEARN IN ONE SUMMER
+
+.mov to .avi Conversion Command:
+  ffmpeg -i test.mov -sameq -vcoded msmpeg4v2 -acodec pcm_u8 test.avi
+
+Lucas Kanade method:
+  A widely used differential method for estimating optical flow.  It
+  assumes that the flow in the neighborhood of a pixel is  constant. 
+  This method also utilizes many neighboring pixels at onece and
+  therefore cannot be used to focus on the interior of uniform
+  regiions of an image.
+
+  http://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method
+
+Optical Flow:  
+  Pattern of apparent motion of objects, or pixels in the case of
+  computer vision.
+
+Markov Property:
+  When the conditional probability distribution of future conditions
+  only depends on the present state, not on the events proceeding to
+  it. (Each state only depends on one state prior)
+
+Delaunay Triangulation:
+  The triangulation of a set of points such that no single point is
+  inside the circumference of the triangle that form that set of
+  points.  Under the assumption that the set being analyzed is already
+  triangulated.
+
+Common Markov Models:
+  System state: ---Fully Observable-----------Partially Observable---
+   Autonomous  |    Markov Chain          |    Hidden Markov Chain   |
+   Controlled  | Markov Decision Process  |         PO MDP           |
+                -----------------------------------------------------

@@ -1,0 +1,4 @@
+First to cover tansparancy from last class.
+-> Create a new variable that is the alpha value for a pixel
+-> Set this varibale to a value for each model (or clone)
+-> When computing in the shader use the gl variable 

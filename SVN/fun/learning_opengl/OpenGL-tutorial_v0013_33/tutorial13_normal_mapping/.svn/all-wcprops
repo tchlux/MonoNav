@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping
+END
+NormalMapping.fragmentshader
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/NormalMapping.fragmentshader
+END
+diffuse.DDS
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/diffuse.DDS
+END
+cylinder.obj
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/cylinder.obj
+END
+normal.tga
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/normal.tga
+END
+cylinder.mtl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/cylinder.mtl
+END
+NormalMapping.vertexshader
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/NormalMapping.vertexshader
+END
+specular.DDS
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/specular.DDS
+END
+tutorial13.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/tutorial13.cpp
+END
+tutorial13_normal_mapping
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial13_normal_mapping/tutorial13_normal_mapping
+END

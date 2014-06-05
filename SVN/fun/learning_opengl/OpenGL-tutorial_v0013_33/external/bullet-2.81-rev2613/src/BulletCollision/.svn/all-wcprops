@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletCollision
+END
+premake4.lua
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletCollision/premake4.lua
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletCollision/CMakeLists.txt
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletCollision/Doxyfile
+END

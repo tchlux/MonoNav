@@ -1,0 +1,84 @@
+% This will be a bib file for all papers in the /papers
+% directory
+
+@article{ouyang2014decentralized,
+  title={Decentralized Multi-Robot Active Sensing of Non-Stationary
+                  Environmental Phenomena},
+  author={Ouyang, Ruofei and Low, Kian Hsiang and Chen, Jie and
+                  Jaillet, Patrick},
+  year={2014}
+
+  note={ Problem :  Existing MAS algorithms must assume smoothness in
+                  the data that is being analyzed. It is important to
+                  maximize efficiency (least resources used) of multi
+                  robot systems.
+
+         Terms   :  MAS -----> Multi-robot Active Sensing
+                    DEC-MAS -> Decentralized MAS
+                    DPM-GP --> Dirichlet Process Mixture of Gaussian
+                               processes
+                    
+         Purpose :  To introduce a new algorithm that outperforms old
+                  equations for gathering data with MAS systems.  In
+                  doing so, they maintain the important criteria are
+                  that of [combining] the gathering and predicting of
+                  data more efficiently and supporting efficient
+                  decentralized coordination.
+
+         Flaws   :  None that I found.  Possibly only that it is too
+                  specific for me to truly ingrain myself in the
+                  work. They could have tested on more than just two
+                  sets of actively-changing data though.  I would
+                  think that migration patterns, weather to an extent,
+                  and even data flow over computer networks.
+
+         Openings:  They mentioned none, possibly the optimization of
+                  the algorithms they used to move the robots.  This
+                  would appear to be more parameter tweaking than
+                  actual research though.  Now, it does provide
+                  interesting ideas about the use of multi-robot
+                  systems to analyze sets of changing data.
+       }
+}
+
+
+@article{wagner2014agent,
+  title={An agent-based simulation system for concert venue crowd
+                  evacuation modeling in the presence of a fire
+                  disaster},
+  author={Wagner, Neal and Agrawal, Vikas},
+  journal={Expert Systems with Applications},
+  volume={41},
+  number={6},
+  pages={2807--2815},
+  year={2014},
+  publisher={Elsevier}
+
+  note={
+        Terms   :  ABS -> Agent-based Decision Support system
+
+        Purpose :  This paper is proposing a simulator to be used for
+                  emergency preparedness in large venues such as
+                  stadiums or auditoriums.  Their simulator's use of
+                  Agent based systems proposes three primary
+                  advantages: allows for highly complex dynamics, can
+                  be done with little or no knowledge of global
+                  inter-dependencies, and can be easily adjusted for
+                  simulation of different scenarios.
+
+        Flaws    :  None major. They seem to be cutting their scope
+                  down a lot though.  Their simulator is unique
+                  because of its agent-based system, but it only
+                  provides the ability to simulate fires (given these
+                  fires have varying intensities, spread rates, and
+                  smoke volumes produced) and no other events.
+
+        Openings :  Simulation of disaster events is currently an
+                  "open and active research field, since there are
+                  many disasters that have not yet been addressed."
+                  given this I would say the opening is in added
+                  functionality to this agent-based system, including
+                  more disaster events and more detailed decision
+                  making models for the agents.
+       }
+}

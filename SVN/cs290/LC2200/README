@@ -1,0 +1,46 @@
+Make the simulator by typing 
+
+$ make LC2200
+
+Run the program with:
+
+$ ./LC2200
+
+This is a functioning LC2200 simulator that operates on a timeslicing
+round robin scheduler and makes use of a Least Recently Used page
+replacement policy.
+
+Valid Command Sequences:
+
+cpu			-- Displays all the registers of the cpu
+
+displayPageTable        -- Displays the current page table for the machine, showing the
+                        - information for each of the virtual pages, their associated physical
+			- page and the number of words in the page that are utilized along with
+			- the PID of the process that owns the page
+
+fg [< pid >]		-- gives the most recently added program ownership of
+			- I/O, optional argument for the PID to give I/O capabilities
+
+jobs			--  Prints out the process ID, the name of the process (program)
+			- and the status (running/waiting) for each process in the ready queue
+			- and the process currently being executed on the processor. 
+
+kill < pid >		-- Kills the given process regardless of completion
+
+prog [&]		-- Name an assembled program file (name = prog) with an
+			- optional ampersand for restricting the I/O capabilities of the program
+
+queue			-- Print a list of PCB's in the ready and completed queue
+
+restart			-- Allow the machine to run between user commands
+
+step < num > [< pid >]	-- Allow the machine to take 'num' decode
+			- sequences, optional argument for 'pid' to allow a specific program the
+			- given number of steps, and I/O privaleges during these steps
+
+suspend			-- Restrict the machine from running decode sequences between
+			- user inputs, all commands are allowed during suspend
+
+
+KNOWN BUGS:   N/A

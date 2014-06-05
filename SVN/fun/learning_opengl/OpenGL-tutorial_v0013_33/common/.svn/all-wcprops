@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common
+END
+texture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/texture.cpp
+END
+objloader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/objloader.cpp
+END
+controls.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/controls.cpp
+END
+vboindexer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/vboindexer.cpp
+END
+texture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/texture.hpp
+END
+quaternion_utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/quaternion_utils.cpp
+END
+shader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/shader.cpp
+END
+objloader.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/objloader.hpp
+END
+controls.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/controls.hpp
+END
+vboindexer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/vboindexer.hpp
+END
+text2D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/text2D.cpp
+END
+quaternion_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/quaternion_utils.hpp
+END
+shader.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/shader.hpp
+END
+tangentspace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/tangentspace.cpp
+END
+text2D.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/text2D.hpp
+END
+tangentspace.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/common/tangentspace.hpp
+END

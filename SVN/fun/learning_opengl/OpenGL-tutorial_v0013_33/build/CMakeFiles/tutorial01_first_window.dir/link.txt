@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/tutorial01_first_window.dir/tutorial01_first_window/tutorial01.cpp.o  -o tutorial01_first_window -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext external/libGLFW_276.a external/libGLEW_190.a -lGLU -lGL -lSM -lICE -lX11 -lXext -lGL -lGLU -lXrandr -lXext -lX11 -lrt -ldl 

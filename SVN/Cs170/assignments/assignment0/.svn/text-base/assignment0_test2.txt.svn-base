@@ -1,0 +1,12 @@
+the output should look like the reccomended observations, although I may use tkinter to create a more function menu
+
+
+"Matrix," Wachowski Bros.(1999) - $6.51 -> Scotty
+"District 9," Neill Blomkamp(2009) - $10.62 -> Dr. Bouchard
+"Moon," Duncan Jones(2009) - $15.13 -> Dr. Bouchard
+"The Dark Night Rises," Christopher Nolan(2012) - $9.99 -> Dr. Bouchard
+"Paranormal Activity," Oren Peli(2007) - $9.15 -> Dr. Shende
+$51.4
+
+each dvd attribute should be correct
+all methods should preform properly

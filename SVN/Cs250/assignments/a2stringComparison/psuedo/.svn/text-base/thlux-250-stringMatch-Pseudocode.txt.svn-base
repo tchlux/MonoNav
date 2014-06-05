@@ -1,0 +1,185 @@
+#include <iostream>
+#include "String.h"
+#include "List.h"
+
+using namespace std;
+
+//Pre:  command line args for infile and outfile are given A main
+//      string is the first entry in the infile, followed by any
+//      number of sub strings to be found in the main string
+//Post: The closest match locations for each sub string are saved into
+//      the out file
+int main(int argc, char * argv[]){
+  int returnStatus = 0; //Normal execution
+  int fileLength = checkArgs(argc, argv); //Length of infile if it
+  //      exists, otherwise a 0
+  if (fileLength >= 2){
+    String inFile = String(argv[1]); //String version of infile
+    String * fileStrings = fileToStrings(inFile); //Each line as a
+//      string all stored in an array
+    List bestMatchIndices; //Initialize list for best matches
+    for (int i=0; i<fileLength;, i++){
+      List.add(getBestMatch(fileStrings[0], fileStrings[i]));
+      // calculate the index of the best match and save it
+    }
+    String outFile = String(argv[2]); //String version of outfile
+    saveStringStats(bestMatchIndices, fileStrings, outFile);
+    //Save all the data to the output file
+  }
+  else{
+    cout << "Improper usage, in file and out file where infile has 2+ lines"
+	 << endl << endl; //error in file reading
+  }
+  return(returnStatus);
+}
+
+
+//// end of main
+
+#include <iostream>
+#include <fstream>
+#include "String.h"
+#include "List.h"
+
+using namespace std;
+
+
+//Pre:  An integer the number of args, and the array of pointers to
+//      each argument
+//Post: An integer that is the number of arguments in the file
+int checkArgs(int argc, char ** argv){
+  //create the infile
+  //assert the infile exists
+  //create the string of the infile name
+  //getFileLength(String(infile))
+  // return fileLength
+}
+
+//Pre:  A filename is given in a string class
+//Post: The length of the file is returned
+int getFileLength(String filename){
+  //open the file
+  //read through the file for new line characters
+  //return numNewLines-1
+}
+
+//Pre:  A filename is given to be read in and compared
+//Post: An array of String classes that represents each 
+String * fileToStrings(String filename){
+  //Open the file
+  //read through the file creating strings that stop at new lines
+  //return the array of strings created
+}
+
+//Pre:  Two String classes are given to be compared
+//Post: An integer that is the index start location of the best
+//      matched sub string
+int getBestMatch(String mainString, String subString){
+  //initialize Lists of index values & error values
+  //if (isSubString(mainString, subString))
+  //for i in range length(mainString) - length(subString)
+  //  if mainString[i] = subString[0]
+  //     indexList.add(i)
+  //     errorList.add(getError(mainString, subString, i))
+  //winner = indexOfMin(errorList)
+  //return indexList[winner]
+}
+
+//Pre:  Two instances of String class, one sub of the other
+//Post: A boolean value for whether or not the subString exists within
+//      the mainString
+bool isSubString(String mainString, String subString){
+  //for char in subString
+  // if ! in mainString
+  // return false
+  //return true
+}
+
+//Pre:  Two String classes, and a start index for comparison
+//Post: The error associated with that index
+int getError(String mainString, String subString, int mainIndex){
+  //init index value for sub string
+  //init error integer
+  //while (subString[subIndex] != '\0'
+  //   if mainString[mainIndex] != subString[subIndex]
+  //       error ++
+  //   else
+  //       subIndex ++
+  //   mainIndex ++
+  //return error
+}
+
+//Pre:  An array of integers is given
+//Post: The index of the minimum of the array is returned
+int indexOfMin(int * list){
+  //init index & min
+  //while index < lengthList
+  //   if list[index] < list[min]
+  //      min = index
+  //   index ++
+  //return min
+}
+
+
+//Pre:  A list of the best match start indices and all of the strings
+//      is given along with the output filename
+//Post: The best match is saved for each string, No match if -1
+void saveStringStats(List bestMatchIndices,
+		     String * fileStrings,
+		     String filename){
+  //open output file
+  //write the data for each bestMatch and the string
+}
+
+////  end of helper.cc
+
+#ifindef INCLUDED_helper
+#define INCLUDED_helper
+
+//Pre:  An integer the number of args, and the array of pointers to
+//      each argument
+//Post: An integer that is the number of arguments in the file
+int checkArgs(int argc, char ** argv);
+
+//Pre:  A filename is given in a string class
+//Post: 
+int getFileLength(String filename);
+
+//Pre:  A filename is given to be read in and compared
+//Post: An array of String classes that represents each 
+String * fileToStrings(String filename);
+
+//Pre:  Two String classes are given to be compared
+//Post: An integer that is the index start location of the best
+//      matched sub string
+int getBestMatch(String mainString, String subString);
+
+//Pre:  Two instances of String class, one sub of the other
+//Post: A boolean value for whether or not the subString exists within
+//      the mainString
+bool isSubString(String mainString, String subString);
+
+//Pre:  Two String classes, and a start index for comparison
+//Post: The error associated with that index
+int getError(String mainString, String subString, int startIndex);
+
+//Pre:  An array of integers is given
+//Post: The index of the minimum of the array is returned
+int indexOfMin(int * list);
+
+//Pre:  A list of the best match start indices and all of the strings
+//      is given along with the output filename
+//Post: The best match is saved for each string, No match if -1
+void saveStringStats(List bestMatchIndices,
+		     String * fileStrings,
+		     String filename);
+
+#endif
+
+
+///// end helper.h
+
+
+//Both the string class and the List class (modified string)
+// are also part of the program, but since you wrote the String
+// class I'm assuming you don't need it.

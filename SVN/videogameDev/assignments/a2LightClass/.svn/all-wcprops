@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/thlux/!svn/ver/201/videogameDev/assignments/a2LightClass
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/200/videogameDev/assignments/a2LightClass/Makefile
+END
+testModel
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/201/videogameDev/assignments/a2LightClass/testModel
+END
+default.frag
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/200/videogameDev/assignments/a2LightClass/default.frag
+END
+default.vert
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/200/videogameDev/assignments/a2LightClass/default.vert
+END
+testModel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/thlux/!svn/ver/200/videogameDev/assignments/a2LightClass/testModel.cc
+END
+texture.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/thlux/!svn/ver/201/videogameDev/assignments/a2LightClass/texture.cc
+END
+test.obj~
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/201/videogameDev/assignments/a2LightClass/test.obj~
+END
+cube.obj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/199/videogameDev/assignments/a2LightClass/cube.obj
+END
+tri.obj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/200/videogameDev/assignments/a2LightClass/tri.obj
+END
+test.obj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/201/videogameDev/assignments/a2LightClass/test.obj
+END
+cube.mtl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/200/videogameDev/assignments/a2LightClass/cube.mtl
+END
+tri.mtl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/thlux/!svn/ver/200/videogameDev/assignments/a2LightClass/tri.mtl
+END
+shader.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/thlux/!svn/ver/191/videogameDev/assignments/a2LightClass/shader.cc
+END
+test.mtl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/thlux/!svn/ver/201/videogameDev/assignments/a2LightClass/test.mtl
+END

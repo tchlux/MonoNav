@@ -1,0 +1,20 @@
+First to cover tansparancy from last class.
+-> Create a new variable that is the alpha value for a pixel
+-> Set this varibale to a value for each model (or clone)
+
+-> When computing in the shader use glFrag_Color.a for alpha set for a
+--- particular pixel
+-> Turn on glBlend mode so that the alpha channel in the shader files
+--- is used calculations
+
+
+-> Billboards, load in a texture to a 2d surface
+
+3x3 of rotation and scale   3x1 for translation
+1x3 of 0's not used         1x1 for the value 1 (make 4x4 identity)
+
+all of this makes up the 4x4 matrix that we use in the game
+
+To make a billboard, just make the draw for that clone change the view
+matrix so that the identity is that upper left 3x3 but leave the
+translations that are the result of the view multiplication

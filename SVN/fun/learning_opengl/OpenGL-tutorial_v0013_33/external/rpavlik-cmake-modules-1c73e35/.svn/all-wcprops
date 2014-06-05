@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35
+END
+MSVCMultipleProcessCompile.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/MSVCMultipleProcessCompile.cmake
+END
+GetCPUDetails.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/GetCPUDetails.cmake
+END
+ResetConfigurations.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/ResetConfigurations.cmake
+END
+ProgramFilesGlob.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/ProgramFilesGlob.cmake
+END
+module-help.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/module-help.html
+END
+CleanLibraryList.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/CleanLibraryList.cmake
+END
+CleanDirectoryList.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/CleanDirectoryList.cmake
+END
+FileCopyTargets.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/FileCopyTargets.cmake
+END
+GetFileList.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/GetFileList.cmake
+END
+Licensing.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/Licensing.cmake
+END
+SplitLibraryList.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/SplitLibraryList.cmake
+END
+GetCompilerInfoString.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/GetCompilerInfoString.cmake
+END
+GetSubprojectStatus.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/GetSubprojectStatus.cmake
+END
+OptionRequires.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/OptionRequires.cmake
+END
+AboutTheseModules.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/AboutTheseModules.cmake
+END
+PrefixListGlob.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/PrefixListGlob.cmake
+END
+export-to-directory.sh
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/export-to-directory.sh
+END
+GetForceIncludeDefinitions.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/GetForceIncludeDefinitions.cmake
+END
+EnableExtraCompilerWarnings.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/EnableExtraCompilerWarnings.cmake
+END
+README.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/README.markdown
+END
+GetDirectoryList.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/GetDirectoryList.cmake
+END
+EnableProfiling.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/EnableProfiling.cmake
+END
+WarningDev.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/WarningDev.cmake
+END
+CreateLaunchers.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/CreateLaunchers.cmake
+END
+MSVCVerboseLinking.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/MSVCVerboseLinking.cmake
+END
+LICENSE_1_0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/LICENSE_1_0.txt
+END
+ListFilter.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/ListFilter.cmake
+END
+ListCombinations.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/ListCombinations.cmake
+END
+SetDefaultBuildType.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/SetDefaultBuildType.cmake
+END
+CheckVersion.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/CheckVersion.cmake
+END
+MSVCStaticRuntime.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/rpavlik-cmake-modules-1c73e35/MSVCStaticRuntime.cmake
+END

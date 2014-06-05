@@ -1,0 +1,3389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions
+END
+GL_NV_texgen_reflection
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texgen_reflection
+END
+WGL_EXT_create_context_es2_profile
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_create_context_es2_profile
+END
+GL_ARB_occlusion_query
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_occlusion_query
+END
+GL_NV_vertex_attrib_integer_64bit
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_attrib_integer_64bit
+END
+GL_NV_primitive_restart
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_primitive_restart
+END
+WGL_EXT_display_color_table
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_display_color_table
+END
+GLX_MESA_pixmap_colormap
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_MESA_pixmap_colormap
+END
+GL_ARB_vertex_program
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_program
+END
+GL_ARB_clear_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_clear_buffer_object
+END
+GL_KHR_debug
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_KHR_debug
+END
+GL_SGIX_pixel_texture
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_pixel_texture
+END
+GL_ARB_vertex_attrib_binding
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_attrib_binding
+END
+GL_EXT_pixel_transform_color_table
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_pixel_transform_color_table
+END
+GL_NV_texgen_emboss
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texgen_emboss
+END
+GL_EXT_index_material
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_index_material
+END
+GL_EXT_draw_instanced
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_draw_instanced
+END
+GL_WIN_swap_hint
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_WIN_swap_hint
+END
+GL_OML_interlace
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_OML_interlace
+END
+GL_ARB_fragment_program
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_fragment_program
+END
+GL_NV_texture_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_multisample
+END
+GL_EXT_texture_compression_rgtc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_compression_rgtc
+END
+GL_HP_occlusion_test
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_HP_occlusion_test
+END
+GL_EXT_geometry_shader4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_geometry_shader4
+END
+GL_SGIX_texture_lod_bias
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_texture_lod_bias
+END
+GL_ARB_vertex_shader
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_shader
+END
+GL_ATI_meminfo
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_meminfo
+END
+GL_ATI_texture_mirror_once
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_texture_mirror_once
+END
+GL_ARB_viewport_array
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_viewport_array
+END
+GL_EXT_rescale_normal
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_rescale_normal
+END
+GL_SGIS_detail_texture
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_detail_texture
+END
+GLX_SGIX_swap_group
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIX_swap_group
+END
+WGL_ARB_create_context_robustness
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_create_context_robustness
+END
+GL_NV_geometry_program4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_geometry_program4
+END
+GLX_SGIX_video_resize
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIX_video_resize
+END
+GL_NV_multisample_coverage
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_multisample_coverage
+END
+WGL_ARB_framebuffer_sRGB
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_framebuffer_sRGB
+END
+GL_HP_texture_lighting
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_HP_texture_lighting
+END
+GL_SGIX_pixel_texture_bits
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_pixel_texture_bits
+END
+GL_ARB_instanced_arrays
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_instanced_arrays
+END
+GL_EXT_texture_array
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_array
+END
+GL_EXT_framebuffer_sRGB
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_framebuffer_sRGB
+END
+GL_ARB_texture_non_power_of_two
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_non_power_of_two
+END
+GL_EXT_texture_env
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_env
+END
+GL_ARB_occlusion_query2
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_occlusion_query2
+END
+GL_NV_video_capture
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_video_capture
+END
+GL_NV_float_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_float_buffer
+END
+GL_OML_subsample
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_OML_subsample
+END
+GL_EXT_texture_compression_latc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_compression_latc
+END
+GL_EXT_texture3D
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture3D
+END
+WGL_I3D_genlock
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_I3D_genlock
+END
+GL_NV_present_video
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_present_video
+END
+GL_AMD_multi_draw_indirect
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_multi_draw_indirect
+END
+GL_SGIX_fog_offset
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_fog_offset
+END
+GL_PGI_vertex_hints
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_PGI_vertex_hints
+END
+GL_ARB_fragment_program_shadow
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_fragment_program_shadow
+END
+GL_ARB_shading_language_100
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shading_language_100
+END
+GL_EXT_texture_mirror_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_mirror_clamp
+END
+GL_ARB_texture_buffer_range
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_buffer_range
+END
+GL_ARB_vertex_array_bgra
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_array_bgra
+END
+GL_EXT_blend_equation_separate
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_blend_equation_separate
+END
+GL_APPLE_row_bytes
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_row_bytes
+END
+GLX_INTEL_swap_event
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_INTEL_swap_event
+END
+GL_NV_transform_feedback2
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_transform_feedback2
+END
+WGL_I3D_gamma
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_I3D_gamma
+END
+GLX_EXT_create_context_es2_profile
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_create_context_es2_profile
+END
+GLX_MESA_copy_sub_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_MESA_copy_sub_buffer
+END
+GL_AMD_vertex_shader_viewport_index
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_vertex_shader_viewport_index
+END
+GL_ARB_multi_draw_indirect
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_multi_draw_indirect
+END
+GL_EXT_bindable_uniform
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_bindable_uniform
+END
+GL_EXT_index_array_formats
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_index_array_formats
+END
+GL_ATI_separate_stencil
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_separate_stencil
+END
+GL_MESAX_texture_stack
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_MESAX_texture_stack
+END
+GL_ATI_element_array
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_element_array
+END
+GL_NV_tessellation_program5
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_tessellation_program5
+END
+GL_ATIX_point_sprites
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATIX_point_sprites
+END
+GL_NV_fog_distance
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_fog_distance
+END
+GL_NV_register_combiners
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_register_combiners
+END
+GL_ARB_seamless_cube_map
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_seamless_cube_map
+END
+GL_EXT_pixel_transform
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_pixel_transform
+END
+GL_EXT_texture_filter_anisotropic
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_filter_anisotropic
+END
+WGL_ARB_extensions_string
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_extensions_string
+END
+GL_EXT_texture_rectangle
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_rectangle
+END
+WGL_3DFX_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_3DFX_multisample
+END
+GLX_ARB_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_multisample
+END
+GL_ARB_shadow_ambient
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shadow_ambient
+END
+GL_NV_geometry_shader4
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_geometry_shader4
+END
+GLX_ARB_create_context_robustness
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_create_context_robustness
+END
+GL_EXT_draw_buffers2
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_draw_buffers2
+END
+GL_EXT_direct_state_access
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_direct_state_access
+END
+GLX_SGIS_blended_overlay
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIS_blended_overlay
+END
+GL_ARB_texture_swizzle
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_swizzle
+END
+GL_ARB_window_pos
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_window_pos
+END
+GL_ARB_texture_cube_map
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_cube_map
+END
+GL_EXT_texture_env_dot3
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_env_dot3
+END
+GL_SGIS_generate_mipmap
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_generate_mipmap
+END
+GL_ARB_fragment_layer_viewport
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_fragment_layer_viewport
+END
+GL_ARB_cl_event
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_cl_event
+END
+GL_EXT_cmyka
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_cmyka
+END
+GL_ARB_arrays_of_arrays
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_arrays_of_arrays
+END
+GL_REGAL_log
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_REGAL_log
+END
+GL_ARB_get_program_binary
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_get_program_binary
+END
+GL_SUNX_constant_data
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUNX_constant_data
+END
+GL_ARB_texture_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_multisample
+END
+GL_NV_copy_depth_to_color
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_copy_depth_to_color
+END
+GL_EXT_vertex_weighting
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_vertex_weighting
+END
+WGL_NV_copy_image
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_copy_image
+END
+GL_ARB_ES3_compatibility
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_ES3_compatibility
+END
+WGL_ARB_render_texture
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_render_texture
+END
+WGL_NV_render_texture_rectangle
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_render_texture_rectangle
+END
+GL_EXT_blend_minmax
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_blend_minmax
+END
+GL_ARB_tessellation_shader
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_tessellation_shader
+END
+WGL_ARB_create_context
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_create_context
+END
+GL_SGIS_texture_lod
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_texture_lod
+END
+GLX_ARB_get_proc_address
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_get_proc_address
+END
+GLX_MESA_release_buffers
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_MESA_release_buffers
+END
+GL_EXT_abgr
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_abgr
+END
+GL_NV_light_max_exponent
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_light_max_exponent
+END
+GL_PGI_misc_hints
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_PGI_misc_hints
+END
+GL_ARB_draw_elements_base_vertex
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_draw_elements_base_vertex
+END
+GL_ARB_gpu_shader_fp64
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_gpu_shader_fp64
+END
+GL_ARB_texture_float
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_float
+END
+GLX_EXT_framebuffer_sRGB
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_framebuffer_sRGB
+END
+GL_REGAL_extension_query
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_REGAL_extension_query
+END
+GL_SGIX_texture_coordinate_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_texture_coordinate_clamp
+END
+GL_SGIX_shadow_ambient
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_shadow_ambient
+END
+GL_EXT_blend_logic_op
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_blend_logic_op
+END
+GL_INGR_interlace_read
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_INGR_interlace_read
+END
+GL_ATI_texture_float
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_texture_float
+END
+GLX_NV_video_capture
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_video_capture
+END
+GL_NV_gpu_program_fp64
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_gpu_program_fp64
+END
+GLX_ATI_render_texture
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ATI_render_texture
+END
+GL_ARB_shader_image_size
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_image_size
+END
+GL_EXT_point_parameters
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_point_parameters
+END
+GL_ARB_sampler_objects
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_sampler_objects
+END
+GL_ARB_copy_image
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_copy_image
+END
+GLX_NV_present_video
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_present_video
+END
+GL_NV_shader_buffer_load
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_shader_buffer_load
+END
+GL_EXT_framebuffer_multisample_blit_scaled
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_framebuffer_multisample_blit_scaled
+END
+WGL_NV_DX_interop
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_DX_interop
+END
+GL_SGIX_async
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_async
+END
+GL_ATIX_texture_env_route
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATIX_texture_env_route
+END
+GL_EXT_framebuffer_blit
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_framebuffer_blit
+END
+GL_NV_fragment_program2
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_fragment_program2
+END
+WGL_EXT_swap_control
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_swap_control
+END
+GL_NV_fragment_program4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_fragment_program4
+END
+GL_EXT_draw_range_elements
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_draw_range_elements
+END
+GL_ARB_transform_feedback2
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_transform_feedback2
+END
+GL_ARB_transform_feedback3
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_transform_feedback3
+END
+GL_ARB_separate_shader_objects
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_separate_shader_objects
+END
+GL_AMD_debug_output
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_debug_output
+END
+WGL_NV_DX_interop2
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_DX_interop2
+END
+GL_SGIX_framezoom
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_framezoom
+END
+GL_ATI_vertex_array_object
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_vertex_array_object
+END
+WGL_I3D_swap_frame_usage
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_I3D_swap_frame_usage
+END
+GL_KTX_buffer_region
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_KTX_buffer_region
+END
+GLX_SUN_video_resize
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SUN_video_resize
+END
+GL_ARB_texture_query_lod
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_query_lod
+END
+GL_NV_vertex_array_range2
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_array_range2
+END
+GL_SGIX_ir_instrument1
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_ir_instrument1
+END
+GL_ARB_texture_cube_map_array
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_cube_map_array
+END
+WGL_NV_swap_group
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_swap_group
+END
+GL_WIN_phong_shading
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_WIN_phong_shading
+END
+GL_AMD_pinned_memory
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_pinned_memory
+END
+GL_NV_multisample_filter_hint
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_multisample_filter_hint
+END
+GL_HP_convolution_border_modes
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_HP_convolution_border_modes
+END
+GL_EXT_provoking_vertex
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_provoking_vertex
+END
+GL_EXT_texture_integer
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_integer
+END
+GL_EXT_texture_snorm
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_snorm
+END
+GL_ARB_shading_language_packing
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shading_language_packing
+END
+GL_ARB_texture_buffer_object_rgb32
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_buffer_object_rgb32
+END
+GL_ARB_sample_shading
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_sample_shading
+END
+GL_ARB_point_sprite
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_point_sprite
+END
+GL_EXT_shadow_funcs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_shadow_funcs
+END
+GL_ARB_shader_image_load_store
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_image_load_store
+END
+GL_NV_blend_square
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_blend_square
+END
+GL_SUN_read_video_pixels
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUN_read_video_pixels
+END
+GL_AMD_blend_minmax_factor
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_blend_minmax_factor
+END
+GL_EXT_polygon_offset
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_polygon_offset
+END
+WGL_NV_gpu_affinity
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_gpu_affinity
+END
+GL_SGIX_shadow
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_shadow
+END
+GL_IBM_rasterpos_clip
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_IBM_rasterpos_clip
+END
+GL_ARB_base_instance
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_base_instance
+END
+GL_AMD_stencil_operation_extended
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_stencil_operation_extended
+END
+GL_ARB_texture_storage_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_storage_multisample
+END
+GL_ARB_half_float_pixel
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_half_float_pixel
+END
+GL_SGIX_vertex_preclip
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_vertex_preclip
+END
+GL_NV_fragment_program_option
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_fragment_program_option
+END
+GL_EXT_timer_query
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_timer_query
+END
+GL_EXT_vertex_array_bgra
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_vertex_array_bgra
+END
+GL_REGAL_error_string
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_REGAL_error_string
+END
+GL_SUN_global_alpha
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUN_global_alpha
+END
+WGL_EXT_pbuffer
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_pbuffer
+END
+GL_ARB_texture_env_add
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_env_add
+END
+GLX_SUN_get_transparent_index
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SUN_get_transparent_index
+END
+GL_ARB_depth_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_depth_clamp
+END
+GL_ARB_invalidate_subdata
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_invalidate_subdata
+END
+GL_AMD_sample_positions
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_sample_positions
+END
+GL_AMD_shader_stencil_export
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_shader_stencil_export
+END
+GLX_EXT_visual_rating
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_visual_rating
+END
+GL_APPLE_client_storage
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_client_storage
+END
+GL_ARB_timer_query
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_timer_query
+END
+WGL_EXT_extensions_string
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_extensions_string
+END
+GL_SGIX_texture_multi_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_texture_multi_buffer
+END
+GL_EXT_secondary_color
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_secondary_color
+END
+GL_ARB_shader_texture_lod
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_texture_lod
+END
+GL_EXT_422_pixels
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_422_pixels
+END
+GL_OES_compressed_paletted_texture
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_OES_compressed_paletted_texture
+END
+GL_ARB_fragment_shader
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_fragment_shader
+END
+GLX_MESA_set_3dfx_mode
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_MESA_set_3dfx_mode
+END
+GL_APPLE_specular_vector
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_specular_vector
+END
+GL_SGIS_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_multisample
+END
+GL_ATI_text_fragment_shader
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_text_fragment_shader
+END
+GL_EXT_transform_feedback
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_transform_feedback
+END
+GL_SGIX_sprite
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_sprite
+END
+GL_ATI_draw_buffers
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_draw_buffers
+END
+GL_EXT_texture_object
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_object
+END
+GL_ARB_depth_buffer_float
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_depth_buffer_float
+END
+GL_IBM_static_data
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_IBM_static_data
+END
+GL_EXT_multi_draw_arrays
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_multi_draw_arrays
+END
+WGL_EXT_framebuffer_sRGB
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_framebuffer_sRGB
+END
+GL_SGIX_async_pixel
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_async_pixel
+END
+GL_ARB_shader_subroutine
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_subroutine
+END
+GL_ATIX_vertex_shader_output_point_size
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATIX_vertex_shader_output_point_size
+END
+GL_ARB_texture_rg
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_rg
+END
+GLX_EXT_fbconfig_packed_float
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_fbconfig_packed_float
+END
+GL_EXT_fog_coord
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_fog_coord
+END
+GL_NV_fence
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_fence
+END
+GL_EXT_shared_texture_palette
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_shared_texture_palette
+END
+GL_AMD_depth_clamp_separate
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_depth_clamp_separate
+END
+GL_SGIS_texture_edge_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_texture_edge_clamp
+END
+GLX_EXT_swap_control_tear
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_swap_control_tear
+END
+GL_ARB_vertex_type_2_10_10_10_rev
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_type_2_10_10_10_rev
+END
+GL_ARB_texture_rgb10_a2ui
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_rgb10_a2ui
+END
+WGL_EXT_pixel_format
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_pixel_format
+END
+GL_AMD_vertex_shader_tessellator
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_vertex_shader_tessellator
+END
+GL_3DFX_texture_compression_FXT1
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_3DFX_texture_compression_FXT1
+END
+GL_INGR_color_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_INGR_color_clamp
+END
+GL_ARB_draw_instanced
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_draw_instanced
+END
+GL_NV_texture_expand_normal
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_expand_normal
+END
+GL_EXT_copy_texture
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_copy_texture
+END
+GLX_MESA_agp_offset
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_MESA_agp_offset
+END
+GL_EXT_cull_vertex
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_cull_vertex
+END
+GL_NV_framebuffer_multisample_coverage
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_framebuffer_multisample_coverage
+END
+GL_ARB_vertex_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_buffer_object
+END
+GL_ATI_pn_triangles
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_pn_triangles
+END
+GL_NV_depth_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_depth_clamp
+END
+GL_GREMEDY_string_marker
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_GREMEDY_string_marker
+END
+GL_SGIX_fog_texture
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_fog_texture
+END
+WGL_ARB_make_current_read
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_make_current_read
+END
+GL_NV_bindless_texture
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_bindless_texture
+END
+GL_EXT_subtexture
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_subtexture
+END
+GL_ARB_imaging
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_imaging
+END
+GL_INTEL_texture_scissor
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_INTEL_texture_scissor
+END
+GLX_NV_multisample_coverage
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_multisample_coverage
+END
+GL_ARB_fragment_coord_conventions
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_fragment_coord_conventions
+END
+WGL_EXT_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_multisample
+END
+GL_EXT_blend_func_separate
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_blend_func_separate
+END
+GL_ARB_blend_func_extended
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_blend_func_extended
+END
+GL_EXT_packed_depth_stencil
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_packed_depth_stencil
+END
+GL_SGIS_texture4D
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_texture4D
+END
+GL_ARB_half_float_vertex
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_half_float_vertex
+END
+GL_EXT_pixel_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_pixel_buffer_object
+END
+GL_NV_vdpau_interop
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vdpau_interop
+END
+GL_ARB_uniform_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_uniform_buffer_object
+END
+GL_SGIX_convolution_accuracy
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_convolution_accuracy
+END
+WGL_EXT_create_context_es_profile
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_create_context_es_profile
+END
+GLX_EXT_import_context
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_import_context
+END
+GL_ARB_copy_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_copy_buffer
+END
+GLX_NV_float_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_float_buffer
+END
+GL_EXT_vertex_array
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_vertex_array
+END
+GL_ARB_robust_buffer_access_behavior
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_robust_buffer_access_behavior
+END
+GL_NV_fragment_program
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_fragment_program
+END
+GL_SGIX_interlace
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_interlace
+END
+GL_NV_explicit_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_explicit_multisample
+END
+GL_SGIX_resample
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_resample
+END
+WGL_ARB_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_multisample
+END
+GL_EXT_texture_cube_map
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_cube_map
+END
+GL_NV_texture_shader2
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_shader2
+END
+GL_NV_texture_shader3
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_shader3
+END
+GL_APPLE_transform_hint
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_transform_hint
+END
+GLX_NV_vertex_array_range
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_vertex_array_range
+END
+GL_ATI_texture_env_combine3
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_texture_env_combine3
+END
+GL_NV_parameter_buffer_object2
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_parameter_buffer_object2
+END
+GL_ARB_pixel_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_pixel_buffer_object
+END
+WGL_ARB_pixel_format_float
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_pixel_format_float
+END
+GLX_SGI_video_sync
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGI_video_sync
+END
+GL_ARB_matrix_palette
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_matrix_palette
+END
+GL_NV_vertex_program
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_program
+END
+GL_APPLE_vertex_array_range
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_vertex_array_range
+END
+GLX_SGIS_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIS_multisample
+END
+GL_REND_screen_coordinates
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_REND_screen_coordinates
+END
+WGL_I3D_swap_frame_lock
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_I3D_swap_frame_lock
+END
+WGL_NV_video_capture
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_video_capture
+END
+GL_AMD_transform_feedback3_lines_triangles
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_transform_feedback3_lines_triangles
+END
+GL_EXT_texture_shared_exponent
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_shared_exponent
+END
+GL_ATI_map_object_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_map_object_buffer
+END
+GL_OES_read_format
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_OES_read_format
+END
+GL_ARB_shader_storage_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_storage_buffer_object
+END
+GL_SGIS_texture_border_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_texture_border_clamp
+END
+WGL_NV_present_video
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_present_video
+END
+WGL_I3D_image_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_I3D_image_buffer
+END
+GL_ARB_draw_buffers_blend
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_draw_buffers_blend
+END
+WGL_NV_multisample_coverage
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_multisample_coverage
+END
+GL_NV_half_float
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_half_float
+END
+GL_SGI_color_matrix
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGI_color_matrix
+END
+GL_ARB_shading_language_include
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shading_language_include
+END
+GL_NV_texture_barrier
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_barrier
+END
+GL_AMD_name_gen_delete
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_name_gen_delete
+END
+GL_ATIX_texture_env_combine3
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATIX_texture_env_combine3
+END
+GL_ARB_shader_stencil_export
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_stencil_export
+END
+GL_EXT_histogram
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_histogram
+END
+GL_NV_vertex_program2_option
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_program2_option
+END
+GL_APPLE_rgb_422
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_rgb_422
+END
+GL_ARB_vertex_array_object
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_array_object
+END
+GLX_EXT_create_context_es_profile
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_create_context_es_profile
+END
+GL_NV_pixel_data_range
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_pixel_data_range
+END
+GL_SGIX_blend_alpha_minmax
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_blend_alpha_minmax
+END
+WGL_EXT_swap_control_tear
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_swap_control_tear
+END
+GL_APPLE_texture_range
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_texture_range
+END
+GL_ARB_stencil_texturing
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_stencil_texturing
+END
+GL_ARB_framebuffer_no_attachments
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_framebuffer_no_attachments
+END
+GLX_AMD_gpu_association
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_AMD_gpu_association
+END
+GL_NV_parameter_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_parameter_buffer_object
+END
+GLX_SGIX_swap_barrier
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIX_swap_barrier
+END
+WGL_ARB_pixel_format
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_pixel_format
+END
+GLX_SGI_swap_control
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGI_swap_control
+END
+GL_NV_conditional_render
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_conditional_render
+END
+GL_EXT_compiled_vertex_array
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_compiled_vertex_array
+END
+GLX_ARB_vertex_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_vertex_buffer_object
+END
+GL_MESA_pack_invert
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_MESA_pack_invert
+END
+GL_SGIX_texture_add_env
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_texture_add_env
+END
+GLX_OML_sync_control
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_OML_sync_control
+END
+WGL_NV_render_depth_texture
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_render_depth_texture
+END
+GL_EXT_color_subtable
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_color_subtable
+END
+GL_ARB_internalformat_query2
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_internalformat_query2
+END
+GL_EXT_stencil_clear_tag
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_stencil_clear_tag
+END
+GL_MESA_resize_buffers
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_MESA_resize_buffers
+END
+GL_IBM_cull_vertex
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_IBM_cull_vertex
+END
+GL_ARB_map_buffer_alignment
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_map_buffer_alignment
+END
+GL_NV_vertex_program2
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_program2
+END
+GL_NV_vertex_array_range
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_array_range
+END
+GL_NV_vertex_program3
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_program3
+END
+GL_NV_vertex_program4
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_program4
+END
+GL_EXT_packed_pixels
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_packed_pixels
+END
+GL_AMD_draw_buffers_blend
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_draw_buffers_blend
+END
+GL_EXT_texture_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_buffer_object
+END
+GL_SUN_vertex
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUN_vertex
+END
+GL_EXT_debug_marker
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_debug_marker
+END
+GLX_MESA_swap_control
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_MESA_swap_control
+END
+GL_EXT_texture_swizzle
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_swizzle
+END
+GL_EXT_fragment_lighting
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_fragment_lighting
+END
+GL_GREMEDY_frame_terminator
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_GREMEDY_frame_terminator
+END
+GL_ARB_texture_gather
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_gather
+END
+GL_SGIX_clipmap
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_clipmap
+END
+GL_OML_resample
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_OML_resample
+END
+GL_EXT_coordinate_frame
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_coordinate_frame
+END
+GL_APPLE_aux_depth_stencil
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_aux_depth_stencil
+END
+GL_ARB_compute_shader
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_compute_shader
+END
+WGL_I3D_digital_video_control
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_I3D_digital_video_control
+END
+GL_ARB_debug_output
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_debug_output
+END
+GL_NV_shader_atomic_float
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_shader_atomic_float
+END
+GL_EXT_texture_perturb_normal
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_perturb_normal
+END
+GL_ARB_explicit_uniform_location
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_explicit_uniform_location
+END
+GL_ARB_texture_border_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_border_clamp
+END
+GL_NV_texture_compression_vtc
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_compression_vtc
+END
+GL_APPLE_fence
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_fence
+END
+GL_ATI_vertex_attrib_array_object
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_vertex_attrib_array_object
+END
+GL_EXT_blend_subtract
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_blend_subtract
+END
+GL_APPLE_object_purgeable
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_object_purgeable
+END
+GL_ARB_texture_view
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_view
+END
+GL_AMD_seamless_cubemap_per_texture
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_seamless_cubemap_per_texture
+END
+GL_EXT_texture_edge_clamp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_edge_clamp
+END
+WGL_NV_vertex_array_range
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_vertex_array_range
+END
+WGL_EXT_make_current_read
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_make_current_read
+END
+GL_SGIX_async_histogram
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_async_histogram
+END
+GL_ARB_texture_env_crossbar
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_env_crossbar
+END
+GL_APPLE_pixel_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_pixel_buffer
+END
+GL_NV_path_rendering
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_path_rendering
+END
+GL_ARB_draw_buffers
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_draw_buffers
+END
+GL_ARB_compressed_texture_pixel_storage
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_compressed_texture_pixel_storage
+END
+GLX_SGIS_shared_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIS_shared_multisample
+END
+GL_ARB_draw_indirect
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_draw_indirect
+END
+GLX_SGI_cushion
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGI_cushion
+END
+GL_ARB_shader_objects
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_objects
+END
+GL_SGIX_texture_range
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_texture_range
+END
+GL_EXT_index_texture
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_index_texture
+END
+GL_ATI_vertex_streams
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_vertex_streams
+END
+GL_APPLE_ycbcr_422
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_ycbcr_422
+END
+GL_EXT_stencil_two_side
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_stencil_two_side
+END
+GL_SGIX_fragment_specular_lighting
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_fragment_specular_lighting
+END
+GL_3DFX_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_3DFX_multisample
+END
+GL_3DFX_tbuffer
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_3DFX_tbuffer
+END
+GL_NV_transform_feedback
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_transform_feedback
+END
+GL_ARB_texture_compression_rgtc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_compression_rgtc
+END
+GL_SUN_convolution_border_modes
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUN_convolution_border_modes
+END
+GLX_NV_video_out
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_video_out
+END
+GL_NVX_gpu_memory_info
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NVX_gpu_memory_info
+END
+GL_ARB_geometry_shader4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_geometry_shader4
+END
+GL_SGIX_texture_scale_bias
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_texture_scale_bias
+END
+GL_EXT_Cg_shader
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_Cg_shader
+END
+GL_EXT_convolution
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_convolution
+END
+GL_ARB_robustness_application_isolation
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_robustness_application_isolation
+END
+GL_EXT_paletted_texture
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_paletted_texture
+END
+GL_AMD_query_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_query_buffer_object
+END
+GL_ARB_texture_compression
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_compression
+END
+GL_ARB_shader_precision
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_precision
+END
+GL_SGI_texture_color_table
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGI_texture_color_table
+END
+GL_EXT_x11_sync_object
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_x11_sync_object
+END
+GL_EXT_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_multisample
+END
+GL_SGIS_color_range
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_color_range
+END
+WGL_NV_video_output
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_video_output
+END
+GL_EXT_separate_shader_objects
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_separate_shader_objects
+END
+GL_SGIS_texture_select
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_texture_select
+END
+GL_SUN_triangle_list
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUN_triangle_list
+END
+GL_ARB_framebuffer_sRGB
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_framebuffer_sRGB
+END
+GL_ARB_texture_mirrored_repeat
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_mirrored_repeat
+END
+GL_EXT_texture_sRGB
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_sRGB
+END
+GL_ARB_multitexture
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_multitexture
+END
+GL_ARB_sync
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_sync
+END
+GL_EXT_texture_compression_dxt1
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_compression_dxt1
+END
+GL_ARB_ES2_compatibility
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_ES2_compatibility
+END
+GL_SGIX_reference_plane
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_reference_plane
+END
+GL_INTEL_parallel_arrays
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_INTEL_parallel_arrays
+END
+GLX_OML_swap_method
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_OML_swap_method
+END
+GL_ARB_shadow
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shadow
+END
+GL_NV_register_combiners2
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_register_combiners2
+END
+GL_ARB_texture_compression_bptc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_compression_bptc
+END
+GL_EXT_texture
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture
+END
+GL_IBM_vertex_array_lists
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_IBM_vertex_array_lists
+END
+GL_ARB_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_multisample
+END
+GL_S3_s3tc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_S3_s3tc
+END
+GL_EXT_vertex_shader
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_vertex_shader
+END
+.dummy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/.dummy
+END
+GL_EXT_packed_float
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_packed_float
+END
+GL_SGIX_tag_sample_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_tag_sample_buffer
+END
+GL_EXT_shader_image_load_store
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_shader_image_load_store
+END
+GL_NV_vertex_buffer_unified_memory
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_buffer_unified_memory
+END
+GL_ARB_vertex_blend
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_blend
+END
+GLX_NV_copy_image
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_copy_image
+END
+GL_APPLE_flush_buffer_range
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_flush_buffer_range
+END
+GL_ARB_conservative_depth
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_conservative_depth
+END
+GL_ATI_shader_texture_lod
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_shader_texture_lod
+END
+GL_APPLE_vertex_array_object
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_vertex_array_object
+END
+GL_NV_depth_buffer_float
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_depth_buffer_float
+END
+GL_MESA_ycbcr_texture
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_MESA_ycbcr_texture
+END
+GL_SGI_color_table
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGI_color_table
+END
+GL_ARB_shading_language_420pack
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shading_language_420pack
+END
+GL_ARB_shader_bit_encoding
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_bit_encoding
+END
+GL_ARB_internalformat_query
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_internalformat_query
+END
+WGL_AMD_gpu_association
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_AMD_gpu_association
+END
+GLX_SGIX_fbconfig
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIX_fbconfig
+END
+GL_EXT_texture_env_add
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_env_add
+END
+GLX_ATI_pixel_format_float
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ATI_pixel_format_float
+END
+WGL_ATI_render_texture_rectangle
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ATI_render_texture_rectangle
+END
+GL_SGIX_vertex_preclip_hint
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_vertex_preclip_hint
+END
+GL_EXT_scene_marker
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_scene_marker
+END
+GL_EXT_separate_specular_color
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_separate_specular_color
+END
+GL_ARB_texture_query_levels
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_query_levels
+END
+GL_IBM_multimode_draw_arrays
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_IBM_multimode_draw_arrays
+END
+GL_ARB_texture_env_dot3
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_env_dot3
+END
+GL_EXT_gpu_shader4
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_gpu_shader4
+END
+GL_SGIS_pixel_texture
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_pixel_texture
+END
+GL_NV_evaluators
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_evaluators
+END
+WGL_NV_float_buffer
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_NV_float_buffer
+END
+WGL_3DL_stereo_control
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_3DL_stereo_control
+END
+GL_EXT_texture_compression_s3tc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_compression_s3tc
+END
+GLX_SGIX_visual_select_group
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIX_visual_select_group
+END
+GL_NV_vertex_program1_1
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_vertex_program1_1
+END
+GLX_3DFX_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_3DFX_multisample
+END
+GL_ARB_robustness_share_group_isolation
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_robustness_share_group_isolation
+END
+GL_AMD_conservative_depth
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_conservative_depth
+END
+GL_SGIX_depth_texture
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_depth_texture
+END
+GL_EXT_framebuffer_multisample
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_framebuffer_multisample
+END
+GL_ARB_transpose_matrix
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_transpose_matrix
+END
+WGL_ARB_buffer_region
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_buffer_region
+END
+GL_NV_texture_rectangle
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_rectangle
+END
+GLX_SGIX_hyperpipe
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIX_hyperpipe
+END
+GLX_ARB_robustness_application_isolation
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_robustness_application_isolation
+END
+GL_NV_texture_shader
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_shader
+END
+GL_ARB_gpu_shader5
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_gpu_shader5
+END
+GL_APPLE_vertex_program_evaluators
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_vertex_program_evaluators
+END
+GL_NV_texture_env_combine4
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_texture_env_combine4
+END
+WGL_EXT_pixel_format_packed_float
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_pixel_format_packed_float
+END
+GL_SUN_slice_accum
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUN_slice_accum
+END
+GL_MESA_window_pos
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_MESA_window_pos
+END
+GL_EXT_texture_sRGB_decode
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_sRGB_decode
+END
+GL_EXT_blend_color
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_blend_color
+END
+GL_EXT_index_func
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_index_func
+END
+GL_HP_image_transform
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_HP_image_transform
+END
+WGL_ARB_pbuffer
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_pbuffer
+END
+GL_SGIS_fog_function
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_fog_function
+END
+GL_ARB_map_buffer_range
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_map_buffer_range
+END
+GLX_SGIS_color_range
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIS_color_range
+END
+GL_EXT_light_texture
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_light_texture
+END
+GL_NV_gpu_program4
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_gpu_program4
+END
+GLX_EXT_texture_from_pixmap
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_texture_from_pixmap
+END
+GL_EXT_vertex_attrib_64bit
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_vertex_attrib_64bit
+END
+GL_NV_gpu_program5
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_gpu_program5
+END
+GLX_ARB_framebuffer_sRGB
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_framebuffer_sRGB
+END
+GL_SGIS_texture_filter4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_texture_filter4
+END
+GL_NV_copy_image
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_copy_image
+END
+GL_ARB_color_buffer_float
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_color_buffer_float
+END
+GLX_NV_swap_group
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_NV_swap_group
+END
+GL_NV_point_sprite
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_point_sprite
+END
+GL_EXT_texture_env_combine
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_env_combine
+END
+GL_SGIX_flush_raster
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_flush_raster
+END
+GL_ARB_transform_feedback_instanced
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_transform_feedback_instanced
+END
+GL_ARB_framebuffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_framebuffer_object
+END
+GL_ARB_point_parameters
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_point_parameters
+END
+GL_ARB_explicit_attrib_location
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_explicit_attrib_location
+END
+GL_ARB_texture_buffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_buffer_object
+END
+GL_OES_byte_coordinates
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_OES_byte_coordinates
+END
+GL_SGIX_list_priority
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_list_priority
+END
+GL_APPLE_element_array
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_element_array
+END
+WGL_OML_sync_control
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_OML_sync_control
+END
+GLX_SGIX_pbuffer
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGIX_pbuffer
+END
+GL_ARB_vertex_attrib_64bit
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_vertex_attrib_64bit
+END
+GL_EXT_clip_volume_hint
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_clip_volume_hint
+END
+GL_ARB_texture_env_combine
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_env_combine
+END
+GL_ARB_robustness
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_robustness
+END
+GL_EXT_misc_attribute
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_misc_attribute
+END
+WGL_EXT_depth_float
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_EXT_depth_float
+END
+WGL_ATI_pixel_format_float
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ATI_pixel_format_float
+END
+GL_ATI_envmap_bumpmap
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_envmap_bumpmap
+END
+GL_SGIS_sharpen_texture
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_sharpen_texture
+END
+GL_ARB_texture_storage
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_storage
+END
+GL_ARB_texture_rectangle
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_texture_rectangle
+END
+GL_ARB_shader_atomic_counters
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_shader_atomic_counters
+END
+GL_APPLE_float_pixels
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_APPLE_float_pixels
+END
+GL_EXT_texture_lod_bias
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_texture_lod_bias
+END
+GLX_EXT_swap_control
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_swap_control
+END
+GLX_ARB_create_context
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_create_context
+END
+GL_AMD_texture_texture4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_texture_texture4
+END
+GL_EXT_gpu_program_parameters
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_gpu_program_parameters
+END
+GL_ATI_fragment_shader
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_fragment_shader
+END
+GL_EXT_bgra
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_bgra
+END
+GL_SGIX_ycrcb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIX_ycrcb
+END
+GL_EXT_depth_bounds_test
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_depth_bounds_test
+END
+GL_ARB_compatibility
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_compatibility
+END
+GL_ARB_provoking_vertex
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_provoking_vertex
+END
+GL_NV_packed_depth_stencil
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_packed_depth_stencil
+END
+GL_OES_single_precision
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_OES_single_precision
+END
+GLX_SGI_make_current_read
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_SGI_make_current_read
+END
+GLX_EXT_scene_marker
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_scene_marker
+END
+GL_ATI_texture_compression_3dc
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ATI_texture_compression_3dc
+END
+GL_ARB_depth_texture
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_depth_texture
+END
+GL_NV_gpu_shader5
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_gpu_shader5
+END
+GL_EXT_stencil_wrap
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_stencil_wrap
+END
+GL_NV_depth_range_unclamped
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_depth_range_unclamped
+END
+GLX_ARB_fbconfig_float
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_fbconfig_float
+END
+GL_SUN_mesh_array
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SUN_mesh_array
+END
+GL_AMD_vertex_shader_layer
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_vertex_shader_layer
+END
+GL_NV_occlusion_query
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_NV_occlusion_query
+END
+GLX_EXT_visual_info
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_EXT_visual_info
+END
+GL_WIN_specular_fog
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_WIN_specular_fog
+END
+GL_AMD_performance_monitor
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_AMD_performance_monitor
+END
+GL_IBM_texture_mirrored_repeat
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_IBM_texture_mirrored_repeat
+END
+GL_EXT_framebuffer_object
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_EXT_framebuffer_object
+END
+GL_SGIS_point_line_texgen
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_SGIS_point_line_texgen
+END
+GL_KHR_texture_compression_astc_ldr
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_KHR_texture_compression_astc_ldr
+END
+GL_ARB_program_interface_query
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GL_ARB_program_interface_query
+END
+GLX_ARB_robustness_share_group_isolation
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_robustness_share_group_isolation
+END
+WGL_ARB_create_context_profile
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/WGL_ARB_create_context_profile
+END
+GLX_ARB_create_context_profile
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glew-1.9.0/auto/extensions/GLX_ARB_create_context_profile
+END

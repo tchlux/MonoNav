@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial10_transparency
+END
+tutorial10_transparency
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial10_transparency/tutorial10_transparency
+END
+StandardShading.vertexshader
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial10_transparency/StandardShading.vertexshader
+END
+uvmap.DDS
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial10_transparency/uvmap.DDS
+END
+tutorial10.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial10_transparency/tutorial10.cpp
+END
+StandardTransparentShading.fragmentshader
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial10_transparency/StandardTransparentShading.fragmentshader
+END
+suzanne.obj
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial10_transparency/suzanne.obj
+END

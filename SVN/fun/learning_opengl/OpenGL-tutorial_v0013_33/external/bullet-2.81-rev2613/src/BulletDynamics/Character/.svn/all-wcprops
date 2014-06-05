@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/Character
+END
+btKinematicCharacterController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/Character/btKinematicCharacterController.cpp
+END
+btCharacterControllerInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/Character/btCharacterControllerInterface.h
+END
+btKinematicCharacterController.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/bullet-2.81-rev2613/src/BulletDynamics/Character/btKinematicCharacterController.h
+END

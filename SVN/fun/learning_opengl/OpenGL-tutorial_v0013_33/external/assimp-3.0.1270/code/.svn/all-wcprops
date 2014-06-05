@@ -1,0 +1,1667 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code
+END
+AssimpPCH.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/AssimpPCH.h
+END
+FindDegenerates.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FindDegenerates.h
+END
+MDCLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDCLoader.h
+END
+ObjTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjTools.h
+END
+M3Importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/M3Importer.h
+END
+ColladaParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ColladaParser.cpp
+END
+MD3FileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD3FileData.h
+END
+FindInvalidDataProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FindInvalidDataProcess.h
+END
+COBScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/COBScene.h
+END
+GenericProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/GenericProperty.h
+END
+PretransformVertices.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PretransformVertices.cpp
+END
+GenFaceNormalsProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/GenFaceNormalsProcess.h
+END
+LWOLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWOLoader.cpp
+END
+DefaultIOStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DefaultIOStream.cpp
+END
+ImporterRegistry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ImporterRegistry.cpp
+END
+TextureTransform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TextureTransform.cpp
+END
+BlenderDNA.inl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderDNA.inl
+END
+M3Importer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/M3Importer.cpp
+END
+MDCFileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDCFileData.h
+END
+ObjExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjExporter.cpp
+END
+TerragenLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TerragenLoader.h
+END
+StandardShapes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/StandardShapes.cpp
+END
+Q3BSPFileParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3BSPFileParser.cpp
+END
+DXFLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DXFLoader.cpp
+END
+ACLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ACLoader.cpp
+END
+fast_atof.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/fast_atof.h
+END
+Q3DLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3DLoader.cpp
+END
+BaseProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BaseProcess.h
+END
+IFCMaterial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCMaterial.cpp
+END
+LimitBoneWeightsProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LimitBoneWeightsProcess.h
+END
+Q3BSPZipArchive.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3BSPZipArchive.h
+END
+Vertex.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Vertex.h
+END
+ASEParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ASEParser.cpp
+END
+DXFHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DXFHelper.h
+END
+XGLLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/XGLLoader.h
+END
+Q3BSPFileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3BSPFileData.h
+END
+BlenderSceneGen.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderSceneGen.h
+END
+IRRShared.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IRRShared.h
+END
+ParsingUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ParsingUtils.h
+END
+RemoveVCProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RemoveVCProcess.h
+END
+DeboneProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DeboneProcess.cpp
+END
+DefaultIOStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DefaultIOStream.h
+END
+LWOLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWOLoader.h
+END
+assbin_chunks.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/assbin_chunks.h
+END
+IRRMeshLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IRRMeshLoader.cpp
+END
+CInterfaceIOWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/CInterfaceIOWrapper.h
+END
+LWSLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWSLoader.h
+END
+FileLogStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FileLogStream.h
+END
+qnan.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/qnan.h
+END
+ComputeUVMappingProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ComputeUVMappingProcess.cpp
+END
+GenVertexNormalsProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/GenVertexNormalsProcess.cpp
+END
+SortByPTypeProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SortByPTypeProcess.cpp
+END
+Subdivision.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Subdivision.h
+END
+IFCUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCUtil.h
+END
+VertexTriangleAdjacency.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/VertexTriangleAdjacency.cpp
+END
+BaseProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BaseProcess.cpp
+END
+HalfLifeFileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/HalfLifeFileData.h
+END
+MD3Loader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD3Loader.cpp
+END
+OgreMaterial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OgreMaterial.cpp
+END
+SmoothingGroups.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SmoothingGroups.h
+END
+DXFLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DXFLoader.h
+END
+TriangulateProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TriangulateProcess.cpp
+END
+XGLLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/XGLLoader.cpp
+END
+StreamReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/StreamReader.h
+END
+PlyParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PlyParser.h
+END
+ObjFileParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjFileParser.cpp
+END
+MDCLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDCLoader.cpp
+END
+NFFLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/NFFLoader.cpp
+END
+RemoveComments.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RemoveComments.cpp
+END
+LogAux.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LogAux.h
+END
+IRRMeshLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IRRMeshLoader.h
+END
+SplitByBoneCountProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SplitByBoneCountProcess.h
+END
+OgreMesh.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OgreMesh.cpp
+END
+ScenePreprocessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ScenePreprocessor.h
+END
+RemoveRedundantMaterials.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RemoveRedundantMaterials.h
+END
+PostStepRegistry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PostStepRegistry.cpp
+END
+OptimizeMeshes.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OptimizeMeshes.h
+END
+CSMLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/CSMLoader.h
+END
+PlyParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PlyParser.cpp
+END
+IRRLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IRRLoader.cpp
+END
+OgreImporter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OgreImporter.hpp
+END
+PretransformVertices.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PretransformVertices.h
+END
+XFileImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/XFileImporter.h
+END
+FileSystemFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FileSystemFilter.h
+END
+NFFLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/NFFLoader.h
+END
+LWOAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWOAnimation.h
+END
+ImproveCacheLocality.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ImproveCacheLocality.cpp
+END
+StdOStreamLogStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/StdOStreamLogStream.h
+END
+CSMLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/CSMLoader.cpp
+END
+SplitLargeMeshes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SplitLargeMeshes.cpp
+END
+STEPFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/STEPFile.h
+END
+DefaultLogger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DefaultLogger.cpp
+END
+FindInstancesProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FindInstancesProcess.cpp
+END
+XFileImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/XFileImporter.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/CMakeLists.txt
+END
+STLLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/STLLoader.h
+END
+STLExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/STLExporter.h
+END
+LWOAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWOAnimation.cpp
+END
+SpatialSort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SpatialSort.cpp
+END
+ValidateDataStructure.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ValidateDataStructure.h
+END
+BlenderIntermediate.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderIntermediate.h
+END
+SceneCombiner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SceneCombiner.cpp
+END
+SMDLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SMDLoader.h
+END
+GenFaceNormalsProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/GenFaceNormalsProcess.cpp
+END
+STLLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/STLLoader.cpp
+END
+ObjFileParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjFileParser.h
+END
+PlyExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PlyExporter.cpp
+END
+ScenePrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ScenePrivate.h
+END
+SplitByBoneCountProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SplitByBoneCountProcess.cpp
+END
+MD5Loader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD5Loader.cpp
+END
+FixNormalsStep.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FixNormalsStep.cpp
+END
+Q3BSPFileImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3BSPFileImporter.h
+END
+MD2FileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD2FileData.h
+END
+MDLMaterialLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDLMaterialLoader.cpp
+END
+IFCProfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCProfile.cpp
+END
+IRRShared.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IRRShared.cpp
+END
+Q3DLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3DLoader.h
+END
+MS3DLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MS3DLoader.cpp
+END
+BlenderDNA.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderDNA.cpp
+END
+COBLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/COBLoader.h
+END
+SGSpatialSort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SGSpatialSort.cpp
+END
+CalcTangentsProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/CalcTangentsProcess.cpp
+END
+IFCCurve.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCCurve.cpp
+END
+ConvertToLHProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ConvertToLHProcess.cpp
+END
+BVHLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BVHLoader.cpp
+END
+NDOLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/NDOLoader.cpp
+END
+MaterialSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MaterialSystem.h
+END
+UnrealLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/UnrealLoader.cpp
+END
+MD2Loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD2Loader.h
+END
+IFCReaderGen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCReaderGen.cpp
+END
+HMPLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/HMPLoader.h
+END
+MakeVerboseFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MakeVerboseFormat.h
+END
+TriangulateProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TriangulateProcess.h
+END
+Profiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Profiler.h
+END
+OptimizeGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OptimizeGraph.h
+END
+XFileParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/XFileParser.h
+END
+FindInstancesProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FindInstancesProcess.h
+END
+B3DImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/B3DImporter.h
+END
+AssimpCExport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/AssimpCExport.cpp
+END
+ObjFileImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjFileImporter.h
+END
+BaseImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BaseImporter.h
+END
+MDLLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDLLoader.h
+END
+JoinVerticesProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/JoinVerticesProcess.h
+END
+MD2Loader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD2Loader.cpp
+END
+Q3BSPFileParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3BSPFileParser.h
+END
+SMDLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SMDLoader.cpp
+END
+LimitBoneWeightsProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LimitBoneWeightsProcess.cpp
+END
+TinyFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TinyFormatter.h
+END
+ObjFileMtlImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjFileMtlImporter.h
+END
+ProcessHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ProcessHelper.cpp
+END
+RawLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RawLoader.cpp
+END
+irrXMLWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/irrXMLWrapper.h
+END
+ColladaExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ColladaExporter.cpp
+END
+IFCLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCLoader.cpp
+END
+ASEParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ASEParser.h
+END
+Win32DebugLogStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Win32DebugLogStream.h
+END
+LWSLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWSLoader.cpp
+END
+PlyLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PlyLoader.h
+END
+SmoothingGroups.inl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SmoothingGroups.inl
+END
+MD5Parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD5Parser.h
+END
+ObjFileMtlImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjFileMtlImporter.cpp
+END
+VertexTriangleAdjacency.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/VertexTriangleAdjacency.h
+END
+Q3BSPFileImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3BSPFileImporter.cpp
+END
+ImproveCacheLocality.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ImproveCacheLocality.h
+END
+OgreImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OgreImporter.cpp
+END
+Exceptional.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Exceptional.h
+END
+LWOMaterial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWOMaterial.cpp
+END
+ColladaParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ColladaParser.h
+END
+RawLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RawLoader.h
+END
+TargetAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TargetAnimation.cpp
+END
+Hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Hash.h
+END
+COBLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/COBLoader.cpp
+END
+STLExporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/STLExporter.cpp
+END
+Assimp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Assimp.cpp
+END
+IFCLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCLoader.h
+END
+ColladaExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ColladaExporter.h
+END
+STEPFileReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/STEPFileReader.cpp
+END
+TextureTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TextureTransform.h
+END
+ScenePreprocessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ScenePreprocessor.cpp
+END
+SGSpatialSort.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SGSpatialSort.h
+END
+RemoveRedundantMaterials.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RemoveRedundantMaterials.cpp
+END
+SkeletonMeshBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SkeletonMeshBuilder.cpp
+END
+StandardShapes.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/StandardShapes.h
+END
+NDOLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/NDOLoader.h
+END
+makefile.mingw
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/makefile.mingw
+END
+Q3BSPZipArchive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Q3BSPZipArchive.cpp
+END
+3DSLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/3DSLoader.cpp
+END
+OptimizeGraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OptimizeGraph.cpp
+END
+MD4FileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD4FileData.h
+END
+HMPFileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/HMPFileData.h
+END
+RemoveVCProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RemoveVCProcess.cpp
+END
+ColladaLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ColladaLoader.cpp
+END
+B3DImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/B3DImporter.cpp
+END
+LWOBLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWOBLoader.cpp
+END
+3DSHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/3DSHelper.h
+END
+Importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Importer.h
+END
+ObjFileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjFileData.h
+END
+MDLFileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDLFileData.h
+END
+IFCGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCGeometry.cpp
+END
+SkeletonMeshBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SkeletonMeshBuilder.h
+END
+FixNormalsStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FixNormalsStep.h
+END
+MDLDefaultColorMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDLDefaultColorMap.h
+END
+3DSLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/3DSLoader.h
+END
+TerragenLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TerragenLoader.cpp
+END
+ASELoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ASELoader.cpp
+END
+Importer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Importer.cpp
+END
+MD5Parser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD5Parser.cpp
+END
+ByteSwap.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ByteSwap.h
+END
+MaterialSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MaterialSystem.cpp
+END
+BlenderDNA.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderDNA.h
+END
+ValidateDataStructure.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ValidateDataStructure.cpp
+END
+OptimizeMeshes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OptimizeMeshes.cpp
+END
+BlenderLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderLoader.h
+END
+ObjExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjExporter.h
+END
+SpatialSort.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SpatialSort.h
+END
+ConvertToLHProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ConvertToLHProcess.h
+END
+BVHLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BVHLoader.h
+END
+HMPLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/HMPLoader.cpp
+END
+BlobIOSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlobIOSystem.h
+END
+OgreXmlHelper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OgreXmlHelper.hpp
+END
+IFCReaderGen.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCReaderGen.h
+END
+FindDegenerates.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FindDegenerates.cpp
+END
+AssimpPCH.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/AssimpPCH.cpp
+END
+MDCNormalTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDCNormalTable.h
+END
+Subdivision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Subdivision.cpp
+END
+BlenderModifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderModifier.h
+END
+DeboneProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DeboneProcess.h
+END
+PlyExporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PlyExporter.h
+END
+JoinVerticesProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/JoinVerticesProcess.cpp
+END
+MDLLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MDLLoader.cpp
+END
+MemoryIOWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MemoryIOWrapper.h
+END
+SortByPTypeProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SortByPTypeProcess.h
+END
+XFileHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/XFileHelper.h
+END
+ProcessHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ProcessHelper.h
+END
+DefaultIOSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DefaultIOSystem.h
+END
+pstdint.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/pstdint.h
+END
+PlyLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PlyLoader.cpp
+END
+BlenderScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderScene.h
+END
+MS3DLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MS3DLoader.h
+END
+OFFLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OFFLoader.h
+END
+RemoveComments.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/RemoveComments.h
+END
+Exporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/Exporter.cpp
+END
+CalcTangentsProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/CalcTangentsProcess.h
+END
+MakeVerboseFormat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MakeVerboseFormat.cpp
+END
+ACLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ACLoader.h
+END
+SceneCombiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SceneCombiner.h
+END
+DefaultIOSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DefaultIOSystem.cpp
+END
+UnrealLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/UnrealLoader.h
+END
+XFileParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/XFileParser.cpp
+END
+IRRLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IRRLoader.h
+END
+BlenderScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderScene.cpp
+END
+TargetAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/TargetAnimation.h
+END
+BaseImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BaseImporter.cpp
+END
+ObjFileImporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ObjFileImporter.cpp
+END
+IFCUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFCUtil.cpp
+END
+LWOFileData.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LWOFileData.h
+END
+OgreSkeleton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OgreSkeleton.cpp
+END
+OFFLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/OFFLoader.cpp
+END
+BlenderLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderLoader.cpp
+END
+STEPFileReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/STEPFileReader.h
+END
+ColladaHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ColladaHelper.h
+END
+ASELoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ASELoader.h
+END
+StringComparison.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/StringComparison.h
+END
+GenVertexNormalsProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/GenVertexNormalsProcess.h
+END
+ComputeUVMappingProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ComputeUVMappingProcess.h
+END
+MD2NormalTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD2NormalTable.h
+END
+IFF.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/IFF.h
+END
+PolyTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/PolyTools.h
+END
+DefaultProgressHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/DefaultProgressHandler.h
+END
+MD3Loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD3Loader.h
+END
+FindInvalidDataProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/FindInvalidDataProcess.cpp
+END
+SplitLargeMeshes.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/SplitLargeMeshes.h
+END
+3DSConverter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/3DSConverter.cpp
+END
+MD5Loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/MD5Loader.h
+END
+LineSplitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/LineSplitter.h
+END
+BlenderModifier.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/BlenderModifier.cpp
+END
+ColladaLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/assimp-3.0.1270/code/ColladaLoader.h
+END

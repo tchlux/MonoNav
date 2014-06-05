@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots
+END
+world.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/world.png
+END
+homogeneous.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/homogeneous.png
+END
+camera.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/camera.png
+END
+final.PNG
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/final.PNG
+END
+M.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/M.png
+END
+nondeforme.blend
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/nondeforme.blend
+END
+nondeforme.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/nondeforme.png
+END
+scalingExample.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/scalingExample.png
+END
+model_to_world_to_camera_to_homogeneous.png
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/model_to_world_to_camera_to_homogeneous.png
+END
+MatrixXVect.gif
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/MatrixXVect.gif
+END
+translationExamplePosition.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/translationExamplePosition.png
+END
+model.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/model.png
+END
+MVP.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/MVP.png
+END
+scalingMatrix.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/scalingMatrix.png
+END
+identityExample.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/identityExample.png
+END
+perspective_red_triangle.png
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/perspective_red_triangle.png
+END
+model_to_world.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/model_to_world.png
+END
+transforms.svg
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/transforms.svg
+END
+translationExampleDirection.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/translationExampleDirection.png
+END
+2X3.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/2X3.png
+END
+projected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/projected.png
+END
+MV.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/MV.png
+END
+model_to_world_to_camera.png
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/model_to_world_to_camera.png
+END
+translationMatrix.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial03_matrices/screenshots/translationMatrix.png
+END

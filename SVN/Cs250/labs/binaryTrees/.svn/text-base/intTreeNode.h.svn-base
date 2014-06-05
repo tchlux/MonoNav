@@ -1,0 +1,111 @@
+#ifndef INCLUDED_intTreeNode
+#define INCLUDED_intTreeNode
+
+#include <iostream>      // Since we are using the type ostream.
+
+using namespace std;
+
+class intTreeNode {
+
+  // Class Invariant (CI): This object contains a defined integer n and two
+  //                       pointers p and q to the left and right
+  //                       children nodes. 
+
+ private:
+  int data;             // stores the data item in this node
+                        // denoted by n.
+  intTreeNode * leftChildPtr;   // store the pointer, denoted by p, to
+			        // the left child node, if
+			        // any. If there  is no left child node, this
+			        // pointer has a value NULL
+  intTreeNode * rightChildPtr;  // store the pointer, denoted by q, to
+			        // the right child node, if
+			        // any. If there  is no right child node, this
+			        // pointer has a value NULL
+
+ public:
+  
+  // ======================================== 
+  // constructors
+  // ======================================== 
+
+  // default constructor
+  // PRE: 
+  // POST: This object is defined with n = 0 and p = NULL and q = NULL.
+  intTreeNode();
+
+  // PRE: num = v is defined.
+  // POST: This object is defined with n = v, and p = NULL and q = NULL.
+  intTreeNode (int num);
+
+  // Pre:  node is defined
+  // Post: Deep copy of the node given
+  intTreeNode (intTreeNode & node);
+
+  // ======================================== 
+  //       accessor functions
+  // ======================================== 
+
+  // PRE: This object is defined.
+  // POST: RV = n.
+  int getData () const;   // the keyword const indicates that this
+                          // member function does not modify this
+                          // object. 
+
+  // PRE: This object is defined.
+  // POST: RV = p.
+  intTreeNode * getLeftChildPtr () const;
+
+  // PRE: This object is defined.
+  // POST: RV = q.
+  intTreeNode * getRightChildPtr () const;
+
+  // ======================================== 
+  // modifier functions
+  // ======================================== 
+
+  // PRE: This object is defined. num = v is defined.
+  // POST: This object is defined and n = v.
+  void setData (int num);
+
+  // PRE: This object is defined. leftPtr = x is defined.
+  // POST: This object is defined and p = x.
+  void setLeftPtr (intTreeNode * leftPtr);
+
+  // PRE: This object is defined. rightPtr = x is defined.
+  // POST: This object is defined and p = x.
+  void setRightPtr (intTreeNode * rightPtr);
+
+  // ======================================== 
+  // I/O functions
+  // ======================================== 
+
+  // PRE: stream is a defined output stream. node is defined and is a
+  // pointer to an intTreeNode object.
+  // POST: Data from the node pointed to by nodePtr is on OS, and RV
+  // is the changed OS.
+  friend ostream & operator<< (ostream & stream, const intTreeNode * nodePtr);
+
+  // PRE: stream is a defined output stream. node is defined and is an
+  // intTreeNode object.
+  // POST: Data from node is on OS, and RV
+  // is the changed OS.
+  friend ostream & operator<< (ostream & stream, const intTreeNode & node);
+
+  // NOTE: The above two operators have different signatures: one
+  // gets a pointer to an intTreeNode object, while the other gets an
+  // intTreeNode object. For example, if we have
+  // intTreeNode * NodePtr;
+  // intTreeNode Node;
+  // then,
+  // cout << NodePtr;
+  // will call the first overloaded output operator, and
+  // cout << Node;
+  // will call the second overloaded output operator.
+
+  // PRE: This object is defined.
+  // POST: The two children objects are destroyed.
+  ~intTreeNode();
+
+};
+#endif

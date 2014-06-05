@@ -1,0 +1,80 @@
+Test cases are as follows
+
+     #=======================
+     #     Test Number 1     
+     #=======================
+
+points.txt
+0 1
+1 0
+1 1
+2 2
+
+delta.txt
+2
+3 1 0
+
+Colour Span: 6
+
+This will test the general functionality of the program.
+Possible challenges:
+-same # delta vectors as max distance
+-shared connections
+
+	#=======================
+	#     Test Number 2     
+	#=======================
+
+points0.txt
+1 1
+0 0
+2 0
+0 2
+2 2
+
+delta0.txt
+2
+3 2 1 0
+
+Colour Span: 10
+
+Possible challenges:
+-more delta vectors than max distance
+
+
+      #=======================
+      #     Test Number 3     
+      #=======================
+
+points1.txt
+0 1
+1 0
+1 1
+2 2
+2 1
+1 2
+
+delta1.txt
+2
+3 0
+
+Colour Span: 12
+
+Possible challenges:
+-more distance than delta vectors
+
+
+      #=======================
+      #     Test Number 4
+      #=======================
+
+points.txt
+
+delta2.txt
+2
+3 2 0
+
+Colour Span: 7
+
+Possible challenges:
+-optimal coloring does not have a 0 as the first vertex

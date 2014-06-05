@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32
+END
+Makefile.win32.mingw
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/Makefile.win32.mingw
+END
+Makefile.win32.cross-mgw
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/Makefile.win32.cross-mgw
+END
+win32_time.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_time.c
+END
+Makefile.win32.ow
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/Makefile.win32.ow
+END
+win32_joystick.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_joystick.c
+END
+win32_fullscreen.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_fullscreen.c
+END
+win32_init.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_init.c
+END
+Makefile.win32.msys
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/Makefile.win32.msys
+END
+win32_thread.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_thread.c
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/platform.h
+END
+win32_window.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_window.c
+END
+Makefile.win32.lcc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/Makefile.win32.lcc
+END
+win32_dllmain.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_dllmain.c
+END
+win32_glext.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_glext.c
+END
+glfwdll.def
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/glfwdll.def
+END
+win32_enable.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/win32_enable.c
+END
+libglfw.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/lib/win32/libglfw.pc.in
+END

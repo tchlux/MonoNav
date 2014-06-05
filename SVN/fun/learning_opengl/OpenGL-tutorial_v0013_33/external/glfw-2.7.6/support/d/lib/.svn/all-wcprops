@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/support/d/lib
+END
+glu32.def
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/support/d/lib/glu32.def
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/support/d/lib/makefile
+END
+opengl32.def
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/support/d/lib/opengl32.def
+END
+glfwdll.def
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/external/glfw-2.7.6/support/d/lib/glfwdll.def
+END

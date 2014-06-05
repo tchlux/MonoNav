@@ -1,0 +1,14 @@
+#!/bin/bash
+
+fileName=$1
+trashDir=~/.local/share/Trash/files/
+if [ -f $trashDir/$fileName ]; then
+    num=1;
+    while [ -f $trashDir/$fileName$num ]; do
+	num=$(($num+1));
+    done;
+    fileName=$fileName$num;
+    mv $1 $fileName
+fi;
+
+mv $fileName $trashDir

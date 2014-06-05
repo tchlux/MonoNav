@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps
+END
+lightmap.DDS
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps/lightmap.DDS
+END
+room.blend
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps/room.blend
+END
+tutorial15_lightmaps
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/thlux/!svn/ver/156/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps/tutorial15_lightmaps
+END
+TextureFragmentShaderLOD.fragmentshader
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps/TextureFragmentShaderLOD.fragmentshader
+END
+TransformVertexShader.vertexshader
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps/TransformVertexShader.vertexshader
+END
+room.obj
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps/room.obj
+END
+tutorial15.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/thlux/!svn/ver/152/fun/learning_opengl/OpenGL-tutorial_v0013_33/tutorial15_lightmaps/tutorial15.cpp
+END

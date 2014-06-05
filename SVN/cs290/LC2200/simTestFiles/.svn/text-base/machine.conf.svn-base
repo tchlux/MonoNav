@@ -1,0 +1,3 @@
+memory    1024
+stack     64
+timeslice 2

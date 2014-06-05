@@ -1,0 +1,421 @@
+Pseudo Code --> written first, from there I started to write the real
+code, then I was made aware that we needed to do more pseudo code
+after I had began to compile.  I continued to push through some final
+errors and came to the final result with minimal changes.  I did NOT
+rewrite my original pseudo code, this is a final functioning product.
+
+
+Actual Code
+
+                                        MAIN FILE
+
+#include <iostream>
+#include "helper.h"
+
+using namespace std;
+
+//Pre:  Commdan line argument(s) are passed in, at least one argument
+//      is a natural number.
+//Post: OS: the number of arguments
+//      OS: prime factors of each natural number
+//      OS: shared prime factors (if there is more than one NN)
+//      error otherwise
+int main (int argc, char * argv[]){
+  int returnStatus = 0; // successful completion
+  int * validArguments = getValidArgs(argc, argv);
+  if (validArguments[0] > 0){ //if there are valid arguments
+    printNumArgs(argc); //print the number of args
+    computeSharedPrimes(validArguments); //Find the prime factors of
+//      each valid argument, and find shared factors
+    }
+    else {
+      cout << "Usage: ./naturalPrime args, where at least one argument is a natural number" << endl;
+    }
+  return (returnStatus);
+}
+
+
+                                      HELPER FILE
+
+#ifndef INCLUDED_helper
+#define INCLUDED_helper
+
+//Pre:  A pointer to an array of the command line arguments is given
+//      and size the number of elements in the array
+//Post: RV: A pointer to an array in heap space that contains each
+//      valid argument as an integer, the first number in the
+//      array is the number of valid arguments given
+int * getValidArgs(int size, char * argv[]);
+
+//Pre:  argc is given as a positive integer greater than 0
+//Post: OS: the number of command line arguments given
+void printNumArgs(int argc);
+
+// Pre:  charNum is a string.
+// Post: RV = true iff charNum is the character
+//       representation of a natural number.
+bool isNaturalNumber (char * charNum);
+
+// PRE: charNum is the character representation of
+// a natural number, say n
+// POST: RV = n.
+int charToNum (char * charNum);
+
+//Pre:  An array of natural numbers is given with the first number
+//      being the number of natural numbers
+//Post: Each natural number and it's prime factors will be printed,
+//      along with a seperate line of solely shared prime factors of
+//      all the numbers given, everything created in memory is then
+//      deleted
+void computeSharedPrimes(int * naturalNums);
+
+//Pre:  An integer form of a natural number is given, an array of
+//      sizes (# of prime factors) to be used for storing size, and
+//      the index number to reference for saving the size --> integer
+//Post: All of the prime factors are returned in an array
+//      No repeats of prime factors, and the smallest are first, going
+//      up throughout.  The number of prime factors is saved in
+//      arraySizes[indexNum]
+int * findPrimeFactors(int naturalNumber, int * arraySizes, int indexNum);
+
+//Pre:  A natural number is given that is greater than 1
+//Post: RV: The smallest divisor of the number given we can assume
+//      that this number will be prime itself
+int smallestDivisor(int naturalNumber);
+
+//Pre:  size of primeFactorArrays, an array of pointers to arrays of
+//      prime factors, an array of sizes of prime factor arrays
+//Post: RV: One pointer to an array of shared values in heap space
+int * arraySharedValues(int size, int * primeFactorArrays[],
+			int * arraySizes);
+
+//Pre:  An index of an array to not be checked, the number to search
+//      for, an array of pointers to other arrays, and the size of
+//      that array, the size of each sub array stored in an array
+//Post: RV: bool value, true if value is in all other arrays, false
+//      otherwise
+bool inOtherArrays(int excludeIndex, int primeNum, 
+		   int * primeFactorArrays[], int size, 
+		   int * arraySizes);
+
+//Pre:  A value to search for as an integer, an array of integers, the
+//      size of the array of integers
+//Post: RV: value E array --> boolean
+bool inArray(int value, int * array, int size);
+
+// Pre:  num = n > 0 is defined; 
+//       base = b > 0 is defined 
+// Post: RV = floor (log_b (n)).
+int floorLog (int num, int base) ;
+
+
+//Pre:  naturalNums is the array of naturalNums with the first index
+//      being the number of naturalNums present, primeFactorPointers
+//      is an array of pointers to the arrays of prime factors.
+//      sharedValues is an array of common prime factors to each nN,
+//      arraySizes is an array of the lengths of primeFactorPointers'
+//      sub-arrays and the last element is the length of sharedValues
+//Post: OS: Each natural number and their prime factors, lastly the
+//      common prime factors between them all
+void print(int * naturalNums, int * primeFactorPointers[],
+	   int * sharedValues, int * arraySizes);
+
+
+#endif
+
+
+                                HELPER.CC FILE
+
+
+#include <iostream>
+#include "helper.h"
+
+#define ordZero 48
+#define ordNine 57
+
+using namespace std;
+
+
+//Pre:  A pointer to an array of the command line arguments is given
+//      and size the number of elements in the array
+//Post: RV: A pointer to an array in heap space that contains each
+//      valid argument as an integer, the first number in the
+//      array is the number of valid arguments given
+int * getValidArgs(int size, char * argv[]){
+  int validArgs[size]; //initialize a temporary array to hold the
+//      valid arguments, it should be removed when the function is
+//      complete, so that a properly sized array (pointer) can be
+//      returned
+  int numValidArgs = 0; //initialize the number of valid arguments
+  for (int i=0; i < size; i++){
+    if (isNaturalNumber(argv[i])){
+	validArgs[numValidArgs] = charToNum(argv[i]);
+	numValidArgs ++;
+	//ASSERT: numValidArgs == number of natural numbers given
+      }
+  }
+  int * finalArgs = new int[numValidArgs+1]; //array of size 1 larger than
+//      the number of valid arguments.  Must be deleted later!
+  finalArgs[0] = numValidArgs; //The first element is the number of
+//      valid arguments given
+  for (int i=1; i<=numValidArgs; i++){
+    finalArgs[i] = validArgs[i-1]; //transfer arguments to final array
+  }
+  return (finalArgs); //return the pointer to validArgs
+}
+
+//Pre:  argc is given as a positive integer greater than 0
+//Post: OS: the number of command line arguments given
+void printNumArgs(int argc){
+  cout << "The number of command line arguments given: " << argc
+       << endl << endl; 
+}
+
+// Pre:  charNum is a string.
+// Post: RV = true iff charNum is the character
+//       representation of a natural number.
+bool isNaturalNumber (char * charNum){
+  //Since response is of arbitrary length, cycle until a terminator
+  //node is found
+  int index = 0; //Start at the beginning of the array
+  int value; //initialize storage for the ord value
+  //ASSERT: response has a terminator node since it's a string
+  while (charNum[index] != '\0') {
+    //ASSERT: response[index] is a valid part of the response
+    value = (int) charNum[index];
+    if (! ((ordZero <= value) && (value <= ordNine))){
+      return (false);
+      //If the ord value isn't in the range of ord(0) --> ord(9),
+      //then the number is not natural
+    }
+    index++; //incrementing index, as not to loop indefinitely
+  }
+  return (true);
+}
+
+// PRE: charNum is the character representation of
+// a natural number, say n
+// POST: RV = n.
+int charToNum (char * charNum){
+  int index = 0; //Index used to cycle charNum
+  int value; //the integer value of the current character
+  int result = 0; //the resultant number to be returned
+  while (charNum[index] != '\0'){
+    value = ((int) charNum[index]) - ordZero; //subtract the ordZero
+                                              //in order to shift the
+                                              //value into the range
+                                              //of 0-9  
+    result = result*10 + value;//slowly transition the result as
+                               //places are added (adding new least
+                               //significant numbers)
+    index++; //increment index
+  }
+  return (result);
+}
+
+//Pre:  An array of natural numbers is given with the first number
+//      being the number of natural numbers
+//Post: Each natural number and it's prime factors will be printed,
+//      along with a seperate line of solely shared prime factors of
+//      all the numbers given, everything created in memory is then
+//      deleted
+void computeSharedPrimes(int * naturalNums){
+  int size = naturalNums[0]; //get the number of valid arguments
+  int * primeFactorPointers[size]; //init array for pointing
+  //      to prime factor arrays as the size of natural numbers minus
+  //      the value for the size of the array
+  int arraySizes[size+1]; //init an array of sizes, +1 to store length
+  //      of shared factors array
+  for (int i=0; i < size; i++){ //loop starting at the first
+    //      natural number whille i is less than the number of valid
+    //      arguments
+    primeFactorPointers[i] = findPrimeFactors(naturalNums[i+1],
+					      arraySizes, i);
+    // Get a pointer to the prime factors of a number with i+1 to
+    //      shift for the fact that the first element is the size,
+    //      otherwise all elements are accessed by i
+  }
+  int * sharedValues = arraySharedValues(size, primeFactorPointers, arraySizes);
+  print(naturalNums, primeFactorPointers, sharedValues, arraySizes);
+  //print everything for the final result
+
+  ////DELETE ALL HEAP SPACE ARRAYS////
+  delete naturalNums; //Returned by getValidArguments
+  delete sharedValues; //Returned by arraySharedValues
+  for (int i=0; i<size; i++){
+    delete primeFactorPointers[i]; //built by findPrimeFactors
+  }
+}
+
+
+
+//Pre:  An integer form of a natural number is given, an array of
+//      sizes (# of prime factors) to be used for storing size, and
+//      the index number to reference for saving the size --> integer
+//Post: All of the prime factors are returned in an array
+//      No repeats of prime factors, and the smallest are first, going
+//      up throughout.  The number of prime factors is saved in
+//      arraySizes[indexNum]
+int * findPrimeFactors(int naturalNumber, int * arraySizes, int indexNum) {
+  int divisor; //init divisor
+  int largestPrime = 1; //init storage for largest prime, used
+  //to stop repeated prime numbers, smaller than the smallest prime
+  int primeFactors[floorLog(naturalNumber, 2)+1]; //init storage for max
+  //possible number of prime factors (worst case all 2 (smallest prime))
+  int current = 0; //current cell in prime factors
+
+  while (naturalNumber > largestPrime){
+    divisor = smallestDivisor(naturalNumber);
+    //ASSERT: naturalNumber % divisor == 0
+    if (divisor > largestPrime){ //new prime factor
+      primeFactors[current] = divisor;
+      //set the next index location = divisor
+      current ++;
+      //increment the length of the final array / current index
+      largestPrime = divisor;
+      //Reset the largest prime to the current number
+    }
+    naturalNumber /= divisor; //always remove the divisor from the
+    //      number before continuing to loop
+  }
+  //ASSERT: All unique prime factors have been found and added to the array
+  arraySizes[indexNum] = current; //store the size of this array
+
+  int * finalFactors = new int[current]; //create a new array of
+  //exactly the right size in heap space
+  for (int i=0; i<current; i++){
+    finalFactors[i] = primeFactors[i];
+    //transfer all values over to new array
+  }
+  return (finalFactors); //return pointer to array of prime factors
+}
+
+//Pre:  A natural number is given that is greater than 1
+//Post: RV: The smallest divisor of the number given we can assume
+//      that this number will be prime itself
+int smallestDivisor(int naturalNumber){
+  int divisor = 2; //smallest prime divisor
+  while (naturalNumber%divisor != 0){
+    divisor++;
+  }
+  //ASSERT: divisor is the smallest factor of naturalNumber
+  //        if natural number is prime, return naturalNumber
+  return (divisor);
+}
+
+//Pre:  size of primeFactorArrays, an array of pointers to arrays of
+//      prime factors, an array of sizes of prime factor arrays
+//Post: RV: One pointer to an array of shared values in heap space
+int * arraySharedValues(int size, int * primeFactorArrays[], int * arraySizes){
+  int max = 0; //finding the largest number of prime factors
+  for (int i=0; i<size; i++){
+    max += arraySizes[i]; //add the length of each array
+  }
+  //ASSERT: max is the length of the largest length array of prime
+  //        factors that could possibly be produced
+
+  int tempSharedArray[max]; //A stack space array
+  //      that has the possibiity of holding worst case (all
+  //      different) prime factors.
+  int current; //init current value storage
+  int next = 0; //The next availale index in tempSharedArray
+  for (int i=0; i<size; i++){
+    for (int c=0; c<arraySizes[i]; c++){ //Cycle through all values in
+      //  each array of prime factors
+      current = primeFactorArrays[i][c]; //store current prime factor
+      if ((inOtherArrays(i, current, primeFactorArrays, size,
+			 arraySizes)) 
+	  && (! inArray(current, tempSharedArray, next))){ 
+	//if in all other arrays and not in shared already
+	tempSharedArray[next] = current; //save
+	next ++; //increment next available slot
+      }
+    }
+  }
+  arraySizes[size+1] = next; //store the length of finalShared as the
+  //  last element of arraySizes
+
+  int * finalShared = new int[next]; //new array of exact size
+  for (int i=0; i<next; i++){
+    finalShared[i] = tempSharedArray[i];
+    //transfer all shared prime factors over to final array
+  }
+  return (finalShared);
+}
+
+//Pre:  An index of an array to not be checked, the number to search
+//      for, an array of pointers to other arrays, and the size of
+//      that array, the size of each sub array stored in an array
+//Post: RV: bool value, true if value is in all other arrays, false
+//      otherwise
+bool inOtherArrays(int excludeIndex, int primeNum, 
+		   int * primeFactorArrays[], int size, 
+		   int * arraySizes){
+  for (int i=0; i<size; i++){
+    if ((i != excludeIndex) && //if ! excluded && ! present in array
+	(! inArray(primeNum, primeFactorArrays[i], arraySizes[i]))){
+      return (false); //value not found, test failed
+    }
+  }
+  return (true); //value found in each array
+}
+
+//Pre:  A value to search for as an integer, an array of integers, the
+//      size of the array of integers
+//Post: RV: value E array --> boolean
+bool inArray(int value, int * array, int size){
+  for (int i=0; i<size; i++){
+    if (array[i] == value){
+      return (true); //The value is present
+    }
+  }
+  return (false); //The value was never found
+}
+
+
+// Pre:  num = n > 0 is defined; 
+//       base = b > 0 is defined 
+// Post: RV = floor (log_b (n)).
+int floorLog (int num, int base) {
+  int power = 0;
+  int raisedPower = 1;
+  // ASSERT: raisedPower = base^power
+  while (raisedPower <= num) {
+    // ASSERT: raisedPower <= num
+    raisedPower *= base;
+    power++;
+    // ASSERT: raisedPower = base^power    
+  }
+  // ASSERT: raisedPower > num and 
+  //         base^(power-1) <= num.
+  //         Thus, floor of log_b(n) = power-1.
+  return (power-1);
+}
+
+//Pre:  naturalNums is the array of naturalNums with the first index
+//      being the number of naturalNums present, primeFactorPointers
+//      is an array of pointers to the arrays of prime factors.
+//      sharedValues is an array of common prime factors to each nN,
+//      arraySizes is an array of the lengths of primeFactorPointers'
+//      sub-arrays and the last element is the length of sharedValues
+//Post: OS: Each natural number and their prime factors, lastly the
+//      common prime factors between them all
+void print(int * naturalNums, int * primeFactorPointers[],
+	   int * sharedValues, int * arraySizes){
+  int size = naturalNums[0]; //size of primeFactorPointers
+  for (int i=0; i<size; i++){
+    //print the given number
+    cout << (int)naturalNums[i+1] << "'s prime factors: " << endl;
+    //use i+1 because of the size storage at index 0
+    for (int c=0; c<arraySizes[i]; c++){
+      cout << (int)primeFactorPointers[i][c] << " ";
+      //print each prime factor
+    }
+    cout << endl << endl;
+  }
+  cout << "Shared prime factors: ";
+  for (int i=0; i<arraySizes[size+1]; i++){
+    cout << (int)sharedValues[i] << " ";
+  }
+  cout << endl;
+}
