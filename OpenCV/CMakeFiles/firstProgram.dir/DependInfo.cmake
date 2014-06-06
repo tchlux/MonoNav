@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thomas/git/OpenCV/firstProgram.cc" "/home/thomas/git/OpenCV/CMakeFiles/firstProgram.dir/firstProgram.cc.o"
+  "/home/thomas/MonoNav/OpenCV/firstProgram.cc" "/home/thomas/MonoNav/OpenCV/CMakeFiles/firstProgram.dir/firstProgram.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

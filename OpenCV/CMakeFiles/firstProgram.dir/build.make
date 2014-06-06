@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/git/OpenCV
+CMAKE_SOURCE_DIR = /home/thomas/MonoNav/OpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/git/OpenCV
+CMAKE_BINARY_DIR = /home/thomas/MonoNav/OpenCV
 
 # Include any dependencies generated for this target.
 include CMakeFiles/firstProgram.dir/depend.make
@@ -48,17 +48,17 @@ include CMakeFiles/firstProgram.dir/flags.make
 
 CMakeFiles/firstProgram.dir/firstProgram.cc.o: CMakeFiles/firstProgram.dir/flags.make
 CMakeFiles/firstProgram.dir/firstProgram.cc.o: firstProgram.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/git/OpenCV/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/firstProgram.dir/firstProgram.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/firstProgram.dir/firstProgram.cc.o -c /home/thomas/git/OpenCV/firstProgram.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/firstProgram.dir/firstProgram.cc.o -c /home/thomas/MonoNav/OpenCV/firstProgram.cc
 
 CMakeFiles/firstProgram.dir/firstProgram.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firstProgram.dir/firstProgram.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomas/git/OpenCV/firstProgram.cc > CMakeFiles/firstProgram.dir/firstProgram.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomas/MonoNav/OpenCV/firstProgram.cc > CMakeFiles/firstProgram.dir/firstProgram.cc.i
 
 CMakeFiles/firstProgram.dir/firstProgram.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firstProgram.dir/firstProgram.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomas/git/OpenCV/firstProgram.cc -o CMakeFiles/firstProgram.dir/firstProgram.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomas/MonoNav/OpenCV/firstProgram.cc -o CMakeFiles/firstProgram.dir/firstProgram.cc.s
 
 CMakeFiles/firstProgram.dir/firstProgram.cc.o.requires:
 .PHONY : CMakeFiles/firstProgram.dir/firstProgram.cc.o.requires
@@ -127,6 +127,6 @@ CMakeFiles/firstProgram.dir/clean:
 .PHONY : CMakeFiles/firstProgram.dir/clean
 
 CMakeFiles/firstProgram.dir/depend:
-	cd /home/thomas/git/OpenCV && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/git/OpenCV /home/thomas/git/OpenCV /home/thomas/git/OpenCV /home/thomas/git/OpenCV /home/thomas/git/OpenCV/CMakeFiles/firstProgram.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/MonoNav/OpenCV && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV/CMakeFiles/firstProgram.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/firstProgram.dir/depend
 

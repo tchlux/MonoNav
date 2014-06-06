@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/git/OpenCV
+CMAKE_SOURCE_DIR = /home/thomas/MonoNav/OpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/git/OpenCV
+CMAKE_BINARY_DIR = /home/thomas/MonoNav/OpenCV
 
 # Include any dependencies generated for this target.
 include CMakeFiles/displayVideo.dir/depend.make
@@ -48,17 +48,17 @@ include CMakeFiles/displayVideo.dir/flags.make
 
 CMakeFiles/displayVideo.dir/displayVideo.cc.o: CMakeFiles/displayVideo.dir/flags.make
 CMakeFiles/displayVideo.dir/displayVideo.cc.o: displayVideo.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/git/OpenCV/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/displayVideo.dir/displayVideo.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/displayVideo.dir/displayVideo.cc.o -c /home/thomas/git/OpenCV/displayVideo.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/displayVideo.dir/displayVideo.cc.o -c /home/thomas/MonoNav/OpenCV/displayVideo.cc
 
 CMakeFiles/displayVideo.dir/displayVideo.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/displayVideo.dir/displayVideo.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomas/git/OpenCV/displayVideo.cc > CMakeFiles/displayVideo.dir/displayVideo.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thomas/MonoNav/OpenCV/displayVideo.cc > CMakeFiles/displayVideo.dir/displayVideo.cc.i
 
 CMakeFiles/displayVideo.dir/displayVideo.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/displayVideo.dir/displayVideo.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomas/git/OpenCV/displayVideo.cc -o CMakeFiles/displayVideo.dir/displayVideo.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thomas/MonoNav/OpenCV/displayVideo.cc -o CMakeFiles/displayVideo.dir/displayVideo.cc.s
 
 CMakeFiles/displayVideo.dir/displayVideo.cc.o.requires:
 .PHONY : CMakeFiles/displayVideo.dir/displayVideo.cc.o.requires
@@ -127,6 +127,6 @@ CMakeFiles/displayVideo.dir/clean:
 .PHONY : CMakeFiles/displayVideo.dir/clean
 
 CMakeFiles/displayVideo.dir/depend:
-	cd /home/thomas/git/OpenCV && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/git/OpenCV /home/thomas/git/OpenCV /home/thomas/git/OpenCV /home/thomas/git/OpenCV /home/thomas/git/OpenCV/CMakeFiles/displayVideo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/MonoNav/OpenCV && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV /home/thomas/MonoNav/OpenCV/CMakeFiles/displayVideo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/displayVideo.dir/depend
 

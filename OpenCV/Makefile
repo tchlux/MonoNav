@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/git/OpenCV
+CMAKE_SOURCE_DIR = /home/thomas/MonoNav/OpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/git/OpenCV
+CMAKE_BINARY_DIR = /home/thomas/MonoNav/OpenCV
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,9 +66,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/git/OpenCV/CMakeFiles /home/thomas/git/OpenCV/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles /home/thomas/MonoNav/OpenCV/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/git/OpenCV/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -96,6 +96,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cornerHarrisDemo
+
+# Build rule for target.
+cornerHarrisDemo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cornerHarrisDemo
+.PHONY : cornerHarrisDemo
+
+# fast build rule for target.
+cornerHarrisDemo/fast:
+	$(MAKE) -f CMakeFiles/cornerHarrisDemo.dir/build.make CMakeFiles/cornerHarrisDemo.dir/build
+.PHONY : cornerHarrisDemo/fast
+
+#=============================================================================
+# Target rules for targets named cornerHarrisVid
+
+# Build rule for target.
+cornerHarrisVid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cornerHarrisVid
+.PHONY : cornerHarrisVid
+
+# fast build rule for target.
+cornerHarrisVid/fast:
+	$(MAKE) -f CMakeFiles/cornerHarrisVid.dir/build.make CMakeFiles/cornerHarrisVid.dir/build
+.PHONY : cornerHarrisVid/fast
+
+#=============================================================================
 # Target rules for targets named displayVideo
 
 # Build rule for target.
@@ -107,6 +133,67 @@ displayVideo: cmake_check_build_system
 displayVideo/fast:
 	$(MAKE) -f CMakeFiles/displayVideo.dir/build.make CMakeFiles/displayVideo.dir/build
 .PHONY : displayVideo/fast
+
+#=============================================================================
+# Target rules for targets named firstProgram
+
+# Build rule for target.
+firstProgram: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 firstProgram
+.PHONY : firstProgram
+
+# fast build rule for target.
+firstProgram/fast:
+	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/build
+.PHONY : firstProgram/fast
+
+cornerHarrisDemo.o: cornerHarrisDemo.cc.o
+.PHONY : cornerHarrisDemo.o
+
+# target to build an object file
+cornerHarrisDemo.cc.o:
+	$(MAKE) -f CMakeFiles/cornerHarrisDemo.dir/build.make CMakeFiles/cornerHarrisDemo.dir/cornerHarrisDemo.cc.o
+.PHONY : cornerHarrisDemo.cc.o
+
+cornerHarrisDemo.i: cornerHarrisDemo.cc.i
+.PHONY : cornerHarrisDemo.i
+
+# target to preprocess a source file
+cornerHarrisDemo.cc.i:
+	$(MAKE) -f CMakeFiles/cornerHarrisDemo.dir/build.make CMakeFiles/cornerHarrisDemo.dir/cornerHarrisDemo.cc.i
+.PHONY : cornerHarrisDemo.cc.i
+
+cornerHarrisDemo.s: cornerHarrisDemo.cc.s
+.PHONY : cornerHarrisDemo.s
+
+# target to generate assembly for a file
+cornerHarrisDemo.cc.s:
+	$(MAKE) -f CMakeFiles/cornerHarrisDemo.dir/build.make CMakeFiles/cornerHarrisDemo.dir/cornerHarrisDemo.cc.s
+.PHONY : cornerHarrisDemo.cc.s
+
+cornerHarrisVid.o: cornerHarrisVid.cc.o
+.PHONY : cornerHarrisVid.o
+
+# target to build an object file
+cornerHarrisVid.cc.o:
+	$(MAKE) -f CMakeFiles/cornerHarrisVid.dir/build.make CMakeFiles/cornerHarrisVid.dir/cornerHarrisVid.cc.o
+.PHONY : cornerHarrisVid.cc.o
+
+cornerHarrisVid.i: cornerHarrisVid.cc.i
+.PHONY : cornerHarrisVid.i
+
+# target to preprocess a source file
+cornerHarrisVid.cc.i:
+	$(MAKE) -f CMakeFiles/cornerHarrisVid.dir/build.make CMakeFiles/cornerHarrisVid.dir/cornerHarrisVid.cc.i
+.PHONY : cornerHarrisVid.cc.i
+
+cornerHarrisVid.s: cornerHarrisVid.cc.s
+.PHONY : cornerHarrisVid.s
+
+# target to generate assembly for a file
+cornerHarrisVid.cc.s:
+	$(MAKE) -f CMakeFiles/cornerHarrisVid.dir/build.make CMakeFiles/cornerHarrisVid.dir/cornerHarrisVid.cc.s
+.PHONY : cornerHarrisVid.cc.s
 
 displayVideo.o: displayVideo.cc.o
 .PHONY : displayVideo.o
@@ -132,18 +219,54 @@ displayVideo.cc.s:
 	$(MAKE) -f CMakeFiles/displayVideo.dir/build.make CMakeFiles/displayVideo.dir/displayVideo.cc.s
 .PHONY : displayVideo.cc.s
 
+firstProgram.o: firstProgram.cc.o
+.PHONY : firstProgram.o
+
+# target to build an object file
+firstProgram.cc.o:
+	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/firstProgram.cc.o
+.PHONY : firstProgram.cc.o
+
+firstProgram.i: firstProgram.cc.i
+.PHONY : firstProgram.i
+
+# target to preprocess a source file
+firstProgram.cc.i:
+	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/firstProgram.cc.i
+.PHONY : firstProgram.cc.i
+
+firstProgram.s: firstProgram.cc.s
+.PHONY : firstProgram.s
+
+# target to generate assembly for a file
+firstProgram.cc.s:
+	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/firstProgram.cc.s
+.PHONY : firstProgram.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... cornerHarrisDemo"
+	@echo "... cornerHarrisVid"
 	@echo "... displayVideo"
 	@echo "... edit_cache"
+	@echo "... firstProgram"
 	@echo "... rebuild_cache"
+	@echo "... cornerHarrisDemo.o"
+	@echo "... cornerHarrisDemo.i"
+	@echo "... cornerHarrisDemo.s"
+	@echo "... cornerHarrisVid.o"
+	@echo "... cornerHarrisVid.i"
+	@echo "... cornerHarrisVid.s"
 	@echo "... displayVideo.o"
 	@echo "... displayVideo.i"
 	@echo "... displayVideo.s"
+	@echo "... firstProgram.o"
+	@echo "... firstProgram.i"
+	@echo "... firstProgram.s"
 .PHONY : help
 
 

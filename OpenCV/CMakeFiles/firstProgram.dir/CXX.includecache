@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/git/OpenCV/firstProgram.cc
+/home/thomas/MonoNav/OpenCV/firstProgram.cc
 stdio.h
 -
 opencv2/opencv.hpp

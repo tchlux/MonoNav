@@ -1,7 +1,7 @@
 LOOK AT ALL THE THINGS YOU CAN LEARN IN ONE SUMMER
 
 .mov to .avi Conversion Command:
-  ffmpeg -i test.mov -sameq -vcoded msmpeg4v2 -acodec pcm_u8 test.avi
+  ffmpeg -i test.mov -sameq -vcodec msmpeg4v2 -acodec pcm_u8 test.avi
 
 Lucas Kanade method:
   A widely used differential method for estimating optical flow.  It
@@ -33,9 +33,46 @@ Common Markov Models:
    Controlled  | Markov Decision Process  |         PO MDP           |
                 -----------------------------------------------------
 
+Sobel Operator:
+  Sometimes called the Sobel Filter, generates an image that
+  emphasizes edges and transitions. It is typically an operator that
+  finds the difference between groups of pixels in rows and
+  columns. It is relatively inexpensive but the gradient approximation
+  is relatively crude, especially for high variance images.
+
+The Moravec corner detection algorithm:
+  Generates overlapping patches of pixels across an image and then
+  compares the patches to all their overlapping neighbors for
+  similarity. The similarity between two patches is measured by the
+  sum of Squared Differences, with a lower numer indicating more
+  similarity. The flaw with this algorithm is that it incorrectly
+  marks standalone varying patches as interest points.  It would be
+  more accurate to ensure that there are multiple other interest
+  points surrounding.
+
+Corner Strength:
+  Measured by looking at the smallest of all SSD for a given patch in
+  the Moravec corner detection algorithm.  If this SMALLEST SSD is of
+  a large value then that patch is considered a point of interest.
+
+Sum of Squared Difference (SSD):
+    This one's self explanatory. Cumulative sum of squared pixel-wise
+    differences over an area.   (p1-p2)^2 + ... + (pn-1 - n)^2 
+
+Structure Tensor:
+  Also referred to as the second-moment matrix, it is a matrix derived
+  from the gradient of a function.  Very similar to a slope field, it
+  demonstrates the predominant directions of a gradient in a specific
+  neighborhood to a point, but it is also used to measure the degree
+  of coherence of these vectors.
+
+Isotropy:
+  Being uniform in all orientations.
+
 Links:
 http://technology.nasa.gov/
   NASA tech project information
 
 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-1.html
   Bash script tutorial that Randall found
+

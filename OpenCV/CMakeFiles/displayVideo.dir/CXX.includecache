@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/git/OpenCV/displayVideo.cc
+/home/thomas/MonoNav/OpenCV/displayVideo.cc
 stdio.h
 -
 opencv2/opencv.hpp
