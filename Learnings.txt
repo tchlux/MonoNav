@@ -5,40 +5,58 @@ LOOK AT ALL THE THINGS YOU CAN LEARN IN ONE SUMMER
 
 Corner Strength:
   Measured by looking at the smallest of all SSD for a given patch in
-  the Moravec corner detection algorithm.  If this SMALLEST SSD is of
-  a large value then that patch is considered a point of interest.
+  the Moravec corner detection algorithm. If this SMALLEST SSD is of
+  a large value then that patch is considered a point of
+  interest. Rewording the above, if all SSD's surrounding a pixel are
+  large then it is a point of interest.
 
 Delaunay Triangulation:
   The triangulation of a set of points such that no single point is
   inside the circumference of the triangle that form that set of
-  points.  Under the assumption that the set being analyzed is already
+  points. Under the assumption that the set being analyzed is already
   triangulated.
 
 Fourier Transform:
   The mathematical transformation of a signal between the time and
-  frequency domains.  Its foundation lies on the fact that any
+  frequency domains. Its foundation lies on the fact that any
   periodic function can be written as the sum of simple sin and cos
-  waves.  The fourier transform in essence can be used to extract the
-  mathematical components of a very complicated wave form.  Once
+  waves. The fourier transform in essence can be used to extract the
+  mathematical components of a very complicated wave form. Once
   individual components are extracted, each one can represent some
   different data set, allowing for all modern day radio wave
-  communications.
+  communications. This is used in image analysis across rows and
+  columns, but I am not sure why that can be relevant.
+
+Haar-like Features:
+  Are used to refer to features made up by adjacent rectangular
+  regions of a detection window in an image. An example would be using
+  a face, the eyes are usually rectangular regions above the cheeks
+  and of lower average pixel values (darker).
+
+Haar Wavelet:
+  A sequence of rigid edged functions that form a basis or family of
+  wavelets. This wavelet is constructed of the fewest possible
+  unit length vectors (simplest) and it is not continuous. Wavelet
+  analysis is very similar to Fourier analysis (just to make a
+  connection)
 
 Hann Function:
   A discrete window function that provides a linear combination of
   modulated rectangular windows. Window function is defined below.
+  This also relates to Fourier transforms.
 
-Isotropy:
-  Being uniform in all orientations.
+Integral Image (Summed Area Table):
+  A data structure and algorithm used 
+
+Isotropic:
+  Being uniform in all orientations, such as a sphere.
 
 Lucas Kanade method:
-  A widely used differential method for estimating optical flow.  It
-  assumes that the flow in the neighborhood of a pixel is  constant. 
-  This method also utilizes many neighboring pixels at onece and
+  A widely used differential method for estimating optical flow. It
+  assumes that the flow in the neighborhood of a pixel is constant. 
+  This method also utilizes many neighboring pixels at once and
   therefore cannot be used to focus on the interior of uniform
-  regiions of an image.
-
-  http://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method
+  regions of an image.
 
 Markov Property:
   When the conditional probability distribution of future conditions
@@ -55,42 +73,55 @@ Moravec corner detection algorithm:
   Generates overlapping patches of pixels across an image and then
   compares the patches to all their overlapping neighbors for
   similarity. The similarity between two patches is measured by the
-  sum of Squared Differences, with a lower numer indicating more
+  sum of Squared Differences, with a lower number indicating more
   similarity. The flaw with this algorithm is that it incorrectly
-  marks standalone varying patches as interest points.  It would be
+  marks standalone varying patches as interest points. It would be
   more accurate to ensure that there are multiple other interest
   points surrounding.
 
-Optical Flow:  
+Optical Flow:
   Pattern of apparent motion of objects, or pixels in the case of
   computer vision.
+
+Orthonormality:
+  Two vectors are said to be 'orthonormal' when they are orthogonal
+  (at right angles) to each other and also of unit length (normalized)
+
+Scale Invariant Feature Transform (SIFT) 1999:
+  Used to detect and describe local features in images.
 
 Sobel Operator:
   Sometimes called the Sobel Filter, generates an image that
   emphasizes edges and transitions. It is typically an operator that
   finds the difference between groups of pixels in rows and
   columns. It is relatively inexpensive but the gradient approximation
-  is relatively crude, especially for high variance images.
+  is relatively crude, especially for high variance images. This can
+  also be thought of as a pixel-wise derrivative on the chosen axis.
+  A downside to this algorithm is that is only usually done on the x
+  or the y axis, loosing diagonals.
+
+Speeded up Robust Features (SURF) 2006:
+  A local feature detector that is faster than SIFT and based on 2D
+  HAAR wavelet responses and makes efficient use of integral images.
 
 Structure Tensor:
   Also referred to as the second-moment matrix, it is a matrix derived
-  from the gradient of a function.  Very similar to a slope field, it
+  from the gradient of a function. Very similar to a slope field, it
   demonstrates the predominant directions of a gradient in a specific
   neighborhood to a point, but it is also used to measure the degree
-  of coherence of these vectors.
+  of coherence of these vectors. If they are all similar in an area,
+  there were be a higher degree of coherence.
 
 Sum of Squared Difference (SSD):
-    This one's self explanatory. Cumulative sum of squared pixel-wise
-    differences over an area.   (p1-p2)^2 + ... + (pn-1 - n)^2 
+  This one's self explanatory. Cumulative sum of squared pixel-wise
+  differences over an area. (p1-p2)^2 + ... + (pn-1 - n)^2 
 
 Window Function:
   In signal processing, this is a function whose value is 0 outside of
-  some chosen interval.  If the value is constant inside the window
-  then it is considered a rectangular window function.  This is used
+  some chosen interval. If the value is constant inside the window
+  then it is considered a rectangular window function. This is used
   to find overlap between multiple functions, or a "view through the
   window".
-
-
 
 
 
@@ -102,4 +133,3 @@ http://technology.nasa.gov/
 
 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-1.html
   Bash script tutorial that Randall found
-
