@@ -20,3 +20,19 @@ target_link_libraries( cornerHarrisDemo ${OpenCV_LIBS} )
 project( cornerHarrisVid )
 add_executable( cornerHarrisVid cornerHarrisVid.cc )
 target_link_libraries( cornerHarrisVid ${OpenCV_LIBS} )
+
+project( sobelDerrivVid )
+add_executable( sobelDerrivVid sobelDerrivVid.cc )
+target_link_libraries( sobelDerrivVid ${OpenCV_LIBS} )
+
+project( testFeatureDetectImg )
+add_executable( testFeatureDetectImg testFeatureDetectImg.cc )
+target_link_libraries( testFeatureDetectImg ${OpenCV_LIBS} )
+
+project( surfFeatureDetector )
+add_executable( surfFeatureDetector surfFeatureDetector.cc )
+target_link_libraries( surfFeatureDetector ${OpenCV_LIBS} )
+
+project( surfFeatureDetectorVideo )
+add_executable( surfFeatureDetectorVideo surfFeatureDetectorVideo.cc )
+target_link_libraries( surfFeatureDetectorVideo ${OpenCV_LIBS} )

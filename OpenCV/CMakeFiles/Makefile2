@@ -190,6 +190,146 @@ clean: CMakeFiles/firstProgram.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sobelDerrivVid.dir
+
+# All Build rule for target.
+CMakeFiles/sobelDerrivVid.dir/all:
+	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/depend
+	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  5
+	@echo "Built target sobelDerrivVid"
+.PHONY : CMakeFiles/sobelDerrivVid.dir/all
+
+# Include target in all.
+all: CMakeFiles/sobelDerrivVid.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sobelDerrivVid.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sobelDerrivVid.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 0
+.PHONY : CMakeFiles/sobelDerrivVid.dir/rule
+
+# Convenience name for target.
+sobelDerrivVid: CMakeFiles/sobelDerrivVid.dir/rule
+.PHONY : sobelDerrivVid
+
+# clean rule for target.
+CMakeFiles/sobelDerrivVid.dir/clean:
+	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/clean
+.PHONY : CMakeFiles/sobelDerrivVid.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sobelDerrivVid.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/surfFeatureDetector.dir
+
+# All Build rule for target.
+CMakeFiles/surfFeatureDetector.dir/all:
+	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/depend
+	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  6
+	@echo "Built target surfFeatureDetector"
+.PHONY : CMakeFiles/surfFeatureDetector.dir/all
+
+# Include target in all.
+all: CMakeFiles/surfFeatureDetector.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/surfFeatureDetector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/surfFeatureDetector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 0
+.PHONY : CMakeFiles/surfFeatureDetector.dir/rule
+
+# Convenience name for target.
+surfFeatureDetector: CMakeFiles/surfFeatureDetector.dir/rule
+.PHONY : surfFeatureDetector
+
+# clean rule for target.
+CMakeFiles/surfFeatureDetector.dir/clean:
+	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/clean
+.PHONY : CMakeFiles/surfFeatureDetector.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/surfFeatureDetector.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/surfFeatureDetectorVideo.dir
+
+# All Build rule for target.
+CMakeFiles/surfFeatureDetectorVideo.dir/all:
+	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/depend
+	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  7
+	@echo "Built target surfFeatureDetectorVideo"
+.PHONY : CMakeFiles/surfFeatureDetectorVideo.dir/all
+
+# Include target in all.
+all: CMakeFiles/surfFeatureDetectorVideo.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/surfFeatureDetectorVideo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/surfFeatureDetectorVideo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 0
+.PHONY : CMakeFiles/surfFeatureDetectorVideo.dir/rule
+
+# Convenience name for target.
+surfFeatureDetectorVideo: CMakeFiles/surfFeatureDetectorVideo.dir/rule
+.PHONY : surfFeatureDetectorVideo
+
+# clean rule for target.
+CMakeFiles/surfFeatureDetectorVideo.dir/clean:
+	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/clean
+.PHONY : CMakeFiles/surfFeatureDetectorVideo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/surfFeatureDetectorVideo.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/testFeatureDetectImg.dir
+
+# All Build rule for target.
+CMakeFiles/testFeatureDetectImg.dir/all:
+	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/depend
+	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  8
+	@echo "Built target testFeatureDetectImg"
+.PHONY : CMakeFiles/testFeatureDetectImg.dir/all
+
+# Include target in all.
+all: CMakeFiles/testFeatureDetectImg.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/testFeatureDetectImg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testFeatureDetectImg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 0
+.PHONY : CMakeFiles/testFeatureDetectImg.dir/rule
+
+# Convenience name for target.
+testFeatureDetectImg: CMakeFiles/testFeatureDetectImg.dir/rule
+.PHONY : testFeatureDetectImg
+
+# clean rule for target.
+CMakeFiles/testFeatureDetectImg.dir/clean:
+	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/clean
+.PHONY : CMakeFiles/testFeatureDetectImg.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/testFeatureDetectImg.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

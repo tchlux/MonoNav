@@ -1,7 +1,6 @@
 /**
  * @function cornerHarris_Demo.cpp
  * @brief Demo code for detecting corners using Harris-Stephens method
-
  * @author OpenCV team
  */
 
@@ -12,106 +11,95 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define THRESH 220
+#define MAX_THRESH 255
+#define SOURCE_WINDOW "Source image"
+#define CORNERS_WINDOW "Corners detected"
+
+/// Detector parameters
+#define BLOCKSIZE 2
+#define APERTURESIZE 3
+#define K 0.04
+
+#define WAIT_MS 1
+
 using namespace cv;
 using namespace std;
 
-#define TRACKBAR_WINDOW "Trackbars for settings"
-#define SOURCE_WINDOW "Source image"
-#define CHOPPED_WINDOW "Chopped image"
-#define SOBEL_WINDOW_X "Sobel Derrivative X"
-#define SOBEL_WINDOW_Y "Sobel Derrivative Y"
-#define X_RANGE_START 300
-#define X_RANGE_END 600
-#define Y_RANGE_START 300
-#define Y_RANGE_END 600
+/// Function header, defined after main
+void cornerHarris_demo( Mat &srcImgGray);
 
-#define WAIT_MS 1 // Milisecond wait
+// Callback, has no purpose here, for OpenCV trackbar
+void callbackDummy( int, void* ){}
 
+/**
+ * @function main
+ */
+int main( int argc, char** argv ){
+  if (argc != 2){
+    std::cerr << "usage: ./cornerHarrisVid videoFile.avi" << 
+      std::endl;
+    return -1;
+  }
 
-// The sobel derrivative function
-void sobelDerriv( Mat & origImg, int & xRangeCenter, 
-		  int & yRangeCenter, int & rangeSize);
+  // Video stream holder and image holder
+  VideoCapture srcVid( argv[1] );
+  Mat srcImg, srcImgGray;
+  int thresh = THRESH;
+  // Initialize trackbar and windows for displaying images
+  createTrackbar( "Threshold: ", SOURCE_WINDOW, &thresh, MAX_THRESH,
+		  callbackDummy );
+  namedWindow( SOURCE_WINDOW,  WINDOW_NORMAL );
+  namedWindow( CORNERS_WINDOW, WINDOW_NORMAL );
 
-// Used as a dummy callback
-void dummy(int, void*){}
+  // Loop the video displaying both the source and cornerHarris
+  for (; ! (waitKey(WAIT_MS)>0) ;){
+    srcVid >> srcImg; // Extract first image
+    if (srcImg.total() > 0){
+      imshow( SOURCE_WINDOW, srcImg );
 
-// Pre:  argc == 2 where argv[1] == .avi video file
-// Post: The corneres detected in this video are drawn
-int main( int argc, char** argv )
-{
-  if (argc != 2)
-    {
-      std::cerr << "usage: ./cornerHarrisVid videoFile.avi" << 
-	std::endl;
-      return -1;
+      /// Convert source image to gray and process cornerHarris
+      cvtColor( srcImg, srcImgGray, COLOR_BGR2GRAY );
+      cornerHarris_demo( srcImgGray );
     }
-  
-  Mat origImg; // Original image holder
-  VideoCapture vid(argv[1]); // Open video file
-  vid >> origImg; // Get the first image
-
-  // Initialize named windows for displaying video
-  namedWindow( TRACKBAR_WINDOW, WINDOW_NORMAL );
-  namedWindow( SOURCE_WINDOW, WINDOW_NORMAL );
-  namedWindow( CHOPPED_WINDOW, WINDOW_NORMAL );
-  namedWindow( SOBEL_WINDOW_X, WINDOW_NORMAL );
-  namedWindow( SOBEL_WINDOW_Y, WINDOW_NORMAL );
-  Size origImgSize = origImg.size();
-  int xRangeCenter = origImgSize.width  / 2;
-  int yRangeCenter = origImgSize.height / 2;
-  int rangeSize = (origImgSize.width + origImgSize.height) / 16;
-  createTrackbar( "X Center: ", TRACKBAR_WINDOW, &xRangeCenter, 
-		  origImgSize.width, dummy );
-  createTrackbar( "Y Center: ", TRACKBAR_WINDOW, &yRangeCenter, 
-		  origImgSize.height, dummy );
-  createTrackbar( "Range Size: ", TRACKBAR_WINDOW, &rangeSize, 
-		  rangeSize * 4, dummy );
-  std::cerr << "origImgSize: " << origImgSize << std::endl;
-  std::cerr << "xRangeCenter: " << xRangeCenter << std::endl;
-  std::cerr << "yRangeCenter: " << yRangeCenter << std::endl;
-  std::cerr << "rangeSize: " << rangeSize << std::endl;
-  for (; ! (waitKey(WAIT_MS)>0) ;) // Loop until key press
-    {
-      vid >> origImg;
-      if (origImg.total() > 0){
-	imshow( SOURCE_WINDOW, origImg );
-	sobelDerriv( origImg, xRangeCenter, yRangeCenter, rangeSize);
-      }    
-      else{
-	vid.release(); // Release the video file (free memory)
-        vid.open(argv[1]); // Reopen the file and loop
-      }
+    else{
+      srcVid.release(); // Release the video file (free memory)
+      srcVid.open(argv[1]); // Reopen the file and loop
     }
-  return 0; // Normal execution complete
+  }
+
+  return(0);
 }
 
+/**
+ * @function cornerHarris_demo
+ * @brief Executes the corner detection and draw a circle around the
+ * possible corners
+ */
+void cornerHarris_demo( Mat &srcImgGray ){
+  Mat dst, dst_norm, dst_norm_scaled;
+  dst = Mat::zeros( srcImgGray.size(), CV_32FC1 );
 
-// Pre:  origImg, xRangeCenter, yRangeCenter, rangeSize all defined
-// Post: The Sobel gradient for the image is displayed in an
-//       alternate window that should have been initialized before
-//       this function calls.  One window for x derrivative, one for
-//       the y, and these are adjustable by trackbars in the source
-//       image viewing window
-void sobelDerriv( Mat & origImg, int &xRangeCenter, int &yRangeCenter,
-		  int & rangeSize)
-{
-  int xLow, xHigh, yLow, yHigh;
-  xLow = xRangeCenter - rangeSize; yLow = yRangeCenter - rangeSize;
-  xHigh = xRangeCenter + rangeSize; yHigh = yRangeCenter + rangeSize;
-  Range xRange(xLow, xHigh);
-  Range yRange(yLow, yHigh);
-  std::cerr << "xLow: " << xLow << std::endl;
-  std::cerr << "xHigh: " << xHigh << std::endl;
-  std::cerr << "yLow: " << yLow << std::endl;
-  std::cerr << "yHigh: " << yHigh << std::endl;
-  Mat extractedImage(origImg(yRange,xRange));
-  std::cerr << "cornerHarrisVid.cc Line 108: " << std::endl;
-  Mat sobelDerrivX, sobelDerrivY;
+  /// Detecting corners
+  cornerHarris( srcImgGray, dst, BLOCKSIZE, APERTURESIZE, K,
+		BORDER_DEFAULT );
 
-  Sobel(extractedImage, sobelDerrivX, CV_8U, 1, 0);
-  Sobel(extractedImage, sobelDerrivY, CV_8U, 0, 1);
+  /// Normalizing
+  normalize( dst, dst_norm, 0, 255, NORM_MINMAX, CV_32FC1, Mat() );
+  convertScaleAbs( dst_norm, dst_norm_scaled );
 
-  imshow( SOBEL_WINDOW_X, sobelDerrivX );
-  imshow( SOBEL_WINDOW_Y, sobelDerrivY );
-  imshow( CHOPPED_WINDOW, extractedImage );
+  // /// Drawing a circle around corners
+  // for( int j = 0; j < dst_norm.rows ; j++ )
+  //   { for( int i = 0; i < dst_norm.cols; i++ )
+  // 	{
+  // 	  if( (int) dst_norm.at<float>(j,i) > THRESH )
+  // 	    {
+  // 	      circle( dst_norm_scaled, Point( i, j ), 5, Scalar(0), 2,
+  // 		      8, 0 );
+  // 	    }
+  // 	}
+  //   }
+  /// Showing the result
+
+  imshow( CORNERS_WINDOW, dst_norm_scaled );
 }

@@ -147,6 +147,58 @@ firstProgram/fast:
 	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/build
 .PHONY : firstProgram/fast
 
+#=============================================================================
+# Target rules for targets named sobelDerrivVid
+
+# Build rule for target.
+sobelDerrivVid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sobelDerrivVid
+.PHONY : sobelDerrivVid
+
+# fast build rule for target.
+sobelDerrivVid/fast:
+	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/build
+.PHONY : sobelDerrivVid/fast
+
+#=============================================================================
+# Target rules for targets named surfFeatureDetector
+
+# Build rule for target.
+surfFeatureDetector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 surfFeatureDetector
+.PHONY : surfFeatureDetector
+
+# fast build rule for target.
+surfFeatureDetector/fast:
+	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/build
+.PHONY : surfFeatureDetector/fast
+
+#=============================================================================
+# Target rules for targets named surfFeatureDetectorVideo
+
+# Build rule for target.
+surfFeatureDetectorVideo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 surfFeatureDetectorVideo
+.PHONY : surfFeatureDetectorVideo
+
+# fast build rule for target.
+surfFeatureDetectorVideo/fast:
+	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/build
+.PHONY : surfFeatureDetectorVideo/fast
+
+#=============================================================================
+# Target rules for targets named testFeatureDetectImg
+
+# Build rule for target.
+testFeatureDetectImg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testFeatureDetectImg
+.PHONY : testFeatureDetectImg
+
+# fast build rule for target.
+testFeatureDetectImg/fast:
+	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/build
+.PHONY : testFeatureDetectImg/fast
+
 cornerHarrisDemo.o: cornerHarrisDemo.cc.o
 .PHONY : cornerHarrisDemo.o
 
@@ -243,6 +295,102 @@ firstProgram.cc.s:
 	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/firstProgram.cc.s
 .PHONY : firstProgram.cc.s
 
+sobelDerrivVid.o: sobelDerrivVid.cc.o
+.PHONY : sobelDerrivVid.o
+
+# target to build an object file
+sobelDerrivVid.cc.o:
+	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/sobelDerrivVid.cc.o
+.PHONY : sobelDerrivVid.cc.o
+
+sobelDerrivVid.i: sobelDerrivVid.cc.i
+.PHONY : sobelDerrivVid.i
+
+# target to preprocess a source file
+sobelDerrivVid.cc.i:
+	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/sobelDerrivVid.cc.i
+.PHONY : sobelDerrivVid.cc.i
+
+sobelDerrivVid.s: sobelDerrivVid.cc.s
+.PHONY : sobelDerrivVid.s
+
+# target to generate assembly for a file
+sobelDerrivVid.cc.s:
+	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/sobelDerrivVid.cc.s
+.PHONY : sobelDerrivVid.cc.s
+
+surfFeatureDetector.o: surfFeatureDetector.cc.o
+.PHONY : surfFeatureDetector.o
+
+# target to build an object file
+surfFeatureDetector.cc.o:
+	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/surfFeatureDetector.cc.o
+.PHONY : surfFeatureDetector.cc.o
+
+surfFeatureDetector.i: surfFeatureDetector.cc.i
+.PHONY : surfFeatureDetector.i
+
+# target to preprocess a source file
+surfFeatureDetector.cc.i:
+	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/surfFeatureDetector.cc.i
+.PHONY : surfFeatureDetector.cc.i
+
+surfFeatureDetector.s: surfFeatureDetector.cc.s
+.PHONY : surfFeatureDetector.s
+
+# target to generate assembly for a file
+surfFeatureDetector.cc.s:
+	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/surfFeatureDetector.cc.s
+.PHONY : surfFeatureDetector.cc.s
+
+surfFeatureDetectorVideo.o: surfFeatureDetectorVideo.cc.o
+.PHONY : surfFeatureDetectorVideo.o
+
+# target to build an object file
+surfFeatureDetectorVideo.cc.o:
+	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/surfFeatureDetectorVideo.cc.o
+.PHONY : surfFeatureDetectorVideo.cc.o
+
+surfFeatureDetectorVideo.i: surfFeatureDetectorVideo.cc.i
+.PHONY : surfFeatureDetectorVideo.i
+
+# target to preprocess a source file
+surfFeatureDetectorVideo.cc.i:
+	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/surfFeatureDetectorVideo.cc.i
+.PHONY : surfFeatureDetectorVideo.cc.i
+
+surfFeatureDetectorVideo.s: surfFeatureDetectorVideo.cc.s
+.PHONY : surfFeatureDetectorVideo.s
+
+# target to generate assembly for a file
+surfFeatureDetectorVideo.cc.s:
+	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/surfFeatureDetectorVideo.cc.s
+.PHONY : surfFeatureDetectorVideo.cc.s
+
+testFeatureDetectImg.o: testFeatureDetectImg.cc.o
+.PHONY : testFeatureDetectImg.o
+
+# target to build an object file
+testFeatureDetectImg.cc.o:
+	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/testFeatureDetectImg.cc.o
+.PHONY : testFeatureDetectImg.cc.o
+
+testFeatureDetectImg.i: testFeatureDetectImg.cc.i
+.PHONY : testFeatureDetectImg.i
+
+# target to preprocess a source file
+testFeatureDetectImg.cc.i:
+	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/testFeatureDetectImg.cc.i
+.PHONY : testFeatureDetectImg.cc.i
+
+testFeatureDetectImg.s: testFeatureDetectImg.cc.s
+.PHONY : testFeatureDetectImg.s
+
+# target to generate assembly for a file
+testFeatureDetectImg.cc.s:
+	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/testFeatureDetectImg.cc.s
+.PHONY : testFeatureDetectImg.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -255,6 +403,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... firstProgram"
 	@echo "... rebuild_cache"
+	@echo "... sobelDerrivVid"
+	@echo "... surfFeatureDetector"
+	@echo "... surfFeatureDetectorVideo"
+	@echo "... testFeatureDetectImg"
 	@echo "... cornerHarrisDemo.o"
 	@echo "... cornerHarrisDemo.i"
 	@echo "... cornerHarrisDemo.s"
@@ -267,6 +419,18 @@ help:
 	@echo "... firstProgram.o"
 	@echo "... firstProgram.i"
 	@echo "... firstProgram.s"
+	@echo "... sobelDerrivVid.o"
+	@echo "... sobelDerrivVid.i"
+	@echo "... sobelDerrivVid.s"
+	@echo "... surfFeatureDetector.o"
+	@echo "... surfFeatureDetector.i"
+	@echo "... surfFeatureDetector.s"
+	@echo "... surfFeatureDetectorVideo.o"
+	@echo "... surfFeatureDetectorVideo.i"
+	@echo "... surfFeatureDetectorVideo.s"
+	@echo "... testFeatureDetectImg.o"
+	@echo "... testFeatureDetectImg.i"
+	@echo "... testFeatureDetectImg.s"
 .PHONY : help
 
 

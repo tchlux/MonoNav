@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=cornerHarrisVid
+CMAKE_PROJECT_NAME:STATIC=surfFeatureDetectorVideo
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -197,6 +197,30 @@ firstProgram_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
 
 //Value Computed by CMake
 firstProgram_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+sobelDerrivVid_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+sobelDerrivVid_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+surfFeatureDetectorVideo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+surfFeatureDetectorVideo_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+surfFeatureDetector_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+surfFeatureDetector_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+testFeatureDetectImg_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+testFeatureDetectImg_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
 
 
 ########################
