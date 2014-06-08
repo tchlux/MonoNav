@@ -3,6 +3,20 @@ LOOK AT ALL THE THINGS YOU CAN LEARN IN ONE SUMMER
 .mov to .avi Conversion Command:
   ffmpeg -i test.mov -sameq -vcodec msmpeg4v2 -acodec pcm_u8 test.avi
 
+Band-pass filter:
+  This is a window function for frequency filtering.  It passes
+  frequencies within a desired range and fails all others.
+
+Convolution (Computer Science):
+  In computer science, wikipedia says this is the process of mapping a
+  sequence of tuples to a tuple of squences.  In example
+  (a1,a2,a3) (b1,b2,b3) (c1,c2,c3) -> (a1,b1,c1) (a2,b2,c2) (a3,b3,c3)
+
+Convolution (Mathematics):
+  Combines two fucntions f(x) and g(x) to produce a third function
+  h(x) whose values are given by the area of overlap (of f and g) as a
+  function of the amount one function (either f or g) is translated.
+
 Corner Strength:
   Measured by looking at the smallest of all SSD for a given patch in
   the Moravec corner detection algorithm. If this SMALLEST SSD is of
@@ -16,6 +30,9 @@ Delaunay Triangulation:
   points. Under the assumption that the set being analyzed is already
   triangulated.
 
+Difference of Gaussians:
+  
+
 Fourier Transform:
   The mathematical transformation of a signal between the time and
   frequency domains. Its foundation lies on the fact that any
@@ -26,6 +43,9 @@ Fourier Transform:
   different data set, allowing for all modern day radio wave
   communications. This is used in image analysis across rows and
   columns, but I am not sure why that can be relevant.
+
+Gaussian Function:
+  Defined by f(x) = a*exp( -(x-b)^2 / 2c^2 ) + d
 
 Haar-like Features:
   Are used to refer to features made up by adjacent rectangular
@@ -46,7 +66,8 @@ Hann Function:
   This also relates to Fourier transforms.
 
 Integral Image (Summed Area Table):
-  A data structure and algorithm used 
+  A data structure and algorithm used to generate the sum of values in
+  a rectangular subset grid.
 
 Isotropic:
   Being uniform in all orientations, such as a sphere.

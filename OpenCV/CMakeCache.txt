@@ -169,12 +169,6 @@ OpenCV_LIB_DIR_DBG:PATH=
 OpenCV_LIB_DIR_OPT:PATH=
 
 //Value Computed by CMake
-bgfg_gmg_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-bgfg_gmg_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
 cornerHarrisDemo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
 
 //Value Computed by CMake
