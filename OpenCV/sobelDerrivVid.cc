@@ -59,7 +59,7 @@ int main( int argc, char** argv )
   Size origImgSize = origImg.size();
   int xRangeCenter = origImgSize.width  / 2;
   int yRangeCenter = origImgSize.height / 2;
-  int rangeSize = (origImgSize.width + origImgSize.height) / 16;
+  int rangeSize = (origImgSize.width + origImgSize.height) / 32;
   createTrackbar( "X Center: ", TRACKBAR_WINDOW, &xRangeCenter, 
 		  origImgSize.width, dummy );
   createTrackbar( "Y Center: ", TRACKBAR_WINDOW, &yRangeCenter, 
@@ -100,10 +100,6 @@ void sobelDerriv( Mat & origImg, int &xRangeCenter, int &yRangeCenter,
   xHigh = xRangeCenter + rangeSize; yHigh = yRangeCenter + rangeSize;
   Range xRange(xLow, xHigh);
   Range yRange(yLow, yHigh);
-  std::cerr << "xLow: " << xLow << std::endl;
-  std::cerr << "xHigh: " << xHigh << std::endl;
-  std::cerr << "yLow: " << yLow << std::endl;
-  std::cerr << "yHigh: " << yHigh << std::endl;
   Mat extractedImage(origImg(yRange,xRange));
   Mat sobelDerrivX, sobelDerrivY;
 

@@ -63,6 +63,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cornerHarrisVid.dir/DependInfo.cmake"
   "CMakeFiles/displayVideo.dir/DependInfo.cmake"
   "CMakeFiles/firstProgram.dir/DependInfo.cmake"
+  "CMakeFiles/siftFeatureDetector.dir/DependInfo.cmake"
   "CMakeFiles/sobelDerrivVid.dir/DependInfo.cmake"
   "CMakeFiles/surfFeatureDetector.dir/DependInfo.cmake"
   "CMakeFiles/surfFeatureDetectorVideo.dir/DependInfo.cmake"

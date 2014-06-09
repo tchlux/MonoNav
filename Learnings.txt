@@ -31,7 +31,9 @@ Delaunay Triangulation:
   triangulated.
 
 Difference of Gaussians:
-  
+  Applying different Gaussian filters to an image and subtracting the
+  images from each other.  In greyscale this will highlight all sharp
+  changes in pixel intensity (or edges) in an image.
 
 Fourier Transform:
   The mathematical transformation of a signal between the time and
@@ -40,12 +42,27 @@ Fourier Transform:
   waves. The fourier transform in essence can be used to extract the
   mathematical components of a very complicated wave form. Once
   individual components are extracted, each one can represent some
-  different data set, allowing for all modern day radio wave
-  communications. This is used in image analysis across rows and
-  columns, but I am not sure why that can be relevant.
+  different data set. This is used in image analysis across rows and
+  columns, but I am not sure why that can be valuable data.
+
+Gaussian Filter:
+  A filter whose impulse response is a guassian function. An advantage
+  of using this is that it does a better job of grouping neighbors
+  than a step function.
 
 Gaussian Function:
-  Defined by f(x) = a*exp( -(x-b)^2 / 2c^2 ) + d
+  Defined by f(x) = a*exp( -(x-b)^2 / 2c^2 ) + d.  This is what is
+  used in statistics as a normal distribution and produces a 'bell
+  curve'.  Where: a is the height of the peak, b is the position of
+  the center of the peak, c (the standard deviation) controls the
+  width of the bell curve, and d is the value that the function
+  approaches for from the peak (often set to 0).
+
+Group Delay:
+  When signals are sent from one location to another (through air /
+  wires / etc.) each frequency signal is delayed by a different
+  amount, 'group delay' is the measure of time delay for the amplitude
+  envelopes of each component of a signal.
 
 Haar-like Features:
   Are used to refer to features made up by adjacent rectangular
@@ -64,6 +81,15 @@ Hann Function:
   A discrete window function that provides a linear combination of
   modulated rectangular windows. Window function is defined below.
   This also relates to Fourier transforms.
+
+Harris & Stephens Corner detection:
+  An improved upon Moravec corner detection that takes in account the
+  directional flow of regions of pixels.  A corner is valid if there
+  is a large variation in patches in all directions (Rather than the
+  average or a single direction).
+
+Hough Transform:
+  Creating a linear represenation (approximate) of a set of points.
 
 Integral Image (Summed Area Table):
   A data structure and algorithm used to generate the sum of values in

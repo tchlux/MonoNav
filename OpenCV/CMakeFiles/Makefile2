@@ -43,6 +43,9 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+
 # The top-level source directory on which CMake was run.
 CMAKE_SOURCE_DIR = /home/thomas/MonoNav/OpenCV
 
@@ -190,13 +193,48 @@ clean: CMakeFiles/firstProgram.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/siftFeatureDetector.dir
+
+# All Build rule for target.
+CMakeFiles/siftFeatureDetector.dir/all:
+	$(MAKE) -f CMakeFiles/siftFeatureDetector.dir/build.make CMakeFiles/siftFeatureDetector.dir/depend
+	$(MAKE) -f CMakeFiles/siftFeatureDetector.dir/build.make CMakeFiles/siftFeatureDetector.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  5
+	@echo "Built target siftFeatureDetector"
+.PHONY : CMakeFiles/siftFeatureDetector.dir/all
+
+# Include target in all.
+all: CMakeFiles/siftFeatureDetector.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/siftFeatureDetector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/siftFeatureDetector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/MonoNav/OpenCV/CMakeFiles 0
+.PHONY : CMakeFiles/siftFeatureDetector.dir/rule
+
+# Convenience name for target.
+siftFeatureDetector: CMakeFiles/siftFeatureDetector.dir/rule
+.PHONY : siftFeatureDetector
+
+# clean rule for target.
+CMakeFiles/siftFeatureDetector.dir/clean:
+	$(MAKE) -f CMakeFiles/siftFeatureDetector.dir/build.make CMakeFiles/siftFeatureDetector.dir/clean
+.PHONY : CMakeFiles/siftFeatureDetector.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/siftFeatureDetector.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/sobelDerrivVid.dir
 
 # All Build rule for target.
 CMakeFiles/sobelDerrivVid.dir/all:
 	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/depend
 	$(MAKE) -f CMakeFiles/sobelDerrivVid.dir/build.make CMakeFiles/sobelDerrivVid.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  6
 	@echo "Built target sobelDerrivVid"
 .PHONY : CMakeFiles/sobelDerrivVid.dir/all
 
@@ -231,7 +269,7 @@ clean: CMakeFiles/sobelDerrivVid.dir/clean
 CMakeFiles/surfFeatureDetector.dir/all:
 	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/depend
 	$(MAKE) -f CMakeFiles/surfFeatureDetector.dir/build.make CMakeFiles/surfFeatureDetector.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  7
 	@echo "Built target surfFeatureDetector"
 .PHONY : CMakeFiles/surfFeatureDetector.dir/all
 
@@ -266,7 +304,7 @@ clean: CMakeFiles/surfFeatureDetector.dir/clean
 CMakeFiles/surfFeatureDetectorVideo.dir/all:
 	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/depend
 	$(MAKE) -f CMakeFiles/surfFeatureDetectorVideo.dir/build.make CMakeFiles/surfFeatureDetectorVideo.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  8
 	@echo "Built target surfFeatureDetectorVideo"
 .PHONY : CMakeFiles/surfFeatureDetectorVideo.dir/all
 
@@ -301,7 +339,7 @@ clean: CMakeFiles/surfFeatureDetectorVideo.dir/clean
 CMakeFiles/testFeatureDetectImg.dir/all:
 	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/depend
 	$(MAKE) -f CMakeFiles/testFeatureDetectImg.dir/build.make CMakeFiles/testFeatureDetectImg.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/MonoNav/OpenCV/CMakeFiles  9
 	@echo "Built target testFeatureDetectImg"
 .PHONY : CMakeFiles/testFeatureDetectImg.dir/all
 

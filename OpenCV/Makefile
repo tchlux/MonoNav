@@ -35,6 +35,9 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+
 # The top-level source directory on which CMake was run.
 CMAKE_SOURCE_DIR = /home/thomas/MonoNav/OpenCV
 
@@ -46,8 +49,8 @@ CMAKE_BINARY_DIR = /home/thomas/MonoNav/OpenCV
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -146,6 +149,19 @@ firstProgram: cmake_check_build_system
 firstProgram/fast:
 	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/build
 .PHONY : firstProgram/fast
+
+#=============================================================================
+# Target rules for targets named siftFeatureDetector
+
+# Build rule for target.
+siftFeatureDetector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 siftFeatureDetector
+.PHONY : siftFeatureDetector
+
+# fast build rule for target.
+siftFeatureDetector/fast:
+	$(MAKE) -f CMakeFiles/siftFeatureDetector.dir/build.make CMakeFiles/siftFeatureDetector.dir/build
+.PHONY : siftFeatureDetector/fast
 
 #=============================================================================
 # Target rules for targets named sobelDerrivVid
@@ -295,6 +311,30 @@ firstProgram.cc.s:
 	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/firstProgram.cc.s
 .PHONY : firstProgram.cc.s
 
+siftFeatureDetector.o: siftFeatureDetector.cc.o
+.PHONY : siftFeatureDetector.o
+
+# target to build an object file
+siftFeatureDetector.cc.o:
+	$(MAKE) -f CMakeFiles/siftFeatureDetector.dir/build.make CMakeFiles/siftFeatureDetector.dir/siftFeatureDetector.cc.o
+.PHONY : siftFeatureDetector.cc.o
+
+siftFeatureDetector.i: siftFeatureDetector.cc.i
+.PHONY : siftFeatureDetector.i
+
+# target to preprocess a source file
+siftFeatureDetector.cc.i:
+	$(MAKE) -f CMakeFiles/siftFeatureDetector.dir/build.make CMakeFiles/siftFeatureDetector.dir/siftFeatureDetector.cc.i
+.PHONY : siftFeatureDetector.cc.i
+
+siftFeatureDetector.s: siftFeatureDetector.cc.s
+.PHONY : siftFeatureDetector.s
+
+# target to generate assembly for a file
+siftFeatureDetector.cc.s:
+	$(MAKE) -f CMakeFiles/siftFeatureDetector.dir/build.make CMakeFiles/siftFeatureDetector.dir/siftFeatureDetector.cc.s
+.PHONY : siftFeatureDetector.cc.s
+
 sobelDerrivVid.o: sobelDerrivVid.cc.o
 .PHONY : sobelDerrivVid.o
 
@@ -403,6 +443,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... firstProgram"
 	@echo "... rebuild_cache"
+	@echo "... siftFeatureDetector"
 	@echo "... sobelDerrivVid"
 	@echo "... surfFeatureDetector"
 	@echo "... surfFeatureDetectorVideo"
@@ -419,6 +460,9 @@ help:
 	@echo "... firstProgram.o"
 	@echo "... firstProgram.i"
 	@echo "... firstProgram.s"
+	@echo "... siftFeatureDetector.o"
+	@echo "... siftFeatureDetector.i"
+	@echo "... siftFeatureDetector.s"
 	@echo "... sobelDerrivVid.o"
 	@echo "... sobelDerrivVid.i"
 	@echo "... sobelDerrivVid.s"
