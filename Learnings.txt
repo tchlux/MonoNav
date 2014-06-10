@@ -171,12 +171,11 @@ Window Function:
   window".
 
 
-
-
 ______________________________________________________________________
 Links:
 http://technology.nasa.gov/
-  NASA tech project information
+
+NASA tech project information
 
 http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-1.html
   Bash script tutorial that Randall found
