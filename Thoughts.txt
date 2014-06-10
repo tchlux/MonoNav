@@ -1,0 +1,32 @@
+How to move forward: Clear your thoughts.
+
+I feel like edge detection is more useful for shape recognition and
+keypoint detection is more useful for general purpose object
+recognition.  What I'm getting at is that keypoint detection is only
+valuable if you have a database to cross check all your images with
+and the camera is trained.  I suppose that is the best way to go for
+general purpose recognition but I feel like you can creat a functional
+navigation system that is simple and doesn't require a database if you
+just identify the boundaries and velocities of objects in your viewing
+frame.  The question is, can I find an algorithm that has already been
+made that can create bounding shapes for objects in a video feed.  If
+it can identify the shape of objects through images successfully then
+it can classify regions of the image as moving.  It would need to keep
+an active record of the shapes it has seen in the last frames.  The
+key is edge detection.  
+
+Question: Why is keypoint detection so useful? The field has found a
+ton of uses for it?
+
+Project: Look for the best way to create the bounding volume of a
+shape in an image. Are trapeziods the best things to use? I'd say that
+is the most general case, triangles would work well too, just limit to
+a minimum size.
+
+unsupervised vision algorithms
+
+IDEAS FOR PROJECT NAMES:
+
+Bounded Feature Recognition and Movement Classification
+
+Random Sample Object Classification
