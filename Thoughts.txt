@@ -1,5 +1,6 @@
 How to move forward: Clear your thoughts.
 
+
 I feel like edge detection is more useful for shape recognition and
 keypoint detection is more useful for general purpose object
 recognition.  What I'm getting at is that keypoint detection is only
@@ -30,3 +31,13 @@ IDEAS FOR PROJECT NAMES:
 Bounded Feature Recognition and Movement Classification
 
 Random Sample Object Classification
+
+
+-> Now, I need to decide if I'm storing maps or not?  I spoke
+   extensively about storing relative maps and then I switched to just
+   navigating. Which is better?  I need to read papers to find out
+   what has been done in the field of strictly navigating using a
+   single camera. What I want to produce is a very simple algorithm
+   for telling a robot which dirction it should go on a 2 dimensional
+   plane to avoid hitting obstacles in it's path of travel.  It should
+   be an algorithm that tends away from areas of high traffic.
