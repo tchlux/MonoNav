@@ -151,6 +151,19 @@ firstProgram/fast:
 .PHONY : firstProgram/fast
 
 #=============================================================================
+# Target rules for targets named matTest
+
+# Build rule for target.
+matTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matTest
+.PHONY : matTest
+
+# fast build rule for target.
+matTest/fast:
+	$(MAKE) -f CMakeFiles/matTest.dir/build.make CMakeFiles/matTest.dir/build
+.PHONY : matTest/fast
+
+#=============================================================================
 # Target rules for targets named siftFeatureDetector
 
 # Build rule for target.
@@ -311,6 +324,30 @@ firstProgram.cc.s:
 	$(MAKE) -f CMakeFiles/firstProgram.dir/build.make CMakeFiles/firstProgram.dir/firstProgram.cc.s
 .PHONY : firstProgram.cc.s
 
+matTest.o: matTest.cc.o
+.PHONY : matTest.o
+
+# target to build an object file
+matTest.cc.o:
+	$(MAKE) -f CMakeFiles/matTest.dir/build.make CMakeFiles/matTest.dir/matTest.cc.o
+.PHONY : matTest.cc.o
+
+matTest.i: matTest.cc.i
+.PHONY : matTest.i
+
+# target to preprocess a source file
+matTest.cc.i:
+	$(MAKE) -f CMakeFiles/matTest.dir/build.make CMakeFiles/matTest.dir/matTest.cc.i
+.PHONY : matTest.cc.i
+
+matTest.s: matTest.cc.s
+.PHONY : matTest.s
+
+# target to generate assembly for a file
+matTest.cc.s:
+	$(MAKE) -f CMakeFiles/matTest.dir/build.make CMakeFiles/matTest.dir/matTest.cc.s
+.PHONY : matTest.cc.s
+
 siftFeatureDetector.o: siftFeatureDetector.cc.o
 .PHONY : siftFeatureDetector.o
 
@@ -442,6 +479,7 @@ help:
 	@echo "... displayVideo"
 	@echo "... edit_cache"
 	@echo "... firstProgram"
+	@echo "... matTest"
 	@echo "... rebuild_cache"
 	@echo "... siftFeatureDetector"
 	@echo "... sobelDerrivVid"
@@ -460,6 +498,9 @@ help:
 	@echo "... firstProgram.o"
 	@echo "... firstProgram.i"
 	@echo "... firstProgram.s"
+	@echo "... matTest.o"
+	@echo "... matTest.i"
+	@echo "... matTest.s"
 	@echo "... siftFeatureDetector.o"
 	@echo "... siftFeatureDetector.i"
 	@echo "... siftFeatureDetector.s"

@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=siftFeatureDetector
+CMAKE_PROJECT_NAME:STATIC=matTest
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -191,6 +191,12 @@ firstProgram_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
 
 //Value Computed by CMake
 firstProgram_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+matTest_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+
+//Value Computed by CMake
+matTest_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
 
 //Value Computed by CMake
 siftFeatureDetector_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV

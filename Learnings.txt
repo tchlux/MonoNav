@@ -43,7 +43,14 @@ Fourier Transform:
   mathematical components of a very complicated wave form. Once
   individual components are extracted, each one can represent some
   different data set. This is used in image analysis across rows and
-  columns, but I am not sure why that can be valuable data.
+  columns, but I am not sure why that is / can be valuable data.
+
+Fuzzy Inference System:
+  From my current understanding (finding the original research paper
+  and reading the introduction) this is system of statistical
+  correlation and (inter/extra)polation with a data set.  It is the
+  process of understanding that as an observer of the physical world,
+  the clutter can be thought of as a hidden markov chain.
 
 Gaussian Filter:
   A filter whose impulse response is a guassian function. An advantage
@@ -98,6 +105,12 @@ Integral Image (Summed Area Table):
 Isotropic:
   Being uniform in all orientations, such as a sphere.
 
+Largest Passage Algorithm:   NO RESEARCH PAPER FOUND
+  No papers found.  I will assume that it scans the space in the path
+  of travel with consecutive circles of increasing radius and finds
+  the direction (angle) with the lowest circumference-collision
+  frequency.
+
 Lucas Kanade method:
   A widely used differential method for estimating optical flow. It
   assumes that the flow in the neighborhood of a pixel is constant. 
@@ -105,16 +118,21 @@ Lucas Kanade method:
   therefore cannot be used to focus on the interior of uniform
   regions of an image.
 
+Mamdani Fuzzy Inference System:
+
+Mamdani Fuzzy Inference System (trained offline with 
+      Neuro Fuzzy Function approximation):
+
 Markov Property:
   When the conditional probability distribution of future conditions
   only depends on the present state, not on the events proceeding to
   it. (Each state only depends on one state prior)
 
 Markov Models:
-  System state: ---Fully Observable-----------Partially Observable---
+  System state: ___Fully Observable___________Partially Observable___
    Autonomous  |    Markov Chain          |    Hidden Markov Chain   |
    Controlled  | Markov Decision Process  |         PO MDP           |
-                -----------------------------------------------------
+               |__________________________|__________________________|
 
 Moravec corner detection algorithm:
   Generates overlapping patches of pixels across an image and then
@@ -134,8 +152,14 @@ Orthonormality:
   Two vectors are said to be 'orthonormal' when they are orthogonal
   (at right angles) to each other and also of unit length (normalized)
 
+Point Cloud Based Autonomous Navigation:
+  
+
 Scale Invariant Feature Transform (SIFT) 1999:
   Used to detect and describe local features in images.
+
+Sensor Data Fusion based Algorithm:
+  
 
 Sobel Operator:
   Sometimes called the Sobel Filter, generates an image that

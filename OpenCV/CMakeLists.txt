@@ -40,3 +40,7 @@ target_link_libraries( surfFeatureDetectorVideo ${OpenCV_LIBS} )
 project( siftFeatureDetector )
 add_executable( siftFeatureDetector siftFeatureDetector.cc )
 target_link_libraries( siftFeatureDetector ${OpenCV_LIBS} )
+
+project( matTest )
+add_executable( matTest matTest.cc )
+target_link_libraries( matTest ${OpenCV_LIBS} )

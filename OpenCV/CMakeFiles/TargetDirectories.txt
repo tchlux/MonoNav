@@ -2,6 +2,7 @@
 /home/thomas/MonoNav/OpenCV/CMakeFiles/cornerHarrisVid.dir
 /home/thomas/MonoNav/OpenCV/CMakeFiles/displayVideo.dir
 /home/thomas/MonoNav/OpenCV/CMakeFiles/firstProgram.dir
+/home/thomas/MonoNav/OpenCV/CMakeFiles/matTest.dir
 /home/thomas/MonoNav/OpenCV/CMakeFiles/siftFeatureDetector.dir
 /home/thomas/MonoNav/OpenCV/CMakeFiles/sobelDerrivVid.dir
 /home/thomas/MonoNav/OpenCV/CMakeFiles/surfFeatureDetector.dir
