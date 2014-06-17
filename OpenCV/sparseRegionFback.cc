@@ -31,11 +31,6 @@ using namespace cv;
 void callbackDummy(int,void*){}
 
 // Defined below main
-void updateUserDisplay(Mat &testImg, Size &imgSize, 
-		       int xCenter, int yCenter,
-		       int width, int height, int pixelSpacing);
-
-// Defined below main
 void verify(Size &imgSize, int &xCenter, int &yCenter,
 	    int &width, int &height, int &pixelSpacing);
 
@@ -43,43 +38,48 @@ void verify(Size &imgSize, int &xCenter, int &yCenter,
 bool userInputHandle(int &xCenter, int &yCenter, 
 		     int &width, int &height, int &pixelSpacing);
 
+void drawOptFlowMap(const Mat& flow, Mat& cflowmap, int step,
+                    double scale, const Scalar& color);
+
 // This program tests/demonstrates extracting regions of an image
 int main(int argc, char *argv[]){
-  if (argc != 2){
-    std::cerr << "usage ./prog <img>" << std::endl;
-    return -1;
-  }
-  Mat  testImg  = imread(argv[1]);
-  Size imgSize  = testImg.size();
+  VideoCapture vid(0);
+  if (argc == 2)
+    vid.open(argv[1]);
+
+  Mat  origImg;
+  vid >> origImg;
+  Size imgSize  = origImg.size();
   int  xCenter	= imgSize.width	  / 2; // Default to center
   int  yCenter	= imgSize.height  / 2;
-  int  width	= xCenter; // Default to half actual image width
-  int  height	= yCenter; // Default to half actual image height
-  int  pixelSpacing = 1;   // Adjacent pixels
+  int  width	= imgSize.width;  // Default to full width
+  int  height	= imgSize.height; // Default to full height
+  int  pixelSpacing = 3;   // Adjacent pixels
 
   namedWindow(SETTINGS_PANEL);
-  createTrackbar("xCenter: ",	    SETTINGS_PANEL, &xCenter,      imgSize.width,     callbackDummy);
-  createTrackbar("yCenter: ",	    SETTINGS_PANEL, &yCenter,      imgSize.height,    callbackDummy);
-  createTrackbar("width:   ",	    SETTINGS_PANEL, &width,        imgSize.width,     callbackDummy);
-  createTrackbar("height:  ",	    SETTINGS_PANEL, &height,       imgSize.height,    callbackDummy);
   createTrackbar("pixelSpacing:  ", SETTINGS_PANEL, &pixelSpacing, MAX_PIXEL_SPACING, callbackDummy);
-
-  // The waitKeys allow the windows to initialize before creating a
-  //  new window, this ensures they do not stack on top of each other
-  waitKey(ONE_SECOND_MS / 3);   
-  namedWindow(IMAGE_WITH_REGION_RECTANGLE);
-  imshow(IMAGE_WITH_REGION_RECTANGLE, testImg);
 
   waitKey(ONE_SECOND_MS / 3);
   namedWindow(REGION_IMAGE, WINDOW_NORMAL);
 
+  Mat prevgray, gray, flow, cflow;
   // Main loop for viewing the image, uses the boolean returned by
   // "userInputHandle" to determine if the program should exit
   while (!(userInputHandle(xCenter, yCenter, width ,height ,
 			   pixelSpacing))){
-    updateUserDisplay(testImg, imgSize, 
-		      xCenter, yCenter, 
-		      width, height, pixelSpacing);
+    vid >> origImg;
+    verify(imgSize, xCenter, yCenter, width, height, pixelSpacing);
+    Mat choppedRegion = sparseRegion(origImg, xCenter, yCenter, 
+				     width, height, pixelSpacing);
+    cvtColor(choppedRegion, gray, CV_BGR2GRAY);
+    if( prevgray.data ){
+      calcOpticalFlowFarneback(prevgray, gray, flow, 
+			       0.5, 3, 15, 3, 5, 1.2, 0);
+      cvtColor(prevgray, cflow, CV_GRAY2BGR);
+      drawOptFlowMap(flow, cflow, 5, 1.5, CV_RGB(0, 255, 0));
+      imshow(REGION_IMAGE, cflow);
+    }
+    std::swap(prevgray, gray);
   }
   return 0;
 }
@@ -99,11 +99,6 @@ bool userInputHandle(int &xCenter, int &yCenter,
 		     int &width, int &height, int &pixelSpacing){
   bool exitProgram(false);
   int keyPress(waitKey(WAIT_TIME_MS));
-
-  // TODO:  HACK I'm not sure why this value suddenly appeared
-  if (keyPress != -1)
-    keyPress -= 1048576;
-
   if (keyPress == NO_ACTION);
   else if (keyPress == A)
     xCenter -= MOVE_SPEED_PIXELS;
@@ -134,72 +129,44 @@ bool userInputHandle(int &xCenter, int &yCenter,
   return(exitProgram);
 }
 
-// Pre:  testImg defined, imgSize defined
-//       xCenter + width /2 < testImg.width
-//       yCenter + height/2 < testImg.height
-//       0 <= width  <= testImg.width /2
-//       0 <= height <= testImg.height/2
-//       0 <= pixelSpacing < min(width-1, height-1)
-// Post: The user is displayed a selected region of the original image
-void updateUserDisplay(Mat &testImg, Size &imgSize, 
-		       int xCenter, int yCenter,
-		       int width, int height, int pixelSpacing){
-  verify(imgSize, xCenter, yCenter, width, height, pixelSpacing);
-  // Range bounds
-  int minY = yCenter-height/2;  int maxY = yCenter+height/2;
-  int minX = xCenter-width /2;  int maxX = xCenter+width /2;
-  // Range definitions
-  Range rowRange(minY, maxY);
-  Range colRange(minX, maxX);
-  // Box Color
-  Scalar color(BOX_COLOR);
-
-  //  Get sub-section of image ("region") scaled
-  Mat region(sparseRegion(testImg, xCenter, yCenter, 
-			  width, height, pixelSpacing));
-  //         ^^ Function defined in "sparseRegion.cc"
-
-  // Deep copy the original image and add a rectangle demonstrating
-  //  the current region bounds. Deep copy required to draw rectangle.
-  Mat toDraw(testImg.clone());
-  // WARNING:  This operation changes the runtime performace of this
-  //           program.  Remove the lines immediately above and below
-  //           this warning to more accurately test the performance of
-  //           sparse region extraction.
-  rectangle(toDraw, Point(minX,minY), Point(maxX,maxY), color);
-
-  // Display the final pretty pictures
-  imshow(IMAGE_WITH_REGION_RECTANGLE, toDraw);
-  imshow(REGION_IMAGE, region);    
-}
-
 // Verifies the dimensions of the region the user requested, applies
 //   restrictions if necessary according to image size (imgSize)
 void verify(Size &imgSize, int &xCenter, int &yCenter,
 	    int &width, int &height, int &pixelSpacing){
   // Cover zero cases (can't be avoided with OpenCV trackbars)
-  if (xCenter <= 0)
+  if (xCenter < 1)
     xCenter = 1;
-  if (yCenter <= 0)
+  if (yCenter < 1)
     yCenter = 1;
-  if (width <= 0)
+  if (width < 2)
     width = 2;
-  if (height <= 0)
+  if (height < 2)
     height = 2;
-  if (pixelSpacing <= 0)
+  if (pixelSpacing < 1)
     pixelSpacing = 1;
+  // Cover excessive spacing cases
+  if (width < pixelSpacing)
+    width = pixelSpacing;
+  if (height < pixelSpacing)
+    height = pixelSpacing;
   // Cover exceeded lower bounds
   if ((xCenter - width  / 2) < 0)
-    width  = 2 * xCenter;
+    xCenter = width  / 2;
   if ((yCenter - height / 2) < 0)
-    height = 2 * yCenter;
+    yCenter = height / 2;
   // Cover exceeded upper bounds
-  if (xCenter >= imgSize.width)
-    xCenter = imgSize.width - 1;
-  if (yCenter >= imgSize.height)
-    yCenter = imgSize.height - 1;
   if ((xCenter + width  / 2) >= imgSize.width)
-    width  = 2 * (imgSize.width  - xCenter);
+    xCenter = imgSize.width  - (width  / 2) - 1;
   if ((yCenter + height / 2) >= imgSize.height)
-    height = 2 * (imgSize.height - yCenter);
+    yCenter = imgSize.height - (height / 2) - 1;
+}
+
+void drawOptFlowMap(const Mat& flow, Mat& cflowmap, int step,
+                    double scale, const Scalar& color){
+  for(int y = 0; y < cflowmap.rows; y += step)
+    for(int x = 0; x < cflowmap.cols; x += step){
+      const Point2f& fxy = flow.at<Point2f>(y, x);
+      line(cflowmap, Point(x,y), 
+      	   Point(cvRound(x+fxy.x), cvRound(y+fxy.y)), color);
+    }
 }

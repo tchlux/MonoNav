@@ -44,3 +44,28 @@ target_link_libraries( siftFeatureDetector ${OpenCV_LIBS} )
 project( matTest )
 add_executable( matTest matTest.cc )
 target_link_libraries( matTest ${OpenCV_LIBS} )
+
+project( sparseRegionVid )
+add_executable( sparseRegionVid sparseRegionVid.cc )
+target_link_libraries( sparseRegionVid ${OpenCV_LIBS} )
+
+project( lkdemo )
+add_executable( lkdemo lkdemo.cpp )
+target_link_libraries( lkdemo ${OpenCV_LIBS} )
+
+project( mylkDemo )
+add_executable( mylkDemo mylkDemo.cc )
+target_link_libraries( mylkDemo ${OpenCV_LIBS} )
+
+project( fback )
+add_executable( fback fback.cc )
+target_link_libraries( fback ${OpenCV_LIBS} )
+
+project( myfback )
+add_executable( myfback myfback.cc )
+target_link_libraries( myfback ${OpenCV_LIBS} )
+
+project( sparseRegionFback )
+add_executable( sparseRegionFback sparseRegionFback.cc )
+target_link_libraries( sparseRegionFback ${OpenCV_LIBS} )
+

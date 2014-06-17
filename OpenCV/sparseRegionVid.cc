@@ -46,10 +46,12 @@ bool userInputHandle(int &xCenter, int &yCenter,
 // This program tests/demonstrates extracting regions of an image
 int main(int argc, char *argv[]){
   if (argc != 2){
-    std::cerr << "usage ./prog <img>" << std::endl;
+    std::cerr << "usage ./prog video.avi" << std::endl;
     return -1;
   }
-  Mat  testImg  = imread(argv[1]);
+  VideoCapture vid(argv[1]);
+  Mat  testImg;
+  vid >> testImg;
   Size imgSize  = testImg.size();
   int  xCenter	= imgSize.width	  / 2; // Default to center
   int  yCenter	= imgSize.height  / 2;
@@ -77,9 +79,13 @@ int main(int argc, char *argv[]){
   // "userInputHandle" to determine if the program should exit
   while (!(userInputHandle(xCenter, yCenter, width ,height ,
 			   pixelSpacing))){
-    updateUserDisplay(testImg, imgSize, 
-		      xCenter, yCenter, 
-		      width, height, pixelSpacing);
+    vid >> testImg;
+    if (testImg.total() > 0)
+      updateUserDisplay(testImg, imgSize, 
+			xCenter, yCenter, 
+			width, height, pixelSpacing);
+    else
+      vid.open(argv[1]);
   }
   return 0;
 }
@@ -99,11 +105,6 @@ bool userInputHandle(int &xCenter, int &yCenter,
 		     int &width, int &height, int &pixelSpacing){
   bool exitProgram(false);
   int keyPress(waitKey(WAIT_TIME_MS));
-
-  // TODO:  HACK I'm not sure why this value suddenly appeared
-  if (keyPress != -1)
-    keyPress -= 1048576;
-
   if (keyPress == NO_ACTION);
   else if (keyPress == A)
     xCenter -= MOVE_SPEED_PIXELS;
@@ -155,9 +156,9 @@ void updateUserDisplay(Mat &testImg, Size &imgSize,
   Scalar color(BOX_COLOR);
 
   //  Get sub-section of image ("region") scaled
-  Mat region(sparseRegion(testImg, xCenter, yCenter, 
-			  width, height, pixelSpacing));
-  //         ^^ Function defined in "sparseRegion.cc"
+  Mat region = sparseRegion(testImg, xCenter, yCenter, 
+			    width, height, pixelSpacing);
+  //           ^^ Function defined in "sparseRegion.cc"
 
   // Deep copy the original image and add a rectangle demonstrating
   //  the current region bounds. Deep copy required to draw rectangle.
@@ -178,28 +179,29 @@ void updateUserDisplay(Mat &testImg, Size &imgSize,
 void verify(Size &imgSize, int &xCenter, int &yCenter,
 	    int &width, int &height, int &pixelSpacing){
   // Cover zero cases (can't be avoided with OpenCV trackbars)
-  if (xCenter <= 0)
+  if (xCenter < 1)
     xCenter = 1;
-  if (yCenter <= 0)
+  if (yCenter < 1)
     yCenter = 1;
-  if (width <= 0)
+  if (width < 2)
     width = 2;
-  if (height <= 0)
+  if (height < 2)
     height = 2;
-  if (pixelSpacing <= 0)
+  if (pixelSpacing < 1)
     pixelSpacing = 1;
+  // Cover excessive spacing cases
+  if (width < pixelSpacing)
+    width = pixelSpacing;
+  if (height < pixelSpacing)
+    height = pixelSpacing;
   // Cover exceeded lower bounds
   if ((xCenter - width  / 2) < 0)
-    width  = 2 * xCenter;
+    xCenter = width  / 2;
   if ((yCenter - height / 2) < 0)
-    height = 2 * yCenter;
+    yCenter = height / 2;
   // Cover exceeded upper bounds
-  if (xCenter >= imgSize.width)
-    xCenter = imgSize.width - 1;
-  if (yCenter >= imgSize.height)
-    yCenter = imgSize.height - 1;
   if ((xCenter + width  / 2) >= imgSize.width)
-    width  = 2 * (imgSize.width  - xCenter);
+    xCenter = imgSize.width  - (width  / 2) - 1;
   if ((yCenter + height / 2) >= imgSize.height)
-    height = 2 * (imgSize.height - yCenter);
+    yCenter = imgSize.height - (height / 2) - 1;
 }
