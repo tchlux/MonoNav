@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=sparseRegionFback
+CMAKE_PROJECT_NAME:STATIC=compareAlgVid
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -169,106 +169,10 @@ OpenCV_LIB_DIR_DBG:PATH=
 OpenCV_LIB_DIR_OPT:PATH=
 
 //Value Computed by CMake
-cornerHarrisDemo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+compareAlgVid_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
 
 //Value Computed by CMake
-cornerHarrisDemo_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-cornerHarrisVid_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-cornerHarrisVid_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-displayVideo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-displayVideo_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-fback_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-fback_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-firstProgram_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-firstProgram_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-lkdemo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-lkdemo_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-matTest_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-matTest_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-myfback_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-myfback_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-mylkDemo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-mylkDemo_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-siftFeatureDetector_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-siftFeatureDetector_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sobelDerrivVid_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sobelDerrivVid_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sparseRegionFback_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sparseRegionFback_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sparseRegionVid_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sparseRegionVid_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sparseRegion_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-sparseRegion_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-surfFeatureDetectorVideo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-surfFeatureDetectorVideo_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-surfFeatureDetector_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-surfFeatureDetector_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-testFeatureDetectImg_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV
-
-//Value Computed by CMake
-testFeatureDetectImg_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
+compareAlgVid_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV
 
 
 ########################

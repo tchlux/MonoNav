@@ -1,13 +1,45 @@
 #include <opencv2/opencv.hpp> // Defines the namespace "cv" and all
                               //  the cv functions and types used
 
-// Pre:  same pre-requisites as updateUserDisplay
+int  g_sr_xCenter	= imgSize.width	  / 2; // Default to center
+int  g_sr_yCenter	= imgSize.height  / 2;
+int  g_sr_width 	= imgSize.width;  // Default to full width
+int  g_sr_height	= imgSize.height; // Default to full height
+int  g_sr_pixelSpacing  = 3;              // Adjacent pixels
+
+// Pre:  fullImg defined, pixelSpacing < (fullImg width or height)
+// Post: Extracts out a sparse data-set from the image provided,
+//       dropping 'pixelSpacing' pixels for every 1 pixel grabbed.
+cv::Mat sparseRegion(cv::Mat & fullImg, int &pixelSpacing);
+
+// Pre:  fullImg defined
+//       xCenter + width /2 < fullImg.width
+//       yCenter + height/2 < fullImg.height
+//       0 <= width  <= fullImg.width /2
+//       0 <= height <= fullImg.height/2
+//       0 <= pixelSpacing < min(width-1, height-1)
 // Post: Extracts out a sparse data-set from the image provided
 cv::Mat sparseRegion(cv::Mat &fullImg, int &xCenter, int &yCenter, 
 		 int &width, int &height, int &pixelSpacing);
-// ^^ Place at top of file if a header is necessary.
 
-// Pre:  same pre-requisites as updateUserDisplay
+// Pre:  fullImg defined, pixelSpacing < (fullImg width or height)
+// Post: Extracts out a sparse data-set from the image provided,
+//       dropping 'pixelSpacing' pixels for every 1 pixel grabbed.
+cv::Mat sparseRegion(cv::Mat & fullImg, int &pixelSpacing){
+  cv::Size imgSize  = fullImg.size();
+  int  xCenter	= imgSize.width	  / 2; // Default to center
+  int  yCenter	= imgSize.height  / 2;
+  int  width	= imgSize.width;  // Default to full width
+  int  height	= imgSize.height; // Default to full height
+  return sparseRegion(fullImg, xCenter, yCenter, width, height, pixelSpacing);
+}
+
+// Pre:  fullImg defined
+//       xCenter + width /2 < fullImg.width
+//       yCenter + height/2 < fullImg.height
+//       0 <= width  <= fullImg.width /2
+//       0 <= height <= fullImg.height/2
+//       0 <= pixelSpacing < min(width-1, height-1)
 // Post: Extracts out a sparse data-set from the image provided
 cv::Mat sparseRegion(cv::Mat &fullImg, int &xCenter, int &yCenter, 
 		 int &width, int &height, int &pixelSpacing){

@@ -153,13 +153,11 @@ Orthonormality:
   (at right angles) to each other and also of unit length (normalized)
 
 Point Cloud Based Autonomous Navigation:
-  
 
 Scale Invariant Feature Transform (SIFT) 1999:
   Used to detect and describe local features in images.
 
-Sensor Data Fusion based Algorithm:
-  
+Sensor Data Fusion based Algorithm:  
 
 Sobel Operator:
   Sometimes called the Sobel Filter, generates an image that
@@ -194,6 +192,7 @@ Window Function:
   to find overlap between multiple functions, or a "view through the
   window".
 
+vision journal: ACM, IEEE - look at the titles to see if any are good
 
 ______________________________________________________________________
 Links:
