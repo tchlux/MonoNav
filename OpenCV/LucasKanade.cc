@@ -40,7 +40,7 @@ void drawTrackingPoints(cv::Mat &drawImg,
 //       displayed 
 void LucasKanade(cv::Mat &grayImg, cv::Mat &prevGrayImg){  
   cv::Mat drawImg;
-  cvtColor(grayImg, drawImg, CV_GRAY2BGR); 
+  cvtColor(prevGrayImg, drawImg, CV_GRAY2BGR); 
 
   if( g_lk_trackingPoints.size() < g_lk_minimumKeypoints ){
     goodFeaturesToTrack(grayImg, g_lk_trackingPoints, 

@@ -5,8 +5,8 @@
 #include "Farneback.cc"
 #include "LucasKanade.cc"
 #include "Sobel.cc"
-#include "SIFT.cc"
-#include "SURF.cc"
+//#include "SIFT.cc"
+//#include "SURF.cc"
 
 #define SETTINGS_PANEL "Adjust Panel"
 #define IMAGE_WITH_REGION_RECTANGLE "Original Image"
@@ -55,8 +55,14 @@ int main(int argc, char *argv[]){
   Mat  origImg;
   vid >> origImg;
   Size imgSize  = origImg.size();
+  int  xCenter	= imgSize.width	  / 2; // Default to center
+  int  yCenter	= imgSize.height  / 2;
+  int  width 	= imgSize.width;  // Default to full width
+  int  height	= imgSize.height; // Default to full height
+  int  pixelSpacing  = 3;              // Adjacent pixels
 
-  namedWindow(SETTINGS_PANEL, WINDOW_NORMAL);
+  //  namedWindow(SETTINGS_PANEL, WINDOW_NORMAL); //On HP
+  namedWindow(SETTINGS_PANEL, CV_WINDOW_NORMAL); //On Vaio
   createTrackbar("xCenter: ",	    SETTINGS_PANEL, &xCenter,      imgSize.width,     callbackDummy);
   createTrackbar("yCenter: ",	    SETTINGS_PANEL, &yCenter,      imgSize.height,    callbackDummy);
   createTrackbar("width:   ",	    SETTINGS_PANEL, &width,        imgSize.width,     callbackDummy);
@@ -64,11 +70,10 @@ int main(int argc, char *argv[]){
   createTrackbar("pixelSpacing:  ", SETTINGS_PANEL, &pixelSpacing, MAX_PIXEL_SPACING, callbackDummy);
 
   waitKey(ONE_SECOND_MS / 3);
-  namedWindow(FARNEBACK_WINDOW, WINDOW_NORMAL);
-  namedWindow(LK_WINDOW,        WINDOW_NORMAL);
-  namedWindow(SIFT_WINDOW,      WINDOW_NORMAL);
-  namedWindow(SURF_WINDOW,      WINDOW_NORMAL);
-
+  //  namedWindow(FARNEBACK_WINDOW, CV_WINDOW_NORMAL);
+  namedWindow(LK_WINDOW,        CV_WINDOW_NORMAL);
+  //  namedWindow(SIFT_WINDOW,      WINDOW_NORMAL);
+  //  namedWindow(SURF_WINDOW,      WINDOW_NORMAL);
   //  namedWindow(SOBEL_WINDOW,     WINDOW_NORMAL);
   Mat prevgray, gray, flow, cflow;
   vector<Point2f> points[2];
@@ -89,13 +94,11 @@ int main(int argc, char *argv[]){
     if (gray.size() != prevgray.size())
       gray.copyTo(prevgray);
 
-
-    sobelDerriv(gray, 1);
+    //    Farneback(gray, prevgray);
     LucasKanade(gray, prevgray);
-    Farneback(gray, prevgray);
-    siftDetector(choppedRegion);
-    surfDetector(choppedRegion);    
-
+    //    siftDetector(choppedRegion);
+    //    surfDetector(choppedRegion);    
+    //    sobelDerriv(gray, 1);
     std::swap(prevgray, gray);
   }
   return 0;
@@ -115,7 +118,7 @@ int main(int argc, char *argv[]){
 bool userInputHandle(int &xCenter, int &yCenter, 
 		     int &width, int &height, int &pixelSpacing){
   int keyPress(waitKey(WAIT_TIME_MS));
-  bool exitProgram(keyPress == 1048603);
+  bool exitProgram((keyPress == 1048603) || (keyPress == 27));
   return(exitProgram);
 }
 

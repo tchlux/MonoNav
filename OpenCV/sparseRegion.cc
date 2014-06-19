@@ -1,12 +1,6 @@
 #include <opencv2/opencv.hpp> // Defines the namespace "cv" and all
                               //  the cv functions and types used
 
-int  g_sr_xCenter	= imgSize.width	  / 2; // Default to center
-int  g_sr_yCenter	= imgSize.height  / 2;
-int  g_sr_width 	= imgSize.width;  // Default to full width
-int  g_sr_height	= imgSize.height; // Default to full height
-int  g_sr_pixelSpacing  = 3;              // Adjacent pixels
-
 // Pre:  fullImg defined, pixelSpacing < (fullImg width or height)
 // Post: Extracts out a sparse data-set from the image provided,
 //       dropping 'pixelSpacing' pixels for every 1 pixel grabbed.

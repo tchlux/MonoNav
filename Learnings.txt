@@ -95,6 +95,10 @@ Harris & Stephens Corner detection:
   is a large variation in patches in all directions (Rather than the
   average or a single direction).
 
+Hessian Matrix:
+  A square matrix of the second order partial derrivatives of a
+  function.
+
 Hough Transform:
   Creating a linear represenation (approximate) of a set of points.
 
