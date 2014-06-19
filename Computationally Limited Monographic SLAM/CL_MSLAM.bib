@@ -1,0 +1,57 @@
+@inproceedings{clemente2007mapping,
+  title={Mapping large loops with a single hand-held camera},
+  author={Clemente, Laura A and Davison, Andrew J and Reid, Ian and
+                  Neira, Jos{\'e} and Tard{\'o}s, Juan D},
+  booktitle={Robotics: Science and Systems},
+  year={2007}
+  note={This article talks about how to identify features in
+                  an individual frame of a camera, and then match
+                  relative change across the frame.  They had graphs
+                  with lines of best fit for each frame and then they
+                  matched lines of best fit for loop closure.  Didn't
+                  see the exact process though, they have some mock
+                  code in the back as well.}
+}
+
+@article{williams2009comparison,
+  title={A comparison of loop closing techniques in monocular SLAM},
+  author={Williams, Brian and Cummins, Mark and Neira, Jos{\'e} and
+                  Newman, Paul and Reid, Ian and Tard{\'o}s, Juan},
+  journal={Robotics and Autonomous Systems},
+  volume={57},
+  number={12},
+  pages={1188--1197},
+  year={2009},
+  publisher={Elsevier}
+  note={Haven't read the entire paper, but it has some sections that
+                  are valuable for the process of monocular SLAM.
+                  They talk about the points that are tracked from
+                  image to image and this will be a good lead into how
+                  to find those points.  That is a future direction
+                  for this paper. They have a decent amount to say
+                  about finding features in maps and learning
+                  features before performing the mapping. These
+                  feature detection algorithms sound promising.}
+}
+
+@article{wedekind2013using,
+  title={Using Generic Image Processing Operations to Detect a
+                  Calibration Grid},
+  author={Wedekind, J and Penders, J and Howarth, M and Lockwood, AJ
+                  and Sasada, K},
+  year={2013}
+  note={This paper goes through the process of detecting a calibration
+                  grid.  It starts by explaining the way that they
+                  find corners in an image.  Next they explain the
+                  linear algebra in the corner finding algorithm and
+                  how it can be shifted and translated to find corners
+                  with a higher accuracy.  Then they break down the
+                  new process that they are using to detect the
+                  calibration grid to show that it is more reliable.
+                  The last sections explaing the translation of the
+                  viewed calibration grid to the camera
+                  specifications.  The results are used to show that
+                  they have produced a reliable algorithm for camera
+                  callibration.  They do suggest future work that
+                  utilizes sub-pixel accuracy.}
+}

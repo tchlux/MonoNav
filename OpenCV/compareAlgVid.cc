@@ -5,8 +5,8 @@
 #include "Farneback.cc"
 #include "LucasKanade.cc"
 #include "Sobel.cc"
-//#include "SIFT.cc"
-//#include "SURF.cc"
+#include "SIFT.cc"
+#include "SURF.cc"
 
 #define SETTINGS_PANEL "Adjust Panel"
 #define IMAGE_WITH_REGION_RECTANGLE "Original Image"
@@ -70,10 +70,10 @@ int main(int argc, char *argv[]){
   createTrackbar("pixelSpacing:  ", SETTINGS_PANEL, &pixelSpacing, MAX_PIXEL_SPACING, callbackDummy);
 
   waitKey(ONE_SECOND_MS / 3);
-  //  namedWindow(FARNEBACK_WINDOW, CV_WINDOW_NORMAL);
+  namedWindow(FARNEBACK_WINDOW, CV_WINDOW_NORMAL);
   namedWindow(LK_WINDOW,        CV_WINDOW_NORMAL);
-  //  namedWindow(SIFT_WINDOW,      WINDOW_NORMAL);
-  //  namedWindow(SURF_WINDOW,      WINDOW_NORMAL);
+  namedWindow(SIFT_WINDOW,      WINDOW_NORMAL);
+  namedWindow(SURF_WINDOW,      WINDOW_NORMAL);
   //  namedWindow(SOBEL_WINDOW,     WINDOW_NORMAL);
   Mat prevgray, gray, flow, cflow;
   vector<Point2f> points[2];
@@ -94,10 +94,10 @@ int main(int argc, char *argv[]){
     if (gray.size() != prevgray.size())
       gray.copyTo(prevgray);
 
-    //    Farneback(gray, prevgray);
+    Farneback(gray, prevgray);
     LucasKanade(gray, prevgray);
-    //    siftDetector(choppedRegion);
-    //    surfDetector(choppedRegion);    
+    siftDetector(choppedRegion);
+    surfDetector(choppedRegion);    
     //    sobelDerriv(gray, 1);
     std::swap(prevgray, gray);
   }

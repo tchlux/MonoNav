@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp> // Defines the namespace "cv" and all
                               //  the cv functions and types used
-#include "opencv2/features2d/features2d.hpp" // On Vaio
-//#include "opencv2/nonfree/features2d.hpp" //On HP
+// #include "/usr/include/opencv2/features2d/features2d.hpp" // On Vaio
+#include "opencv2/nonfree/features2d.hpp" //On HP
 
 #define SIFT_WINDOW "SIFT"
 

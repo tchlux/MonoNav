@@ -1,5 +1,8 @@
 LOOK AT ALL THE THINGS YOU CAN LEARN IN ONE SUMMER
 
+Revert the local "head" of the git, essentially undoing all commits.
+  git reset --soft HEAD^
+
 .mov to .avi Conversion Command:
   ffmpeg -i test.mov -sameq -vcodec msmpeg4v2 -acodec pcm_u8 test.avi
 
