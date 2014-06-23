@@ -1,0 +1,148 @@
+%Most of this information was found in a thorough introduction to latex
+% at: http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/
+%This intro gets you into the typing and basics, but is more math focused
+%A good all around introduction is available at
+% http://www.andy-roberts.net/writing/latex
+% formatting instructions
+% http://www.andy-roberts.net/writing/latex/formatting
+% bibliography stuff
+% http://www.andy-roberts.net/writing/latex/bibliographies
+
+\documentclass[a4paper, 10pt]{article}
+%start off latex files with the specifications of the entire document,
+%[paper, font]{class type}
+
+\usepackage[margin=1in]{geometry} %for 1 inch margins on the edges
+\usepackage{setspace} %for double spacing
+
+\title{How-to-LaTeX}
+\author{Thomas Lux}
+\date{August 9th 2013}
+
+\begin{document}
+%use 'begin' to mark the beginning of a part of the paper, for the
+%main section you would begin 'document'
+\maketitle
+%maketitle puts the title information provided into the document
+
+\doublespacing %begin the double spacing
+
+
+\section{Starters with sections}
+``section'' is used to create headers in your document
+
+\subsection{Active characters}
+'subsection' starts a single nested section
+
+ The `active characters'  \# \$ \% \& \_ \{ \}
+have special purposes within LaTeX. Thus they cannot be produced in
+the final document simply by typing them directly. On the rare
+occasions when one needs to use the special characters in the final
+document, they can be produced by typing the control sequences
+
+  \# \$ \% \& \_ \{ \}
+
+\subsubsection{Buried deep}
+You can have up to  double sub-sections, notice that each type of
+(sub)section is headed with appropriately sized font.
+
+\subsection*{Hiding the numbers}
+If you put an asterisk after the (sub)section, then it hides the
+number in the heading.  It can look neater if you don't want the
+blatent counting.
+
+\subsection*{Simple LaTeX text commands}
+
+\textup{ This makes the font upright, which is default in latex.}
+
+\textit{ Now the text is in italics.}
+
+\textsl{ This is slanted text, very similar to italics.}
+
+\textsc{ Small caps mode, where everything is upper case with capital
+  letters simply taller than lower case.}
+
+\textbf{ Lasly, boldface mode.}
+
+
+\subsection*{Extra stuff}
+When there is a word or phrase that you do not want to be split up,
+such as a name, use tilda instead of space to tell LaTeX to keep the
+adjacent words together.  This~is~all~together~because~I~used~tilda
+\\This statement lands on its own line using the new line character ``\\''\\
+Also, when typing out abreviations with periods such as ``Mr.\'' or
+``etc.\'' it is a good idea to put a backslash after the period so that
+LaTeX doesn't split the abreviation and the following word.
+
+\begin{verbatim}
+This is an evironment that only recognizes backslash and end verbatim
+as a command.  Everything else is taken verbatim from how you type. No
+SpEcIaL ChArAcTeRs apply \ ! @ # $ % ^ & * ( ) _ + = - 
+\end{verbatim}
+
+
+\section*{Using whitespace for asthetic seperation}
+ To produce blank space within a paragraph, use hspace or vspace
+ followed by the length of the blank space enclosed within braces. The
+ length of the skip should be expressed in a unit recognized by
+ LaTeX. These recognized units are given in the following table:
+
+ Also you can set the paragraph indentation manually.  It is typically
+ set by the document class used, but to override it type
+
+%% \setlength{\parindent}{0} %can't remember what this does, needs update
+%% %Probably sets paragraph indentation amount to be 0
+
+\vspace{5 mm}
+
+\begin{enumerate}
+\item
+    pt  point         (1 in = 72.27 pt)
+\item
+    pc  pica          (1 pc = 12 pt)
+\item
+    in  inch          (1 in = 25.4 mm)
+\item
+    bp  big point     (1 in = 72 bp)
+\end{enumerate}
+
+And lists can be built with numbers using enumerate, and without
+numbers using itemize.  These are functions that must be called with
+begin and end, each item declared with the keyword ``item''.
+
+\begin{itemize}
+\item
+    cm  centimeter    (1 cm = 10 mm)
+\item
+    mm  millimeter
+\item
+    dd  didot point   (1157 dd = 1238 pt)
+\item
+    cc  cicero        (1 cc = 12 dd)
+\item
+    sp  scaled point  (65536 sp = 1 pt)
+\end{itemize}
+
+\section*{Citing your sources}
+Last to be covered, how to cite your sources.  Using a .bib file with
+all of your sources saved appropriately (look at example.bib for
+format), you will import the bibliography by running LaTeX once. Then
+you will run BibTeX on the bibliography now that it has been imported,
+then you will run LaTeX twice to reimport the bibliography, and then
+lastly properly cite all the sources.  The code for importing the
+bibliography is beneath.  If I wanted to cite an example source such
+as \cite{examplebib2013}, I would use the cite command with the
+article's identifier.  I could also cite multiple articles by comma
+seperating the files like \cite{examplebib2013, goossens93}.  That's
+about it for LaTeX!
+
+\bibliographystyle{plain} %plain style works for standard BibTeX
+                          %formatting and entries (haven't seen othewise)
+\bibliography{example} %Cite the name of the bibliography file
+
+\end{document}
+%use 'end' to mark the end of a section, you must flag the name of the
+%section that is ending, in this case, the entire document
+
+%Lastly create your document by running latex on your .tex file from
+%the terminal.  Alternatively, you can run pdflatex to produce a pdf
