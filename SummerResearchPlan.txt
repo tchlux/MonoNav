@@ -27,12 +27,21 @@ Week 3
     chosen by a function similar to the following:
 
      Mat viewRegion(Mat image, int xCenter, int yCenter, 
-                    int regionWidth, int regionHeight)
+                    int regionWidth, int regionHeight, int sparseness)
 
-     resize - OpenCV function
+-> Implement and compare OpenCV algorithms for SIFT SURF Harris corner
+   detection, x and y Sobel derrivatives, Lucas Kanade optical flow
+   tracking and a Farneback optical flow grid.
+-> Read the paper on SURF and understand how it works mathematically
+   all the way through.  Use this paper to guide myself to new
+   algorithms that could be useful in creating my own regional optical
+   flow tracking algorithm.
 
+Week 4
+-> Write my own optical flow tracking algorithm that uses boundaries
+    of regions and relative movement speed.
 -> Decide on local storage for tracked objects, OpenCV keypoints? I'll
-   need a descriptor for these objects as well (direction & rate)
+    need a descriptor for these objects as well (direction & rate)
 -> use openCV library and above function to begin a pose estimation
     (relative, what is closest?)
 -> attempt to identify as many objects as possible consistently from a
@@ -40,8 +49,6 @@ Week 3
     the image and which are closest)
 -> examine the computational requirements to do this process and
     compare them to what will be available at real time
-
-Week 4
 -> find more papers that relate to pose estimation / monographic SLAM
     / robotic navigation / map storage
 -> write a fully drafted introduction for final paper, put in a works
