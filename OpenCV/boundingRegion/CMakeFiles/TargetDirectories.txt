@@ -1,0 +1,2 @@
+/home/thomas/MonoNav/OpenCV/boundingRegion/CMakeFiles/edgeVectorPic.dir
+/home/thomas/MonoNav/OpenCV/boundingRegion/CMakeFiles/edgeVectorVid.dir

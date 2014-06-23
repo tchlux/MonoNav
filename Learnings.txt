@@ -6,6 +6,15 @@ Revert the local "head" of the git, essentially undoing all commits.
 .mov to .avi Conversion Command:
   ffmpeg -i test.mov -sameq -vcodec msmpeg4v2 -acodec pcm_u8 test.avi
 
+Affine transformation:
+  A transormation that retains the point, line, and planar qualities
+  of the geometry on which it is inflicted, examples include scaling,
+  translating, reflecting, rotating.
+
+Aliasing:
+  An effect that causes different signals to become indistinguishable
+  when sampled. (When signals merge with each other)
+
 Band-pass filter:
   This is a window function for frequency filtering.  It passes
   frequencies within a desired range and fails all others.
@@ -140,6 +149,9 @@ Markov Models:
    Autonomous  |    Markov Chain          |    Hidden Markov Chain   |
    Controlled  | Markov Decision Process  |         PO MDP           |
                |__________________________|__________________________|
+
+Matrix Norm:
+  A matrix that is normal in the orthogonal sense.
 
 Moravec corner detection algorithm:
   Generates overlapping patches of pixels across an image and then
