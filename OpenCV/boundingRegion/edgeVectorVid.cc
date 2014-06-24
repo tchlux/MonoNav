@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
     vid.open(argv[1]);
 
   Mat img; // Open the image provided as command line arg
-  int pixelSpacing(9);  // Default to 2
+  int pixelSpacing(3);  // Default to 2
   namedWindow(EDGES_WINDOW, CV_WINDOW_NORMAL); //On Vaio
 
   Mat sparseImg;
