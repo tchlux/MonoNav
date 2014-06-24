@@ -156,15 +156,16 @@ public:
 
   // Pre:  other is well defined
   // Post: all nodes are shallow copied
-  Link<T> & operator+=(Link<T> & other){
+  Link<T> & operator+=(const Link<T> &other){
     for (int n=0; n<other.size(); n++){
-      add(other[0]); other.spin();
+      add(other[0]); 
+      other.spin();
     }
   }
 
   // Pre:  data is well defined and has an operator==
   // Post: the last occuring index of data if it exists in this Link
-  int find(T & data){
+  int find(const T &data){
     int index = DATA_NOT_FOUND;
     for (int item=0; item<Size; item++){
       if (Head->Data == data)
@@ -176,7 +177,7 @@ public:
 
   // Pre:  data is well defined and has an operator==
   // Post: true if data exists in this link
-  bool has(T & data){
+  bool has(const T &data){
     return(find(data) != DATA_NOT_FOUND);
   }
 

@@ -26,7 +26,7 @@ Mat g_sparseImg; // Holder for the original image (sparse)
 Mat g_derriv;    // Holder for the derrivative of that image
 Link<cv::Point> g_boundedRegion;
 cv::Scalar g_green(0,255,0);
-int g_interesting(180); // Greater than half intensity average
+int g_interesting(15); // Greater than half intensity average
 int g_checkRange(2);    // Neighborhood check range for breadth first
 
 // Used for an unnecessary callback, no function
@@ -35,8 +35,8 @@ void callbackDummy(int,void*){}
 //Pre:  Point is defined and g_derriv is defined
 //Post: true if the x,y point is on the image
 bool inBounds(const cv::Point &pt){
-  bool goodRow( 0 <= pt.y < g_derriv.rows );
-  bool goodCol( 0 <= pt.x < g_derriv.cols );
+  bool goodRow( (0 <= pt.y) && (pt.y < g_derriv.rows) );
+  bool goodCol( (0 <= pt.x) && (pt.x < g_derriv.cols) );
   return( goodRow && goodCol );
 }
 
@@ -45,7 +45,23 @@ bool inBounds(const cv::Point &pt){
 bool interesting(const cv::Point &pt){
   const px &pixel( g_derriv.at<px>(pt.y, pt.x) );
   return ((pixel.val[0] + pixel.val[1] + pixel.val[2]) 
-	  >= g_interesting);
+	  <= g_interesting);
+}
+
+// TODO:  This will perform necessary checks on cells
+void addIfInteresting(Link<cv::Point> &queue, const cv::Point &curr){
+  if (inBounds(curr)){
+    if (interesting(curr)){
+      if (!queue.has(curr)){
+	if (!g_boundedRegion.has(curr)){
+	  queue.add(curr);
+	}
+      }
+    }
+  }
+  else{
+    std::cerr << "edgeVectorPic.cc Line 63: Out of bounds" << std::endl;
+  }
 }
 
 //TODO:  This function will perform one step of "point addition" to
@@ -56,14 +72,8 @@ void stepQueue(Link<cv::Point> &queue){
   for (int row=-g_checkRange; row<g_checkRange; row++){
     for (int col=-g_checkRange; col<g_checkRange; col++){
       // Loop around the interest point checking all in checkRange
-      cv::Point curr(check.x+col, check.y+row);
-      if (inBounds(curr) && interesting(curr)){
-	if (!queue.has(curr)){
-	  if (!g_boundedRegion.has(curr)){
-	    queue.add(curr);
-	  }
-	}
-      }
+      const cv::Point curr(check.x+col, check.y+row);      
+      addIfInteresting(queue, curr);
     }
   }
   g_boundedRegion.add(check);
@@ -77,9 +87,13 @@ void drawBoundingRegion(){
   cv::Point max(0,0);
   int numPoints(g_boundedRegion.size());
   for (int i=0; i<numPoints; i++){
-    rectangle(g_derriv, g_boundedRegion[0], g_boundedRegion[0], g_green);
+    int x(g_boundedRegion[0].x);
+    int y(g_boundedRegion[0].y);
+    g_derriv.at<px>(y,x) = px(0,255,0);
+      //    rectangle(g_derriv, g_boundedRegion[0], g_boundedRegion[0], g_green);
     g_boundedRegion.spin();
   }
+  imshow(EDGES_WINDOW, g_derriv);
 }
 
 // TODO:  This function will find all adjacent high intensity/edge
@@ -90,7 +104,6 @@ void completeRegion(){
   while (queue.size() > 0){
     stepQueue(queue);
   }
-  drawBoundingRegion();
 }
 
 // Pre:  event is the type event, x and y are the coordinates of the
@@ -102,7 +115,7 @@ void mouseClick(int event, int x, int y, int, void*){
     g_boundedRegion.clear(); // Clear out any old data
     g_boundedRegion.add(Point(x,y));
     completeRegion();
-    imshow(EDGES_WINDOW, g_derriv);
+    drawBoundingRegion();
   }
   else if (event == MOUSE_RIGHT_DN){
     g_derriv = derriv(g_sparseImg);

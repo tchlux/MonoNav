@@ -99,6 +99,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named blobTutorial
+
+# Build rule for target.
+blobTutorial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 blobTutorial
+.PHONY : blobTutorial
+
+# fast build rule for target.
+blobTutorial/fast:
+	$(MAKE) -f CMakeFiles/blobTutorial.dir/build.make CMakeFiles/blobTutorial.dir/build
+.PHONY : blobTutorial/fast
+
+#=============================================================================
 # Target rules for targets named edgeVectorPic
 
 # Build rule for target.
@@ -112,6 +125,19 @@ edgeVectorPic/fast:
 .PHONY : edgeVectorPic/fast
 
 #=============================================================================
+# Target rules for targets named edgeVectorPicAuto
+
+# Build rule for target.
+edgeVectorPicAuto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 edgeVectorPicAuto
+.PHONY : edgeVectorPicAuto
+
+# fast build rule for target.
+edgeVectorPicAuto/fast:
+	$(MAKE) -f CMakeFiles/edgeVectorPicAuto.dir/build.make CMakeFiles/edgeVectorPicAuto.dir/build
+.PHONY : edgeVectorPicAuto/fast
+
+#=============================================================================
 # Target rules for targets named edgeVectorVid
 
 # Build rule for target.
@@ -123,6 +149,43 @@ edgeVectorVid: cmake_check_build_system
 edgeVectorVid/fast:
 	$(MAKE) -f CMakeFiles/edgeVectorVid.dir/build.make CMakeFiles/edgeVectorVid.dir/build
 .PHONY : edgeVectorVid/fast
+
+#=============================================================================
+# Target rules for targets named testImageTree
+
+# Build rule for target.
+testImageTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testImageTree
+.PHONY : testImageTree
+
+# fast build rule for target.
+testImageTree/fast:
+	$(MAKE) -f CMakeFiles/testImageTree.dir/build.make CMakeFiles/testImageTree.dir/build
+.PHONY : testImageTree/fast
+
+blobTutorial.o: blobTutorial.cc.o
+.PHONY : blobTutorial.o
+
+# target to build an object file
+blobTutorial.cc.o:
+	$(MAKE) -f CMakeFiles/blobTutorial.dir/build.make CMakeFiles/blobTutorial.dir/blobTutorial.cc.o
+.PHONY : blobTutorial.cc.o
+
+blobTutorial.i: blobTutorial.cc.i
+.PHONY : blobTutorial.i
+
+# target to preprocess a source file
+blobTutorial.cc.i:
+	$(MAKE) -f CMakeFiles/blobTutorial.dir/build.make CMakeFiles/blobTutorial.dir/blobTutorial.cc.i
+.PHONY : blobTutorial.cc.i
+
+blobTutorial.s: blobTutorial.cc.s
+.PHONY : blobTutorial.s
+
+# target to generate assembly for a file
+blobTutorial.cc.s:
+	$(MAKE) -f CMakeFiles/blobTutorial.dir/build.make CMakeFiles/blobTutorial.dir/blobTutorial.cc.s
+.PHONY : blobTutorial.cc.s
 
 edgeVectorPic.o: edgeVectorPic.cc.o
 .PHONY : edgeVectorPic.o
@@ -148,6 +211,30 @@ edgeVectorPic.cc.s:
 	$(MAKE) -f CMakeFiles/edgeVectorPic.dir/build.make CMakeFiles/edgeVectorPic.dir/edgeVectorPic.cc.s
 .PHONY : edgeVectorPic.cc.s
 
+edgeVectorPicAuto.o: edgeVectorPicAuto.cc.o
+.PHONY : edgeVectorPicAuto.o
+
+# target to build an object file
+edgeVectorPicAuto.cc.o:
+	$(MAKE) -f CMakeFiles/edgeVectorPicAuto.dir/build.make CMakeFiles/edgeVectorPicAuto.dir/edgeVectorPicAuto.cc.o
+.PHONY : edgeVectorPicAuto.cc.o
+
+edgeVectorPicAuto.i: edgeVectorPicAuto.cc.i
+.PHONY : edgeVectorPicAuto.i
+
+# target to preprocess a source file
+edgeVectorPicAuto.cc.i:
+	$(MAKE) -f CMakeFiles/edgeVectorPicAuto.dir/build.make CMakeFiles/edgeVectorPicAuto.dir/edgeVectorPicAuto.cc.i
+.PHONY : edgeVectorPicAuto.cc.i
+
+edgeVectorPicAuto.s: edgeVectorPicAuto.cc.s
+.PHONY : edgeVectorPicAuto.s
+
+# target to generate assembly for a file
+edgeVectorPicAuto.cc.s:
+	$(MAKE) -f CMakeFiles/edgeVectorPicAuto.dir/build.make CMakeFiles/edgeVectorPicAuto.dir/edgeVectorPicAuto.cc.s
+.PHONY : edgeVectorPicAuto.cc.s
+
 edgeVectorVid.o: edgeVectorVid.cc.o
 .PHONY : edgeVectorVid.o
 
@@ -172,22 +259,58 @@ edgeVectorVid.cc.s:
 	$(MAKE) -f CMakeFiles/edgeVectorVid.dir/build.make CMakeFiles/edgeVectorVid.dir/edgeVectorVid.cc.s
 .PHONY : edgeVectorVid.cc.s
 
+testImageTree.o: testImageTree.cc.o
+.PHONY : testImageTree.o
+
+# target to build an object file
+testImageTree.cc.o:
+	$(MAKE) -f CMakeFiles/testImageTree.dir/build.make CMakeFiles/testImageTree.dir/testImageTree.cc.o
+.PHONY : testImageTree.cc.o
+
+testImageTree.i: testImageTree.cc.i
+.PHONY : testImageTree.i
+
+# target to preprocess a source file
+testImageTree.cc.i:
+	$(MAKE) -f CMakeFiles/testImageTree.dir/build.make CMakeFiles/testImageTree.dir/testImageTree.cc.i
+.PHONY : testImageTree.cc.i
+
+testImageTree.s: testImageTree.cc.s
+.PHONY : testImageTree.s
+
+# target to generate assembly for a file
+testImageTree.cc.s:
+	$(MAKE) -f CMakeFiles/testImageTree.dir/build.make CMakeFiles/testImageTree.dir/testImageTree.cc.s
+.PHONY : testImageTree.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... blobTutorial"
 	@echo "... edgeVectorPic"
+	@echo "... edgeVectorPicAuto"
 	@echo "... edgeVectorVid"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... testImageTree"
+	@echo "... blobTutorial.o"
+	@echo "... blobTutorial.i"
+	@echo "... blobTutorial.s"
 	@echo "... edgeVectorPic.o"
 	@echo "... edgeVectorPic.i"
 	@echo "... edgeVectorPic.s"
+	@echo "... edgeVectorPicAuto.o"
+	@echo "... edgeVectorPicAuto.i"
+	@echo "... edgeVectorPicAuto.s"
 	@echo "... edgeVectorVid.o"
 	@echo "... edgeVectorVid.i"
 	@echo "... edgeVectorVid.s"
+	@echo "... testImageTree.o"
+	@echo "... testImageTree.i"
+	@echo "... testImageTree.s"
 .PHONY : help
 
 

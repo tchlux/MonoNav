@@ -41,6 +41,9 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/blobTutorial.dir/DependInfo.cmake"
   "CMakeFiles/edgeVectorPic.dir/DependInfo.cmake"
+  "CMakeFiles/edgeVectorPicAuto.dir/DependInfo.cmake"
   "CMakeFiles/edgeVectorVid.dir/DependInfo.cmake"
+  "CMakeFiles/testImageTree.dir/DependInfo.cmake"
   )

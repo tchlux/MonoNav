@@ -1,2 +1,5 @@
+/home/thomas/MonoNav/OpenCV/boundingRegion/CMakeFiles/blobTutorial.dir
 /home/thomas/MonoNav/OpenCV/boundingRegion/CMakeFiles/edgeVectorPic.dir
+/home/thomas/MonoNav/OpenCV/boundingRegion/CMakeFiles/edgeVectorPicAuto.dir
 /home/thomas/MonoNav/OpenCV/boundingRegion/CMakeFiles/edgeVectorVid.dir
+/home/thomas/MonoNav/OpenCV/boundingRegion/CMakeFiles/testImageTree.dir

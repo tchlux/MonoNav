@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=edgeVectorVid
+CMAKE_PROJECT_NAME:STATIC=testImageTree
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -169,10 +169,22 @@ OpenCV_LIB_DIR_DBG:PATH=
 OpenCV_LIB_DIR_OPT:PATH=
 
 //Value Computed by CMake
+blobTutorial_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
+
+//Value Computed by CMake
+blobTutorial_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
+
+//Value Computed by CMake
 cornerHarrisDemo_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
 
 //Value Computed by CMake
 cornerHarrisDemo_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
+
+//Value Computed by CMake
+edgeVectorPicAuto_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
+
+//Value Computed by CMake
+edgeVectorPicAuto_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
 
 //Value Computed by CMake
 edgeVectorPic_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
@@ -185,6 +197,12 @@ edgeVectorVid_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
 
 //Value Computed by CMake
 edgeVectorVid_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
+
+//Value Computed by CMake
+testImageTree_BINARY_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
+
+//Value Computed by CMake
+testImageTree_SOURCE_DIR:STATIC=/home/thomas/MonoNav/OpenCV/boundingRegion
 
 
 ########################
