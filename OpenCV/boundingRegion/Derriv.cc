@@ -32,7 +32,11 @@ px pixelDerriv(const cv::Mat &img, const int &row,
   px bottomY(img.at<px>(row+neighboorhood,col));
   px yDiff(  absDifference(topY, bottomY));
 
-  return ( (xDiff+yDiff) / neighboorhood );
+  px diff(xDiff+yDiff);
+  diff.val[0] /= neighboorhood;
+  diff.val[1] /= neighboorhood;
+  diff.val[2] /= neighboorhood;
+  return ( diff);//  / neighboorhood );
 }
 // TODO:  This function is not optimized, there are many improvements
 //        that can be made but I am leaving it as accurate as possible

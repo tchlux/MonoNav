@@ -21,13 +21,20 @@
 
 // int size()		- returns the current number of elements
 
-// void spin()		- "spins" the list so current head goes to end and new
+// void spin()		- "spins" the list so current head goes to end
+//                        and new
 //			  head is the next element in the list
+
+// int find(T&)         - Finds given "data" in the linked list with
+//                        the equivilance operator, returns it's index
+//                        or DATA_NOT_FOUND if it does not exist
+
+// bool has(T&)         - Returns true an element exists in this list
 
 // void clear()		- deletes and frees all memory and resets size
 
 // void remove(int)	- removes this index from the list (uses modulus
-//			- to wrap indices out of bounds back in range)
+//			  to wrap indices out of bounds back in range)
 
 // void add(T&) 	- Adds given data into the list (constant time)
 
@@ -36,10 +43,13 @@
 
 // T& operator[](int)   - Returns data at that index (O(n/2)) uses
 //                        modulus to wrap indices into bounds
-// operator<<
-// print
-// find
-// has
+
+// operator<<           - Returns the linked list illustrated in asci
+
+// print                - Uses operator<< on standard out
+
+//      End Functions     
+// =======================
 
 
 template <class T>
