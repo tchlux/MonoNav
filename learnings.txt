@@ -1,0 +1,223 @@
+LOOK AT ALL THE THINGS YOU CAN LEARN IN ONE SUMMER
+
+Revert the local "head" of the git, essentially undoing all commits.
+  git reset --soft HEAD^
+
+.mov to .avi Conversion Command:
+  ffmpeg -i test.mov -sameq -vcodec msmpeg4v2 -acodec pcm_u8 test.avi
+
+Affine transformation:
+  A transormation that retains the point, line, and planar qualities
+  of the geometry on which it is inflicted, examples include scaling,
+  translating, reflecting, rotating.
+
+Aliasing:
+  An effect that causes different signals to become indistinguishable
+  when sampled. (When signals merge with each other)
+
+Band-pass filter:
+  This is a window function for frequency filtering.  It passes
+  frequencies within a desired range and fails all others.
+
+Convolution (Computer Science):
+  In computer science, wikipedia says this is the process of mapping a
+  sequence of tuples to a tuple of squences.  In example
+  (a1,a2,a3) (b1,b2,b3) (c1,c2,c3) -> (a1,b1,c1) (a2,b2,c2) (a3,b3,c3)
+
+Convolution (Mathematics):
+  Combines two fucntions f(x) and g(x) to produce a third function
+  h(x) whose values are given by the area of overlap (of f and g) as a
+  function of the amount one function (either f or g) is translated.
+
+Corner Strength:
+  Measured by looking at the smallest of all SSD for a given patch in
+  the Moravec corner detection algorithm. If this SMALLEST SSD is of
+  a large value then that patch is considered a point of
+  interest. Rewording the above, if all SSD's surrounding a pixel are
+  large then it is a point of interest.
+
+Delaunay Triangulation:
+  The triangulation of a set of points such that no single point is
+  inside the circumference of the triangle that form that set of
+  points. Under the assumption that the set being analyzed is already
+  triangulated.
+
+Difference of Gaussians:
+  Applying different Gaussian filters to an image and subtracting the
+  images from each other.  In greyscale this will highlight all sharp
+  changes in pixel intensity (or edges) in an image.
+
+Fourier Transform:
+  The mathematical transformation of a signal between the time and
+  frequency domains. Its foundation lies on the fact that any
+  periodic function can be written as the sum of simple sin and cos
+  waves. The fourier transform in essence can be used to extract the
+  mathematical components of a very complicated wave form. Once
+  individual components are extracted, each one can represent some
+  different data set. This is used in image analysis across rows and
+  columns, but I am not sure why that is / can be valuable data.
+
+Fuzzy Inference System:
+  From my current understanding (finding the original research paper
+  and reading the introduction) this is system of statistical
+  correlation and (inter/extra)polation with a data set.  It is the
+  process of understanding that as an observer of the physical world,
+  the clutter can be thought of as a hidden markov chain.
+
+Gaussian Filter:
+  A filter whose impulse response is a guassian function. An advantage
+  of using this is that it does a better job of grouping neighbors
+  than a step function.
+
+Gaussian Function:
+  Defined by f(x) = a*exp( -(x-b)^2 / 2c^2 ) + d.  This is what is
+  used in statistics as a normal distribution and produces a 'bell
+  curve'.  Where: a is the height of the peak, b is the position of
+  the center of the peak, c (the standard deviation) controls the
+  width of the bell curve, and d is the value that the function
+  approaches for from the peak (often set to 0).
+
+Group Delay:
+  When signals are sent from one location to another (through air /
+  wires / etc.) each frequency signal is delayed by a different
+  amount, 'group delay' is the measure of time delay for the amplitude
+  envelopes of each component of a signal.
+
+Haar-like Features:
+  Are used to refer to features made up by adjacent rectangular
+  regions of a detection window in an image. An example would be using
+  a face, the eyes are usually rectangular regions above the cheeks
+  and of lower average pixel values (darker).
+
+Haar Wavelet:
+  A sequence of rigid edged functions that form a basis or family of
+  wavelets. This wavelet is constructed of the fewest possible
+  unit length vectors (simplest) and it is not continuous. Wavelet
+  analysis is very similar to Fourier analysis (just to make a
+  connection)
+
+Hann Function:
+  A discrete window function that provides a linear combination of
+  modulated rectangular windows. Window function is defined below.
+  This also relates to Fourier transforms.
+
+Harris & Stephens Corner detection:
+  An improved upon Moravec corner detection that takes in account the
+  directional flow of regions of pixels.  A corner is valid if there
+  is a large variation in patches in all directions (Rather than the
+  average or a single direction).
+
+Hessian Matrix:
+  A square matrix of the second order partial derrivatives of a
+  function.
+
+Hough Transform:
+  Creating a linear represenation (approximate) of a set of points.
+
+Integral Image (Summed Area Table):
+  A data structure and algorithm used to generate the sum of values in
+  a rectangular subset grid.
+
+Isotropic:
+  Being uniform in all orientations, such as a sphere.
+
+Largest Passage Algorithm:   NO RESEARCH PAPER FOUND
+  No papers found.  I will assume that it scans the space in the path
+  of travel with consecutive circles of increasing radius and finds
+  the direction (angle) with the lowest circumference-collision
+  frequency.
+
+Lucas Kanade method:
+  A widely used differential method for estimating optical flow. It
+  assumes that the flow in the neighborhood of a pixel is constant. 
+  This method also utilizes many neighboring pixels at once and
+  therefore cannot be used to focus on the interior of uniform
+  regions of an image.
+
+Mamdani Fuzzy Inference System:
+
+Mamdani Fuzzy Inference System (trained offline with 
+      Neuro Fuzzy Function approximation):
+
+Markov Property:
+  When the conditional probability distribution of future conditions
+  only depends on the present state, not on the events proceeding to
+  it. (Each state only depends on one state prior)
+
+Markov Models:
+  System state: ___Fully Observable___________Partially Observable___
+   Autonomous  |    Markov Chain          |    Hidden Markov Chain   |
+   Controlled  | Markov Decision Process  |         PO MDP           |
+               |__________________________|__________________________|
+
+Matrix Norm:
+  A matrix that is normal in the orthogonal sense.
+
+Moravec corner detection algorithm:
+  Generates overlapping patches of pixels across an image and then
+  compares the patches to all their overlapping neighbors for
+  similarity. The similarity between two patches is measured by the
+  sum of Squared Differences, with a lower number indicating more
+  similarity. The flaw with this algorithm is that it incorrectly
+  marks standalone varying patches as interest points. It would be
+  more accurate to ensure that there are multiple other interest
+  points surrounding.
+
+Optical Flow:
+  Pattern of apparent motion of objects, or pixels in the case of
+  computer vision.
+
+Orthonormality:
+  Two vectors are said to be 'orthonormal' when they are orthogonal
+  (at right angles) to each other and also of unit length (normalized)
+
+Point Cloud Based Autonomous Navigation:
+
+Scale Invariant Feature Transform (SIFT) 1999:
+  Used to detect and describe local features in images.
+
+Sensor Data Fusion based Algorithm:  
+
+Sobel Operator:
+  Sometimes called the Sobel Filter, generates an image that
+  emphasizes edges and transitions. It is typically an operator that
+  finds the difference between groups of pixels in rows and
+  columns. It is relatively inexpensive but the gradient approximation
+  is relatively crude, especially for high variance images. This can
+  also be thought of as a pixel-wise derrivative on the chosen axis.
+  A downside to this algorithm is that is only usually done on the x
+  or the y axis, loosing diagonals.
+
+Speeded up Robust Features (SURF) 2006:
+  A local feature detector that is faster than SIFT and based on 2D
+  HAAR wavelet responses and makes efficient use of integral images.
+
+Structure Tensor:
+  Also referred to as the second-moment matrix, it is a matrix derived
+  from the gradient of a function. Very similar to a slope field, it
+  demonstrates the predominant directions of a gradient in a specific
+  neighborhood to a point, but it is also used to measure the degree
+  of coherence of these vectors. If they are all similar in an area,
+  there were be a higher degree of coherence.
+
+Sum of Squared Difference (SSD):
+  This one's self explanatory. Cumulative sum of squared pixel-wise
+  differences over an area. (p1-p2)^2 + ... + (pn-1 - n)^2 
+
+Window Function:
+  In signal processing, this is a function whose value is 0 outside of
+  some chosen interval. If the value is constant inside the window
+  then it is considered a rectangular window function. This is used
+  to find overlap between multiple functions, or a "view through the
+  window".
+
+vision journal: ACM, IEEE - look at the titles to see if any are good
+
+______________________________________________________________________
+Links:
+http://technology.nasa.gov/
+
+NASA tech project information
+
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-1.html
+  Bash script tutorial that Randall found

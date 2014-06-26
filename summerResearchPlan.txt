@@ -1,0 +1,139 @@
+Summer Research 2014
+
+Week 1
+-> set plan for entire summer
+-> find out how to get pixel data from mp4
+-> discover how many processes a smartphone can do in a set amount of
+    time, to produce a target level number of computations
+-> record a simple test video on phone and identify an object moving
+    across the field of vision
+
+Week 2
+-> find papers that relate to low power navigation, specifically the
+    challenge that I want to focus on
+-> read from openCV book on how to identify objects in a viewing plane
+-> use openCV to identify an object in a video and then to continue to
+    identify that same object through multiple frames as it moves
+    across the screen
+-> research into papers that talk about storing objects based off of
+    relative locations rather than absolute locations (different types
+    of map representation)
+
+Week 3
+-> re-evaluate my progress and plan for the summer
+-> think of title of project and find multiple research articles that
+    may or may not directly relate to this type of processing
+-> Create resized images of video feed, location of region should be
+    chosen by a function similar to the following:
+
+     Mat viewRegion(Mat image, int xCenter, int yCenter, 
+                    int regionWidth, int regionHeight, int sparseness)
+
+-> Implement and compare OpenCV algorithms for SIFT SURF Harris corner
+   detection, x and y Sobel derrivatives, Lucas Kanade optical flow
+   tracking and a Farneback optical flow grid.
+-> Read the paper on SURF and understand how it works mathematically
+   all the way through.  Use this paper to guide myself to new
+   algorithms that could be useful in creating my own regional optical
+   flow tracking algorithm.
+
+Week 4
+-> Write my own optical flow tracking algorithm that uses boundaries
+    of regions and relative movement speed.
+-> Decide on local storage for tracked objects, OpenCV keypoints? I'll
+    need a descriptor for these objects as well (direction & rate)
+-> use openCV library and above function to begin a pose estimation
+    (relative, what is closest?)
+-> attempt to identify as many objects as possible consistently from a
+    circular walking video around them (their paths of travel through
+    the image and which are closest)
+-> examine the computational requirements to do this process and
+    compare them to what will be available at real time
+-> find more papers that relate to pose estimation / monographic SLAM
+    / robotic navigation / map storage
+-> write a fully drafted introduction for final paper, put in a works
+    cited page and make sure it's up to date
+-> come up with the metrics that will be used to evaluate my data
+    gathered
+-> decide officially which conferences I will be sending the paper too
+    and align my paper with the requirements that are posted for those
+    conferences
+-> re-evaluate the effectiveness of the data structures that I have
+    implemented for storing the relative maps
+
+Week 5
+-> add a position estimation ability for shapes in the viewing plane
+    and use this to more quickly identify the path of shapes
+-> use the estimations to check if the path has been maintained by the
+    object to determine if it is stationary or mobile
+-> if the objects are moving, determine if the trajectory collides
+    with that of the current movement the camera is experiencing
+-> look into effective ways to determine absolute locations (such as
+    North, South, Altitude, Vector between, etc.)
+-> if feasible, create a third associative data structure that is
+    sorted based off acutal location rather than relative location
+
+Week 6
+-> record more test videos and improve the ability to identify objects
+    moving in the viewing plane quickly
+-> read more of the openCV book and look for ways to optimize the
+    ability to identify objects
+-> analyze the computational complexity of the entire program in
+    action and compare the the requirements for running on a mobile
+    device 
+-> look into the possibility of actually running the program on a mobile
+    device (DROID or Iphone)
+-> drink a few martinis
+-> find a blind person and share the revelation
+
+Week 7
+-> research into the development of hardware for programs
+-> look into robotic parts for cameras and then see if there is a way
+    to get a camera with this code written to hardware attatched
+-> find a suitable robotic platform to mount this piece of hardware
+    too and add a simple directional navigation ability (maybe even
+    random movement)
+-> Contact professors at the universities that have published research
+    papers that I've read and ask them what directions they think I
+    should go
+-> continue working on paper
+-> gather data for the final program, testing in many different
+    scenarios with different amounts of clutter.  Find the limitations
+    in the program's ability to identify shapes and the corresponding
+    graph for computational requirements to process the given amounts
+    of data 
+
+Week 8
+-> throw some finishing touches on the paper that I'm writing.  Read
+    and reread with professors and ask for feedback
+-> write down the list of conferences that I will be sending the paper
+    to and when the deadlines are and what is required
+-> print paper, hand it to professors for grammar checks (other than
+    the poor CS professors)
+-> continue looking into hardware manufacturing for robots and find a
+    suitable platform for my equipment
+-> place orders for the necessary parts to build the robot
+    (preferrably orders that can be filled by next week)
+-> create simply python or c++ program that will move the robot
+    randomly around space while recieving input from my hardware chip
+
+Week 9
+-> begin all the preparations I can for the parts that are coming in
+-> write all necessary code to run the robot
+-> recieve parts and build robot
+-> gather more test data for my code and think of more useful charts
+    for analysis
+-> add the data to my final paper and continue to check for grammar
+    and clarity
+-> play with robot
+
+
+DROPPED TOPICS
+
+
+Week 2
+-> start to think on how these shapes can be sorted
+-> look into more monographic SLAM to see how pose estimation works
+    see if I can come up with a similar algorithm
+-> find/create a data structure that can effectively store relative
+    locations of shapes
