@@ -24,3 +24,7 @@ target_link_libraries( testImageTree ${OpenCV_LIBS} )
 project( testDerrivative )
 add_executable( testDerrivative testDerrivative.cc )
 target_link_libraries( testDerrivative ${OpenCV_LIBS} )
+
+project( derrivativeTree )
+add_executable( derrivativeTree derrivativeTree.cc )
+target_link_libraries( derrivativeTree ${OpenCV_LIBS} )

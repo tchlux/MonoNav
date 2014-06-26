@@ -2,6 +2,7 @@
 #include <opencv2/opencv.hpp> // Defines the namespace "cv" and all
                               //  the cv functions and types used
 #include <assert.h>
+#include "Derriv.cc"
 
 #define EDGES_WINDOW "EDGES SON"
 #define ORIGINAL_IMAGE "Original Image"
@@ -38,15 +39,6 @@ void derrivative(const cv::Mat &inImg, cv::Mat &outImg,
   }  
 }
 
-// TODO:  This function will add img1 and img2 placing the results in 2
-void addImages( const cv::Mat &img1, cv::Mat &img2 ){
-  for (int row(0); row < img1.rows; row++){
-    for (int col(0); col < img1.cols; col++){
-      img2.at<px>(row,col) = img1.at<px>(row,col) + img2.at<px>(row,col);
-    }
-  }    
-}
-
 // TODO:  This function will provide testing ground for the vector
 //        based image derrivative
 int main(int argc, char *argv[]){
@@ -55,38 +47,29 @@ int main(int argc, char *argv[]){
   vid >> img;
   if (argc >= 2)
     img = cv::imread(argv[1]);
+  int stepSize(1); // The "sparseness" of the image
+
   cv::Mat imgDerriv(img.clone());
-  cv::Mat imgDerriv1(img.clone());
-  cv::Mat imgDerriv2(img.clone());
-  cv::Mat imgDerriv3(img.clone());
 
   int xShift(6);  int yShift(5);
-  int stepSize(1); // The "sparseness" of the image
+
 
   cv::namedWindow(ORIGINAL_IMAGE, CV_WINDOW_NORMAL);
   cv::namedWindow(EDGES_WINDOW, CV_WINDOW_NORMAL);
 
-  // cv::createTrackbar("X Shift: ",EDGES_WINDOW,
-  // 		     &xShift, 10 ,callbackDummy);
-  // cv::createTrackbar("Y Shift: ",EDGES_WINDOW,
-  // 		     &yShift, 10 ,callbackDummy);
+  cv::createTrackbar("X Shift: ",EDGES_WINDOW,
+  		     &xShift, 10 ,callbackDummy);
+  cv::createTrackbar("Y Shift: ",EDGES_WINDOW,
+  		     &yShift, 10 ,callbackDummy);
   cv::createTrackbar("Step Size: ",EDGES_WINDOW,
-		     &stepSize, 10 ,callbackDummy);
+  		     &stepSize, 10 ,callbackDummy);
 
   while (cv::waitKey(1) != ESC_KEY){
     if (argc < 2)
       vid >> img;
     if (stepSize < 1)
       stepSize = 1;
-    //    derrivative(img, imgDerriv, cv::Point(xShift-5,yShift-5), stepSize);
-    derrivative(img, imgDerriv , cv::Point(-1,0), stepSize);
-    derrivative(img, imgDerriv1, cv::Point(1, 0), stepSize);
-    derrivative(img, imgDerriv2, cv::Point(0,-1), stepSize);
-    derrivative(img, imgDerriv3, cv::Point(0, 1), stepSize);
-    addImages(imgDerriv3, imgDerriv);
-    addImages(imgDerriv2, imgDerriv);
-    addImages(imgDerriv1, imgDerriv);
-    g_derriv = derriv(g_sparseImg);      
+    derrivative(img, imgDerriv, cv::Point(xShift-5,yShift-5), stepSize);
     cv::imshow(ORIGINAL_IMAGE, img);
     cv::imshow(EDGES_WINDOW, imgDerriv);
   }

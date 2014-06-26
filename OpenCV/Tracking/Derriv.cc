@@ -47,8 +47,8 @@ px pixelDerriv(const cv::Mat &img, const int &row,
 // Post: Each pixel's value in the derrivative is the difference of
 //       the pixels "neighboorhood" distance on either side of that
 //       pixel both vertically and horizontally
-void derriv(const const cv::Mat &inImg, cv::Mat &outImg,
-	       const int &neighboorhood=1){
+void derriv( const cv::Mat &inImg, cv::Mat &outImg,
+	     const int &neighboorhood=1){
   for (int row(neighboorhood); 
        row < (inImg.rows - neighboorhood); row ++){
     for (int col(neighboorhood); 
@@ -57,5 +57,4 @@ void derriv(const const cv::Mat &inImg, cv::Mat &outImg,
 	pixelDerriv(inImg,row,col,neighboorhood);
     }
   }  
-  return derrivImg;
 }

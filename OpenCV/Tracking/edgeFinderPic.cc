@@ -118,7 +118,7 @@ void mouseClick(int event, int x, int y, int, void*){
     drawBoundingRegion();
   }
   else if (event == MOUSE_RIGHT_DN){
-    g_derriv = derriv(g_sparseImg);
+    derriv(g_sparseImg, g_derriv);
   }
 }
 
@@ -131,7 +131,7 @@ int main(int argc, char *argv[]){
   Mat img(imread(argv[1])); // Open the image provided as command line arg
   
   g_sparseImg = sparse(img, pixelSpacing);
-  g_derrive = cv::Mat(g_sparseImg.rows, g_sparseImg.cols, CV_8UC3);
+  g_derriv = cv::Mat(g_sparseImg.rows, g_sparseImg.cols, CV_8UC3);
   derriv(g_sparseImg, g_derriv);
 
   //  namedWindow(ORIGINAL_IMAGE, CV_WINDOW_NORMAL);

@@ -2,10 +2,17 @@
 //      FUNCTIONS I'M NOT USING ANYMORE     
 // =========================================
 
-
-
-
 // USED TO COMBINE TWO IMAGES
+
+// TODO:  This function will add img1 and img2 placing the results in 2
+void addImages( const cv::Mat &img1, cv::Mat &img2 ){
+  for (int row(0); row < img1.rows; row++){
+    for (int col(0); col < img1.cols; col++){
+      img2.at<px>(row,col) = img1.at<px>(row,col) + img2.at<px>(row,col);
+    }
+  }    
+}
+
 
 // This function returns a matrix whose contents are only those that
 //  were in both images provided and above "threshold"

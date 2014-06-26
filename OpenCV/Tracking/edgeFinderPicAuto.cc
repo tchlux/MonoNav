@@ -111,7 +111,7 @@ void findInterestPoints(int iteration){
     imshow(EDGES_WINDOW, g_derriv);
   }
   else{
-    g_derriv = derriv(g_sparseImg);
+    derriv(g_sparseImg, g_derriv);
   }
 }
 
@@ -124,7 +124,7 @@ int main(int argc, char *argv[]){
   Mat img(imread(argv[1])); // Open the image provided as command line arg
 
   g_sparseImg = sparse(img, pixelSpacing);
-  g_derriv = derriv(g_sparseImg);
+  derriv(g_sparseImg, g_derriv);
 
   //  namedWindow(ORIGINAL_IMAGE, CV_WINDOW_NORMAL);
   namedWindow(EDGES_WINDOW, CV_WINDOW_NORMAL);
@@ -141,7 +141,7 @@ int main(int argc, char *argv[]){
 
     if (pixelSpacing != prevPixelSpacing){
       g_sparseImg = sparse(img, pixelSpacing);
-      g_derriv = derriv(g_sparseImg);      
+      derriv(g_sparseImg, g_derriv);      
       prevPixelSpacing = pixelSpacing;
     }
     imshow(EDGES_WINDOW, g_derriv);    

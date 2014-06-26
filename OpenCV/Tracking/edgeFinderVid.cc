@@ -17,19 +17,21 @@ int main(int argc, char *argv[]){
 
   Mat img; // Open the image provided as command line arg
   int pixelSpacing(3);  // Default to 2
-  namedWindow(EDGES_WINDOW, CV_WINDOW_NORMAL); //On Vaio
-
   Mat sparseImg;
   Mat derrivImg;
+  namedWindow(EDGES_WINDOW, CV_WINDOW_NORMAL); //On Vaio
+
+  vid >> sparseImg;
+  vid >> derrivImg; // To ensure they are filled and the same size
   while ( waitKey(1) < 0 ){
-    vid >> img;
     if (img.empty()){
       vid.open(argv[1]);
       vid >> img;
     }
     sparseImg = sparse(img, pixelSpacing);
-    derrivImg = derriv(sparseImg);
+    derriv(sparseImg, derrivImg);
     imshow(EDGES_WINDOW, derrivImg);
+    vid >> img;
   }
 
 
