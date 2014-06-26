@@ -129,9 +129,10 @@ int main(int argc, char *argv[]){
   int pixelSpacing(2);  // Default to 2 (25% image data)
   int prevPixelSpacing(pixelSpacing);
   Mat img(imread(argv[1])); // Open the image provided as command line arg
-
+  
   g_sparseImg = sparse(img, pixelSpacing);
-  g_derriv = derriv(g_sparseImg);
+  g_derrive = cv::Mat(g_sparseImg.rows, g_sparseImg.cols, CV_8UC3);
+  derriv(g_sparseImg, g_derriv);
 
   //  namedWindow(ORIGINAL_IMAGE, CV_WINDOW_NORMAL);
   namedWindow(EDGES_WINDOW, CV_WINDOW_NORMAL);
@@ -145,7 +146,7 @@ int main(int argc, char *argv[]){
   for (;waitKey(1)<0;){
     if (pixelSpacing != prevPixelSpacing){
       g_sparseImg = sparse(img, pixelSpacing);
-      g_derriv = derriv(g_sparseImg);      
+      derriv(g_sparseImg, g_derriv);
       prevPixelSpacing = pixelSpacing;
     }
       

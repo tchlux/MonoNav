@@ -3,6 +3,12 @@ LOOK AT ALL THE THINGS YOU CAN LEARN IN ONE SUMMER
 Revert the local "head" of the git, essentially undoing all commits.
   git reset --soft HEAD^
 
+Recursively remove all conflicted files from current git repo.
+  find . -type f -name "* conflicted copy*" -exec rm -f {} \;
+
+Remove any conflicted references from git's packed-refs file.
+  awk '!/conflicted/' .git/packed-refs > temp && mv temp .git/packed-refs
+
 .mov to .avi Conversion Command:
   ffmpeg -i test.mov -sameq -vcodec msmpeg4v2 -acodec pcm_u8 test.avi
 
