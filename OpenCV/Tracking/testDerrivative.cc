@@ -86,6 +86,7 @@ int main(int argc, char *argv[]){
     addImages(imgDerriv3, imgDerriv);
     addImages(imgDerriv2, imgDerriv);
     addImages(imgDerriv1, imgDerriv);
+    g_derriv = derriv(g_sparseImg);      
     cv::imshow(ORIGINAL_IMAGE, img);
     cv::imshow(EDGES_WINDOW, imgDerriv);
   }
