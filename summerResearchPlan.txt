@@ -40,15 +40,102 @@ Week 3
 Week 4
 -> Write my own optical flow tracking algorithm that uses boundaries
     of regions and relative movement speed.
--> Decide on local storage for tracked objects, OpenCV keypoints? I'll
-    need a descriptor for these objects as well (direction & rate)
+-> Write two edge finder algorithms
+-> Write one blob finder algorithm
+-> Compare performance of these various algorithms and quantify the
+    amount of valuable data produced by them
+-> Read on how actual blob finding is performed in order to better
+   understand what algorithms are valuable
+
+Week 5
+-> Code multiple sample-based blob detector algorithms (pick top 3)
+-> Examine performance of created algorithms, decide if more should be
+   created or if it is time to move on to the known algorithms
+-> Code known blob detector algorithm
+-> Compare known blob detector to my blob detectors, accuracy and speed
+-> Research to look for papers on sample-based blob detectors
+-> Begin draft a bulleted summary of what the paper will be on
+-> Search for metrics on how to compare these blob detectors and their
+   performance
+
+Week 6
+-> Perfect the sample-based blob detectors that I have created, tweak
+   and find if there are ways to make them perform better
+-> Finish coding up the known blob detector algorithm (OpenCV's built
+   in blob detector)
+-> Decide if I need to code up another blob detector to compare
+   sufficiently, also if I am going to attempt navigation
+-> Start finalizing the code that I will use to detect blobs for the
+   examples in the paper
+-> Turn the bulleted sections of my paper into a functioning
+   introduction and related works
+
+Week 7
+-> Run Sample videos through the blob detectors and record the
+   performance
+-> Run more tests and samples for the paper.
+-> Record all of the data in readable format
+-> Write the Methods section of the paper
+-> Begin bulleting discussion, conclusion, and future work for paper
+
+Week 8
+-> Finalize paper, start to finish every section one at a time.  Read
+   other research papers as examples for which section headings are
+   most important.
+-> Finish plotting comparison and examples.
+-> Begin working on navigation with the blob data that has been
+   collected
+-> Use / adapt current blob descriptor to track blobs through multiple
+   images
+-> Look into effective algorithms for tracking the blobs through
+   multiple frames and deciding which are closest
+
+Week 9
+-> Look at the finished paper and look at the conferences that I want
+   to send it to. Judge based off of caliber of conference and how
+   good the paper is
+-> Record some test videos to try and see if I can navigate them
+-> Look into interesting algorithms that can be applied to blobs
+   moving, possibly machine learning.
+-> Try and use some method to effectively generate navigable
+   instructions from the blob videos that are produced
+-> Look at what is required to put the program on a phone
+-> Look at the available robotic parts that I could use to try and
+   make a simple self-navigating robot later in the fall
+
+______________________________________________________________________
+DROPPED TOPICS
+
+Week 2
+-> start to think on how these shapes can be sorted
+-> look into more monographic SLAM to see how pose estimation works
+    see if I can come up with a similar algorithm
+-> find/create a data structure that can effectively store relative
+    locations of shapes
+
+Week 4
 -> use openCV library and above function to begin a pose estimation
     (relative, what is closest?)
+-> examine the computational requirements to do this process and
+    compare them to what will be available at real time
+-> re-evaluate the effectiveness of the data structures that I have
+    implemented for storing the relative maps
+
+Week 5
+-> use the estimations to check if the path has been maintained by the
+    object to determine if it is stationary or mobile
+-> if the objects are moving, determine if the trajectory collides
+    with that of the current movement the camera is experiencing
+-> look into effective ways to determine absolute locations (such as
+    North, South, Altitude, Vector between, etc.)
+-> if feasible, create a third associative data structure that is
+    sorted based off acutal location rather than relative location
+-> Write final blob detector and descriptor algorithm
+-> Decide on local storage for tracked objects, OpenCV keypoints? I'll
+    need a descriptor for these objects as well (direction & rate)
 -> attempt to identify as many objects as possible consistently from a
     circular walking video around them (their paths of travel through
     the image and which are closest)
--> examine the computational requirements to do this process and
-    compare them to what will be available at real time
 -> find more papers that relate to pose estimation / monographic SLAM
     / robotic navigation / map storage
 -> write a fully drafted introduction for final paper, put in a works
@@ -58,20 +145,8 @@ Week 4
 -> decide officially which conferences I will be sending the paper too
     and align my paper with the requirements that are posted for those
     conferences
--> re-evaluate the effectiveness of the data structures that I have
-    implemented for storing the relative maps
-
-Week 5
 -> add a position estimation ability for shapes in the viewing plane
     and use this to more quickly identify the path of shapes
--> use the estimations to check if the path has been maintained by the
-    object to determine if it is stationary or mobile
--> if the objects are moving, determine if the trajectory collides
-    with that of the current movement the camera is experiencing
--> look into effective ways to determine absolute locations (such as
-    North, South, Altitude, Vector between, etc.)
--> if feasible, create a third associative data structure that is
-    sorted based off acutal location rather than relative location
 
 Week 6
 -> record more test videos and improve the ability to identify objects
@@ -127,13 +202,3 @@ Week 9
     and clarity
 -> play with robot
 
-
-DROPPED TOPICS
-
-
-Week 2
--> start to think on how these shapes can be sorted
--> look into more monographic SLAM to see how pose estimation works
-    see if I can come up with a similar algorithm
--> find/create a data structure that can effectively store relative
-    locations of shapes

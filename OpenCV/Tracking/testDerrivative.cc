@@ -13,6 +13,11 @@ typedef cv::Vec3b px; // "px" for pixel
 // Used for an unnecessary callback, no function
 void callbackDummy(int,void*){}
 
+// Returns the sum of all three channels of a given pixel
+const int rgbSum( const px &rgb ){
+  return (rgb[0]+rgb[1]+rgb[2]);
+}
+
 // Returns the max of two integers as an integer, defaults to a
 const int& max( const int &a, const int &b ){
   if (a >= b)
@@ -52,7 +57,6 @@ int main(int argc, char *argv[]){
   cv::Mat imgDerriv(img.clone());
 
   int xShift(6);  int yShift(5);
-
 
   cv::namedWindow(ORIGINAL_IMAGE, CV_WINDOW_NORMAL);
   cv::namedWindow(EDGES_WINDOW, CV_WINDOW_NORMAL);

@@ -28,3 +28,11 @@ target_link_libraries( testDerrivative ${OpenCV_LIBS} )
 project( derrivativeTree )
 add_executable( derrivativeTree derrivativeTree.cc )
 target_link_libraries( derrivativeTree ${OpenCV_LIBS} )
+
+project( testSmartDerrivative )
+add_executable( testSmartDerrivative testSmartDerrivative.cc )
+target_link_libraries( testSmartDerrivative ${OpenCV_LIBS} )
+
+project( testBlobFinder )
+add_executable( testBlobFinder testBlobFinder.cc )
+target_link_libraries( testBlobFinder ${OpenCV_LIBS} )

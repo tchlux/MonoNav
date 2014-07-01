@@ -26,7 +26,7 @@ Mat g_sparseImg; // Holder for the original image (sparse)
 Mat g_derriv;    // Holder for the derrivative of that image
 Link<cv::Point> g_boundedRegion;
 cv::Scalar g_green(0,255,0);
-int g_interesting(15); // Greater than half intensity average
+int g_interesting(200); // Greater than half intensity average
 int g_checkRange(2);    // Neighborhood check range for breadth first
 
 // Used for an unnecessary callback, no function
@@ -45,7 +45,7 @@ bool inBounds(const cv::Point &pt){
 bool interesting(const cv::Point &pt){
   const px &pixel( g_derriv.at<px>(pt.y, pt.x) );
   return ((pixel.val[0] + pixel.val[1] + pixel.val[2]) 
-	  <= g_interesting);
+	  >= g_interesting);
 }
 
 // TODO:  This will perform necessary checks on cells
@@ -58,9 +58,6 @@ void addIfInteresting(Link<cv::Point> &queue, const cv::Point &curr){
 	}
       }
     }
-  }
-  else{
-    std::cerr << "edgeVectorPic.cc Line 63: Out of bounds" << std::endl;
   }
 }
 
