@@ -2,6 +2,99 @@
 //      FUNCTIONS I'M NOT USING ANYMORE     
 // =========================================
 
+// average += (new value - average) / group size;
+
+#define BLOB_PX(y,x) blobImg.at<cv::Vec3b>(y,x)
+#define BLOB_CENTER(y,x) blobImg.at<cv::Vec3b>(y,x)[1]
+#define BLOB_HALF_WIDTH(y,x) blobImg.at<cv::Vec3b>(y,x)[0]
+#define BLOB_HALF_HEIGHT(y,x) blobImg.at<cv::Vec3b>(y,x)[2]
+#define PX2SCALAR(px) cv::Scalar(px[0],0,px[2])
+
+  //  int blobCenterCheckRange;
+  //  int blobCenterIncrement;
+  //  int drawBlobThresh;  
+  //  int bImgRatio;
+  //  Img blobImg;
+    //    blobCenterCheckRange = 1;
+    //    blobCenterIncrement = 20;
+    //    drawBlobThresh = 200;
+    //    bImgRatio = 1;
+
+  // Pre:  Given values defined and within bounds of blobImg
+  // Post: The blob information stored in the pixel location
+  //       "(xAvg,yAvg)" is updated with the newest dimensions
+    applyRatio(xAvg, yAvg, xMin, yMin, xMax, yMax);
+    blobImg = outImg;
+    bImgRatio = 2;
+    img.copyTo(blobImg);
+    Img blobImgRegion(blobImg, cv::Range(0,img.rows/bImgRatio),
+		      cv::Range(0,img.cols/bImgRatio));
+      blobImg.setTo(BLACK_SC);
+      if ((img.rows / blobImgRegion.rows) != bImgRatio)
+	blobImgRegion = blobImg(cv::Range(0,img.rows/bImgRatio),
+				cv::Range(0,img.cols/bImgRatio));
+
+    std::cerr << "blobCenterIncrement: " << blobCenterIncrement << std::endl;
+    std::cerr << "drawBlobThresh: " << drawBlobThresh << std::endl;
+    std::cerr << "bImgRatio: " << bImgRatio << std::endl;
+    std::cerr << "blobImg.rows: " << blobImg.rows << std::endl;
+    std::cerr << "blobImg.cols: " << blobImg.cols << std::endl;
+    cv::createTrackbar("Blob Image reduction ratio", TRACKBAR_WINDOW, 
+		       &bImgRatio, 6);
+    cv::createTrackbar("Blob Average Increment", TRACKBAR_WINDOW,
+		       &blobCenterIncrement, 125);
+    cv::createTrackbar("Blob Center maxima check range",
+		       TRACKBAR_WINDOW, &blobCenterCheckRange, 10);
+
+  // // Pre:  all values given have been defined
+  // // Post: All values given are divided by bImgRatio, translating them
+  // //       to "blob image" coordinates
+  // void applyRatio(float &xAvg, float &yAvg, int &xMin, int &yMin,
+  // 		  int &xMax, int &yMax){
+  //   xAvg /= bImgRatio;   yMax /= bImgRatio;
+  //   yAvg /= bImgRatio;   xMin /= bImgRatio;
+  //   xMax /= bImgRatio;   yMin /= bImgRatio;
+  // }
+    // BLOB_HALF_WIDTH(yAvg,xAvg) += 
+    //   ((xHalfRange-BLOB_HALF_WIDTH(yAvg,xAvg))/dynamicAvgBufferSize);
+    // BLOB_HALF_HEIGHT(yAvg,xAvg) += 
+    //   ((yHalfRange-BLOB_HALF_HEIGHT(yAvg,xAvg))/dynamicAvgBufferSize);
+    // BLOB_CENTER(yAvg,xAvg) += blobCenterIncrement;
+
+  // TODO:  Draws a rectangle around the "Blobs" stored in this vector
+  void  drawBlobBounds(){    
+    if (BLOB_CENTER(yAvg,xAvg) >= drawBlobThresh){
+      Pt minCorner(xAvg-BLOB_HALF_WIDTH(yAvg,xAvg),
+		   yAvg-BLOB_HALF_HEIGHT(yAvg,xAvg));
+      Pt maxCorner(xAvg+BLOB_HALF_WIDTH(yAvg,xAvg),
+		   yAvg+BLOB_HALF_HEIGHT(yAvg,xAvg));
+      rectangle(blobImg, minCorner, maxCorner, PX2SCALAR(BLOB_PX(yAvg,xAvg)));
+      rectangle(img, minCorner*bImgRatio, maxCorner*bImgRatio,
+		PX2SCALAR(BLOB_PX(yAvg,xAvg)));
+    }
+  } 
+
+  // TODO:  This function will check if the current blob center is a
+  //        local maximum
+  bool goodToDrawBlob(const int &currCol, const int &currRow){
+    bool shouldDraw = true;
+    for (int col(-blobCenterCheckRange);
+	 col<blobCenterCheckRange; col++){
+      for (int row(-blobCenterCheckRange);
+	   row<blobCenterCheckRange; row++){
+	shouldDraw = (shouldDraw &&
+		      BLOB_CENTER(currRow,currCol) >= BLOB_CENTER(row,col));
+      }
+    }
+    return (shouldDraw);
+  }
+  // WARNING:  This function does not handle boundary of the image cases
+
+
+
+
+
+
 // USED TO COMBINE TWO IMAGES
 
 // TODO:  This function will add img1 and img2 placing the results in 2
