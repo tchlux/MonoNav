@@ -4,6 +4,46 @@
 
 // average += (new value - average) / group size;
 
+  // Deep copy constructor
+  Blob(const Blob &blob){
+    color = blob.color;
+    lower = blob.lower;
+    upper = blob.upper;
+    center = blob.center;
+    occurance = blob.occurance;
+  }
+
+  // TODO:  The print statment for a blob
+  friend std::ostream& operator<<(std::ostream &out, const Blob &blob){
+    out << "color: " << blob.color << std::endl;
+    out << "lower: " << blob.lower << std::endl;
+    out << "upper: " << blob.upper << std::endl;
+    out << "center: " << blob.center << std::endl;
+    out << "occurance: " << blob.occurance << std::endl;
+    return(out);
+  }
+
+#define SQRT_PRECISION 1.0 // The minimal accuracy of the square root
+
+// Pre:  0 < num, 0 < precision
+// Post: The approximate square root of num to a set digit accuracy
+float sqrt(float num){
+  bool flipped = num < 1.0; // if less than one, needs to be flipped
+  if (flipped) num = 1.0 / num; // Make the number > 1
+  float last = 1.0;  float guess = 2.0;
+  float diff = (num-guess*guess);
+  while ( diff*diff > SQRT_PRECISION){
+    if (guess*guess < num){
+      last = guess;
+      guess = (guess+num)/2;
+    }
+    else
+      guess = (guess+last)/2;
+    diff = (num-guess*guess);
+  }
+  if (flipped) guess = 1.0 / guess; // flip back if necessary
+  return(guess);                                                                       }
+
 #define BLOB_PX(y,x) blobImg.at<cv::Vec3b>(y,x)
 #define BLOB_CENTER(y,x) blobImg.at<cv::Vec3b>(y,x)[1]
 #define BLOB_HALF_WIDTH(y,x) blobImg.at<cv::Vec3b>(y,x)[0]
