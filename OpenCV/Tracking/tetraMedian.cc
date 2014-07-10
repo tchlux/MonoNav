@@ -8,8 +8,10 @@
 #define ORIGINAL_IMAGE "Original Image"
 #define TRACKBAR_WINDOW "Adjustable parameters"
 #define ESC_KEY 1048603 //27 // Escape key on hp-elitebook
-#define BLOB_HEIGHT(blob) blob.upper.y-blob.lower.y
-#define BLOB_WIDTH(blob) blob.upper.x-blob.lower.x
+
+#define BLOB_WIDTH(b) (b.upper.x-b.lower.x)
+#define BLOB_HEIGHT(b) (b.upper.y-b.lower.y)
+#define BLOB_CENTER(b) (Pt((b.lower.x+b.upper.x)/2,(b.lower.y+b.upper.y)/2))
 
 class Blob;
 
@@ -19,31 +21,117 @@ typedef cv::Point Pt; // "Pt" for point
 typedef std::vector<Blob> BlobVec;
 typedef BlobVec::iterator BlobIter;
 
+// ====================
+//      Blob Class     
+// ====================
 
 // TODO:  This class will hold the information for a blob
 class Blob{
 public:
+  int occurance;
   Px color;
   Pt lower;
   Pt upper;
-  Pt center;
-  int occurance;
 
   // Default constructor
   Blob(const Px Color, const int Col, const int Row){
-    color = Color;
-    lower = Pt(Col,Row);
-    upper = Pt(Col,Row);
-    center = Pt(Col,Row);
     occurance = 1;
+    color = Color;
+    lower = upper = Pt(Col,Row);
   }
+
+  // TODO:  This method will reset the current blob so that it is
+  //        ready to be resampled
+  Blob& prepareForResample(Img &img){
+    occurance = 1;
+    lower = upper = BLOB_CENTER((*this));
+    color = img.at<Px>(lower.y, lower.x);
+    return(*this);
+  }
+
 };
+
+// ==============================================
+//      Runtime functions for blob detection     
+// ==============================================
+
+// Pre:  a and be are defined
+// Post: The extrema values are stored in a
+void setMin(int &a, const int &b){
+  if (b < a)
+    a = b;
+}
+void setMax(int &a, const int &b){
+  if (b > a)
+    a = b;
+}
+
+// Pre:  xDir and yDir defined, only one of them is non-zero
+// Post: The next direction to travel (horizontal / vertical switch)
+void setBiDirection8(int &xDir, int &yDir){
+  if ((yDir == -1) && (xDir == 0)){
+    yDir = 1;
+  }
+  else if ((yDir == 1) && (xDir == 0)){
+    yDir = 0;
+    xDir = 1;
+  }
+  else if ((yDir == 0) && (xDir == 1)){
+    xDir = -1;
+  }
+  else if ((yDir == 0) && (xDir == -1)){
+    yDir = -1;
+    xDir = 1;
+  }
+  else if ((yDir == -1) && (xDir == 1)){
+    yDir = 1;
+    xDir = -1;
+  }
+  else if ((yDir == 1) && (xDir == -1)){    
+    xDir = 1;
+  }
+  else if ((yDir == 1) && (xDir == 1)){
+    yDir = -1;
+    xDir = -1;
+  }
+  else if ((yDir == -1) && (xDir == -1)){
+    yDir = -1;
+    xDir = 0;
+  }
+}
+
+// TODO:  This function checks to see if the new edge points are
+//        relative min's and max's for this blob
+void updateMinMax(Blob &currentBlob, const Pt &edge1, const Pt & edge2){
+  setMin(currentBlob.lower.x, edge1.x);
+  setMin(currentBlob.lower.x, edge2.x);
+  setMin(currentBlob.lower.y, edge1.y);
+  setMin(currentBlob.lower.y, edge2.y);
+  setMax(currentBlob.upper.x, edge1.x);
+  setMax(currentBlob.upper.x, edge2.x);
+  setMax(currentBlob.upper.y, edge1.y);
+  setMax(currentBlob.upper.y, edge2.y);
+}
+
+// Pre:  box and currentBlob fully defined
+// Post: true if "currentBlob" lies entirely inside of "box"
+bool overlaps(const Blob &box, const Blob &currentBlob){
+  const Pt center(BLOB_CENTER(currentBlob));
+  return (((center.x > box.lower.x) &&
+	   (center.y > box.lower.y)) &&
+	  ((center.x < box.upper.x) &&
+	   (center.y < box.upper.y)));
+}
+
+
+// ===========================
+//      Tetramedian class     
+// ===========================
 
 // TODO:  This is the class for blob detection
 class TetraMedian{
 public:
   
-  int dynamicAvgBufferSize;
   int channelDiffThresh;
   int startingJumpScale;
   int minBlobDimension;
@@ -58,40 +146,15 @@ public:
   BlobVec blobs;
 
   TetraMedian(){
-    dynamicAvgBufferSize = 3;
     channelDiffThresh = 25;
     startingJumpScale = 16;
-    minBlobDimension = 15;
-    drawBlobThresh = 2;
+    minBlobDimension = 10;
+    drawBlobThresh = 1;
     computations = 16;
     minJumpScale = 1;
-    clearBlobs = 1;
+    clearBlobs = 0;
     maxBlobs = 20;
-    samples = 100;
-  }
-
-  // Pre:  a and be are defined
-  // Post: The extrema values are stored in a
-  void setMin(int &a, const int &b){
-    if (b < a)
-      a = b;
-  }
-  void setMax(int &a, const int &b){
-    if (b > a)
-      a = b;
-  }
-
-  // TODO:  This function checks to see if the new edge points are
-  //        relative min's and max's for this blob
-  void updateMinMax(Blob &currentBlob, const Pt &edge1, const Pt & edge2){
-    setMin(currentBlob.lower.x, edge1.x);
-    setMin(currentBlob.lower.x, edge2.x);
-    setMin(currentBlob.lower.y, edge1.y);
-    setMin(currentBlob.lower.y, edge2.y);
-    setMax(currentBlob.upper.x, edge1.x);
-    setMax(currentBlob.upper.x, edge2.x);
-    setMax(currentBlob.upper.y, edge1.y);
-    setMax(currentBlob.upper.y, edge2.y);
+    samples = 101;
   }
 
   // Pre:  img, x, y are all defined
@@ -115,73 +178,6 @@ public:
     return false;
   }
 
-  // Pre:  box and currentBlob fully defined
-  // Post: true if the center of "currentBlob" lies within the
-  //       boundaries of "box"
-  bool overlaps(const Blob &box, const Blob &currentBlob){
-    return (((box.lower.x < currentBlob.center.x) &&
-	     (box.lower.y < currentBlob.center.y)) &&
-	    ((box.upper.x > currentBlob.center.x) &&
-	     (box.upper.y > currentBlob.center.y)));
-  }
-
-  // Pre:  xDir and yDir defined, only one of them is non-zero
-  // Post: The next direction to travel (horizontal / vertical switch)
-  void setBiDirection8(int &xDir, int &yDir){
-    if ((yDir == -1) && (xDir == 0)){
-      yDir = 1;
-    }
-    else if ((yDir == 1) && (xDir == 0)){
-      yDir = 0;
-      xDir = 1;
-    }
-    else if ((yDir == 0) && (xDir == 1)){
-      xDir = -1;
-    }
-    else if ((yDir == 0) && (xDir == -1)){
-      yDir = -1;
-      xDir = 1;
-    }
-    else if ((yDir == -1) && (xDir == 1)){
-      yDir = 1;
-      xDir = -1;
-    }
-    else if ((yDir == 1) && (xDir == -1)){    
-      xDir = 1;
-    }
-    else if ((yDir == 1) && (xDir == 1)){
-      yDir = -1;
-      xDir = -1;
-    }
-    else if ((yDir == -1) && (xDir == -1)){
-      yDir = -1;
-      xDir = 0;
-    }
-  }
-
-  // Pre:  toUpdate and newData fully defined
-  // Post: The member data of "toUpdate" is updated with the member
-  //       data of "newData" using the dynamic average function
-  void updateBlob(Blob &toUpdate, Blob &newData){
-    // Update center and dimensions of blob
-    toUpdate.center.x += 
-      (newData.center.x - toUpdate.center.x) / dynamicAvgBufferSize;
-    toUpdate.center.y += 
-      (newData.center.y - toUpdate.center.y) / dynamicAvgBufferSize;
-
-    toUpdate.lower.x += 
-      (newData.lower.x - toUpdate.lower.x) / dynamicAvgBufferSize;
-    toUpdate.lower.y += 
-      (newData.lower.y - toUpdate.lower.y) / dynamicAvgBufferSize;
-
-    toUpdate.upper.x += 
-      (newData.upper.x - toUpdate.upper.x) / dynamicAvgBufferSize;
-    toUpdate.upper.y += 
-      (newData.upper.y - toUpdate.upper.y) / dynamicAvgBufferSize;
-    // Increment occurance
-    toUpdate.occurance ++;
-  }
-
   // Pre:  img, x, y , xMove, yMove all defined, optional initial
   //       startingJumpScale and maxChannelDiff.
   // Post: The farthest point in the (x,y) direction specified that
@@ -193,58 +189,57 @@ public:
 		const Px &blobColor){
     int jumpScale = startingJumpScale;
     while (jumpScale >= minJumpScale){
-      x += (xMove*jumpScale); y += (yMove*jumpScale);
+      x += (xMove*jumpScale); 
+      y += (yMove*jumpScale);
       if (!inBounds(x, y) ||
 	  channelsDiff(blobColor, img.at<Px>(y, x))){
 	// If (not in bounds) or (channels differ)
-	x -= (xMove*jumpScale); y -= (yMove*jumpScale);
+	x -= (xMove*jumpScale); 
+	y -= (yMove*jumpScale);
 	jumpScale >>= 1; // Divide the jump amount by two
       }
     }
     return Pt(x,y);
   }
 
+  // TODO:  Returns true if the blob doesn't meet requirements
+  bool badBlob(const Blob &b){
+    return ((BLOB_WIDTH(b) < minBlobDimension) ||
+	    (BLOB_HEIGHT(b) < minBlobDimension));    
+  }
+
   // TODO:  This function will add the blob to a vector, it is the
   //        most complex operation of the entire process
   void addBlob(Blob &currentBlob){
-    bool needToAdd(true);
-    BlobIter position(blobs.begin());
-    for (int b(0); b<blobs.size(); b++){
-      if ((blobs[b].upper.x-blobs[b].lower.x < minBlobDimension) ||
-	  (blobs[b].upper.y-blobs[b].lower.y < minBlobDimension))
-	blobs.erase(blobs.begin() + b);
-      if (overlaps(blobs[b], currentBlob)){
-	if (!channelsDiff(blobs[b].color, currentBlob.color)){
-	  needToAdd = false;
-	  updateBlob(blobs[b], currentBlob);
-	  break;
-	}
-	else{
-	  blobs.erase(blobs.begin() + b);
-	}
-      }
-    }
-    if ((blobs.size() < maxBlobs) &&
-	(needToAdd) &&
-	((currentBlob.upper.x-currentBlob.lower.x > minBlobDimension) &&
-	 (currentBlob.upper.y-currentBlob.lower.y > minBlobDimension))){
-      blobs.push_back(currentBlob);
-    }      
+    if (!badBlob(currentBlob)){
+      bool newBlob(true);
 
+      for (int b(0); b<blobs.size(); b++){      
+	if (badBlob(blobs[b]))
+	  blobs.erase(blobs.begin() + b);
+      	else
+	  if (overlaps(blobs[b], currentBlob))
+	    newBlob = false;
+      }    
+
+      if ((newBlob) &&
+	  (blobs.size() < maxBlobs))
+	blobs.push_back(currentBlob);
+
+    }
   }
 
   // Pre:  col and row are within the bounds of "img"
   // Post: Four different sloped lines are projected outwards starting
-  //        from "col" and "row" in "img" and the median point of the
+  //        from "currentBlob.center" in "img" and the median point of the
   //        "jumpToEdge" searches for both directions on that line is
   //        used as the starting point for the searches on the next
   //        line.  This is done with "computations" calls to the
-  //        "jumpToEdge" function and finally produces one "center" of
-  //        a blob
-  void biDirection8(const int &col, const int &row){
-    Blob currentBlob(img.at<Px>(row,col), col, row);
+  //        "jumpToEdge" function and updates the bounds
+  void biDirection8(Blob &currentBlob){
+    Pt edge1(BLOB_CENTER(currentBlob));
+    Pt edge2(edge1);
     int  xDir(0);       int yDir(-1);
-    Pt edge1(col,row);  Pt edge2(col,row);
     for (int i(0); i<computations; i+=2){
       const int x((edge1.x+edge2.x)/2);
       const int y((edge1.y+edge2.y)/2);
@@ -252,13 +247,9 @@ public:
       setBiDirection8(xDir, yDir);
       edge2 = jumpToEdge(x, y, xDir, yDir, currentBlob.color);
       setBiDirection8(xDir, yDir);
-      // Dynamically calculate average
-      currentBlob.center.x += (x-currentBlob.center.x) / dynamicAvgBufferSize;
-      currentBlob.center.y += (y-currentBlob.center.y) / dynamicAvgBufferSize;
       // Update min and max
       updateMinMax(currentBlob, edge1, edge2);
     }  
-    addBlob(currentBlob);    
   }
 
   // Pre:  numSamples > 0
@@ -266,8 +257,11 @@ public:
   void sampleImgUniform(const int &numSamples){
     const int pixels(img.rows*img.cols);
     const int step(pixels / numSamples);
-    for (int pixel(step); pixel<(pixels); pixel+=step){
-      biDirection8(pixel%img.cols, pixel/img.rows);
+    for (int pixel(0); pixel<(pixels); pixel+=step){
+      Blob currentBlob(img.at<Px>(pixel/img.cols,pixel%img.cols),
+		       pixel%img.cols, pixel/img.cols);
+      biDirection8(currentBlob);
+      addBlob(currentBlob);    
     }    
   }
 
@@ -278,10 +272,7 @@ public:
 
     if (blobs.size() > 0){
       for (int b(0); b < blobs.size(); b++){
-	biDirection8(blobs[b].center.x-1, blobs[b].center.y);
-	biDirection8(blobs[b].center.x+1, blobs[b].center.y);
-	biDirection8(blobs[b].center.x, blobs[b].center.y-1);
-	biDirection8(blobs[b].center.x, blobs[b].center.y+1);
+	biDirection8(blobs[b].prepareForResample(img));
       }
       regularSamples -= blobs.size();
     }
@@ -300,8 +291,10 @@ public:
       if (blobs[b].occurance >= drawBlobThresh){
 	rectangle(outImg, blobs[b].lower, blobs[b].upper, 
 		  cv::Scalar(blobs[b].color[0],
-			     blobs[b].color[1],
-			     blobs[b].color[2]));
+		  	     blobs[b].color[1],
+		  	     blobs[b].color[2]));
+	rectangle(outImg, BLOB_CENTER(blobs[b]), BLOB_CENTER(blobs[b]),
+		  cv::Scalar(0,255,0), 3);
       }
     }
   }
@@ -326,8 +319,6 @@ public:
 
     cv::createTrackbar("Channel Diff Threshold", TRACKBAR_WINDOW, 
 		       &channelDiffThresh, 127);
-    cv::createTrackbar("Dynamic Buffer Size", TRACKBAR_WINDOW, 
-		       &dynamicAvgBufferSize, 16);
     cv::createTrackbar("Computations", TRACKBAR_WINDOW, 
 		       &computations, 80);
     cv::createTrackbar("Samples", TRACKBAR_WINDOW, &samples, 
@@ -345,14 +336,13 @@ public:
       if (argc < 2)
 	vid >> img;
       else
-	img = cv::imread(argv[1]);
+      	img = cv::imread(argv[1]);
 
-      if ((samples > 0) &&
-	  (dynamicAvgBufferSize > 0))
-      	detectBlobs(img, blobs);
-
+      detectBlobs(img, blobs);
       drawBlobBounds(img);
+
       cv::imshow(ORIGINAL_IMAGE, img);
+
       if (clearBlobs)
 	blobs.clear();
     }
@@ -360,3 +350,10 @@ public:
 
 };
 
+      // vid >> img;
+      // if (img.rows == 0){
+      // 	vid.open(argv[1]);
+      // 	vid >> img;
+      // }
+      // if (maxBlobs < samples)
+      // 	maxBlobs = samples;

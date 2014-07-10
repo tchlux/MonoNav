@@ -4,6 +4,41 @@
 
 // average += (new value - average) / group size;
 
+  int dynamicAvgBufferSize;
+    dynamicAvgBufferSize = 4;
+    cv::createTrackbar("Dynamic Buffer Size", TRACKBAR_WINDOW, 
+		       &dynamicAvgBufferSize, 16);
+
+
+      // Dynamically calculate average
+      currentBlob.center.x += (x-currentBlob.center.x) / dynamicAvgBufferSize;
+      currentBlob.center.y += (y-currentBlob.center.y) / dynamicAvgBufferSize;
+
+
+  // Pre:  toUpdate and newData fully defined
+  // Post: The member data of "toUpdate" is updated with the member
+  //       data of "newData" using the dynamic average function
+  void updateBlob(Blob &toUpdate, Blob &newData){
+    // Update center and dimensions of blob
+    toUpdate.center.x += 
+      (newData.center.x - toUpdate.center.x) / dynamicAvgBufferSize;
+    toUpdate.center.y += 
+      (newData.center.y - toUpdate.center.y) / dynamicAvgBufferSize;
+
+    toUpdate.lower.x += 
+      (newData.lower.x - toUpdate.lower.x) / dynamicAvgBufferSize;
+    toUpdate.lower.y += 
+      (newData.lower.y - toUpdate.lower.y) / dynamicAvgBufferSize;
+
+    toUpdate.upper.x += 
+      (newData.upper.x - toUpdate.upper.x) / dynamicAvgBufferSize;
+    toUpdate.upper.y += 
+      (newData.upper.y - toUpdate.upper.y) / dynamicAvgBufferSize;
+    // Increment occurance
+    toUpdate.occurance ++;
+  }
+
+
   // Deep copy constructor
   Blob(const Blob &blob){
     color = blob.color;
