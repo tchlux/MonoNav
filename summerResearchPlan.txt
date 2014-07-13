@@ -1,6 +1,6 @@
 Summer Research 2014
 
-Week 1
+Week 1 (June 2nd - June 6th)
 -> set plan for entire summer
 -> find out how to get pixel data from mp4
 -> discover how many processes a smartphone can do in a set amount of
@@ -8,7 +8,7 @@ Week 1
 -> record a simple test video on phone and identify an object moving
     across the field of vision
 
-Week 2
+Week 2 (June 9th - June 13th)
 -> find papers that relate to low power navigation, specifically the
     challenge that I want to focus on
 -> read from openCV book on how to identify objects in a viewing plane
@@ -19,7 +19,7 @@ Week 2
     relative locations rather than absolute locations (different types
     of map representation)
 
-Week 3
+Week 3 (June 16th - June 20th)
 -> re-evaluate my progress and plan for the summer
 -> think of title of project and find multiple research articles that
     may or may not directly relate to this type of processing
@@ -37,7 +37,7 @@ Week 3
    algorithms that could be useful in creating my own regional optical
    flow tracking algorithm.
 
-Week 4
+Week 4 (June 23rd - June 27th)
 -> Write my own optical flow tracking algorithm that uses boundaries
     of regions and relative movement speed.
 -> Write two edge finder algorithms
@@ -47,50 +47,57 @@ Week 4
 -> Read on how actual blob finding is performed in order to better
    understand what algorithms are valuable
 
-Week 5
+Week 5 (June 30th - July 4th)
 -> Code multiple sample-based blob detector algorithms (pick top 3)
 -> Examine performance of created algorithms, decide if more should be
    created or if it is time to move on to the known algorithms
--> Code known blob detector algorithm
--> Compare known blob detector to my blob detectors, accuracy and speed
 -> Research to look for papers on sample-based blob detectors
--> Begin draft a bulleted summary of what the paper will be on
+-> Code known blob detector algorithm in OpenCV
+-> Compare known blob detector to my blob detectors, accuracy and speed
+-> Begin to draft a bulleted summary of the paper ideas
 -> Search for metrics on how to compare these blob detectors and their
    performance
 
-Week 6
+Week 6 (July 7th - July 11th)
 -> Perfect the sample-based blob detectors that I have created, tweak
    and find if there are ways to make them perform better
 -> Finish coding up the known blob detector algorithm (OpenCV's built
    in blob detector)
 -> Decide if I need to code up another blob detector to compare
    sufficiently, also if I am going to attempt navigation
--> Start finalizing the code that I will use to detect blobs for the
-   examples in the paper
--> Turn the bulleted sections of my paper into a functioning
-   introduction and related works
+-> Tweak parameters of blob detector and understand how changing any
+   individual values affeccts the performance of the detection.
+-> Add the ability to track previous blobs so that "motion" can be
+   viewed
+-> Include velocity in drawings and test the limits of the detector
+   now, find out how many samples it takes to slow it down.
 
-Week 7
--> Run Sample videos through the blob detectors and record the
-   performance
--> Run more tests and samples for the paper.
--> Record all of the data in readable format
+Week 7 (July 12th - July 16th)
+-> Add heirarchical object organization to my blob detector to make it
+   more smooth, track "objects" of multiple blobs through frames
+-> Run Sample videos through the blob detectors and examine performance
+-> Add "color of interest" to the detector and see if I can
+   intentionally follow a specified blob around the screen.
+-> Run tests and samples on the new tracking.
+-> Read papers on vision tracking and blob detection to come up with
+   good metrics to compare my algorithm on.
+-> Bullet ideas, and then turn those into a functioning
+   introduction and related works
 -> Write the Methods section of the paper
 -> Begin bulleting discussion, conclusion, and future work for paper
 
-Week 8
+Week 8 (July 21st - July 25th)
 -> Finalize paper, start to finish every section one at a time.  Read
    other research papers as examples for which section headings are
    most important.
--> Finish plotting comparison and examples.
+-> Finish plotting comparison and example data for blob tracking.
 -> Begin working on navigation with the blob data that has been
    collected
--> Use / adapt current blob descriptor to track blobs through multiple
-   images
--> Look into effective algorithms for tracking the blobs through
-   multiple frames and deciding which are closest
+-> Make approximations of distance to blobs in the image, changing the
+   color of ones that are more dangerous
+-> Work more on paper, lots of writing :D
 
-Week 9
+Week 9 (July 28th - August 1st)
 -> Look at the finished paper and look at the conferences that I want
    to send it to. Judge based off of caliber of conference and how
    good the paper is
