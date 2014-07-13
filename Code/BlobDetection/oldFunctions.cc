@@ -4,6 +4,74 @@
 
 // average += (new value - average) / group size;
 
+  int computations;
+    computations = 16;
+    cv::createTrackbar("Computations", TRACKBAR_WINDOW, 
+		       &computations, 80);
+
+
+int g_pos_dab(POSITION_DYNAMIC_AVERAGE_BUFFER);
+int g_color_dab(COLOR_DYNAMIC_AVERAGE_BUFFER);
+int g_point_diff_thresh(POINT_DIFFERENCE_THRESHOLD);
+int g_color_diff_thresh(COLOR_DIFFERENCE_THRESHOLD);
+int g_max_blobs_in_object(MAX_BLOBS_IN_OBJECT);
+int g_velocity_diff_thresh(VELOCITY_DIFF_THRESHOLD);
+    cv::createTrackbar("Minimum blob dimension", TRACKBAR_WINDOW,
+		       &g_min_blob_dimension, img.rows / 2);
+    cv::createTrackbar("Point difference threshold", TRACKBAR_WINDOW,
+		       &g_point_diff_thresh, (img.cols / 10));
+    cv::createTrackbar("Velocity difference threshold", TRACKBAR_WINDOW,
+		       &g_velocity_diff_thresh, (img.cols / 10));
+    cv::createTrackbar("Color dynamic average buffer",
+		       TRACKBAR_WINDOW, &g_color_dab, 20);
+
+    cv::createTrackbar("Max blobs in Object", TRACKBAR_WINDOW, 
+		       &g_max_blobs_in_object, 100);
+
+
+Pt g_toTrack(0,0);
+
+// TODO:  This will add the clicked point to the "Objects of interest"
+//        vector
+void onMouse( int event, int x, int y, int flags, void* params){
+  if (event == CV_EVENT_LBUTTONDOWN){
+    g_toTrack.x = x;
+    g_toTrack.y = y;
+  }
+}
+
+  // =========================
+  //      Object tracking     
+  // =========================
+	updateTracking();
+// TODO:  This function will begin tracking user clicked objects
+  void updateTracking(){
+    if (g_toTrack != Pt(0,0)){      
+      trackedObjects.push_back(Object(img.at<Px>(g_toTrack.y, g_toTrack.x),
+				      g_toTrack, g_toTrack));
+      g_toTrack.x = g_toTrack.y = 0;
+      Object &newObject(trackedObjects[trackedObjects.size()-1]);
+    }
+  }
+
+
+  Pt toTrack;
+  ObjVec trackedObjects;
+  // TODO:  Draws all of the objects being tracked
+  void drawTrackedObjects(Img &outImg){
+    for (ObjIter obj(trackedObjects.begin()); obj<trackedObjects.end(); obj++){
+      drawObject(outImg, *obj);
+    }
+  }
+
+//	   (! (overlaps(blob1,blob2) || overlaps(blob2,blob1)) &&
+// (pointsDiff(blob1.lower, blob2.lower) || 
+//  pointsDiff(blob1.upper, blob2.upper))) );
+
+// updatePointAverage(lower, blob.lower);
+// updatePointAverage(upper, blob.upper);
+
+
   // Pre:  col and row are within the bounds of "img"
   // Post: Four different sloped lines are projected outwards starting
   //        from "oldBlob.center" in "img" and the median point of the
