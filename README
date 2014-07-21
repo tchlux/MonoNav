@@ -65,3 +65,21 @@ git push -u [remote] [branch]	-Send all updated files to the git
 				  your local machine that you would
 				  like to push the the given remote. 
 ______________________________________________________________________
+Fixing and Changing Commits
+
+~/.gitignore_global	-The file location for file types to ignore.
+
+git reset --soft HEAD^  -Revert the local "head" of the git,
+                          essentially undoing previous commit.
+
+get rm --cache --all    -Revoke and "add" step before a commit.
+
+find . -type f -name "* conflicted copy*" -exec rm -f {} \;
+
+       	       	     	-Recursively remove all conflicted files from
+			  current git repo. 
+
+awk '!/conflicted/' .git/packed-refs > temp && mv temp .git/packed-refs
+
+    		        -Remove any conflicted references from git's
+                          packed-refs file.

@@ -7,12 +7,9 @@
 #define ORIGINAL_IMAGE "Original Image"
 #define TRACKBAR_WINDOW "Adjustable parameters"
 #define ESC_KEY 1048603 // 27 Escape key on hp-elitebook
-#define DEFAULT_IMAGE_SAMPLES 151
-#define SAMPLE_COLOR Px(200,0,0)
 
-#define MIN_LIFESPAN_TO_SHOW 5    // Min lifespan before valid
-#define MAX_LIFESPAN_VALUE 255     // Max lifespan allowed
-#define LIFESPAN_DECREMENT_RATE 10 // Rate at which it dies if not tracked
+#define SAMPLE_COLOR Px(200,0,0)   // The color all samples are drawn in
+#define DEFAULT_IMAGE_SAMPLES 151  // Relative max computations done per frame
 
 #define JUMP_TO_EDGE_COMPUTATIONS_PER_BLOB 16
 #define STARTING_JUMP_SCALE 16 // Start distance for jumpToEdge of blobs
@@ -23,27 +20,26 @@
 
 #define VELOCITY_DIFFERENCE_THRESHOLD 15 // Max difference in velocity
 #define POINT_DIFFERENCE_THRESHOLD 30 // How much points are allowed to differ
-#define COLOR_DIFFERENCE_THRESHOLD 25 // How much pixel channels can differ
+#define COLOR_DIFFERENCE_THRESHOLD 30 // How much pixel channels can differ
 
-#define MAX_BLOBS_IN_OBJECT 20  // Max number of blobs in one object
+#define MAX_ACCELERATION Physics(10.0,10.0)
 
-#define BLOB_WIDTH(b) (b.upper.x-b.lower.x)
-#define BLOB_HEIGHT(b) (b.upper.y-b.lower.y)
-#define BLOB_CENTER(b) (Pt((b.lower.x+b.upper.x)/2,(b.lower.y+b.upper.y)/2))
+#define BLOB_WIDTH(b) (b.upper.pos.x-b.lower.pos.x)
+#define BLOB_HEIGHT(b) (b.upper.pos.y-b.lower.pos.y)
+#define BLOB_CENTER(b) (Pt((b.lower.pos.x+b.upper.pos.x)/2,(b.lower.pos.y+b.upper.pos.y)/2))
 
 class Blob;   // Holds details about a blob
-class Object; // Holds many blobs that are of the same object
+class Bound; // Holds a point and it's velocity for blob bound
 typedef cv::Mat Img; // "Img" for image
 typedef cv::Vec3b Px; // "Px" for pixel 
 typedef cv::Point Pt; // "Pt" for point
-typedef cv::Point2f Velocity;
+typedef cv::Point2f Physics;
 typedef std::vector<Blob> BlobVec;  // Vector of blobs
 typedef BlobVec::iterator BlobIter; // ^^ iterator
-typedef std::vector<Object> ObjVec; // Vector of objects
-typedef ObjVec::iterator ObjIter;   // ^^ iterator
 
-int g_position_dynamic_avg_buffer(POSITION_DYNAMIC_AVERAGE_BUFFER);
+// Globals for adjusting performance
 int g_color_difference_allowance(COLOR_DIFFERENCE_THRESHOLD);
+int g_position_difference_allowance(POINT_DIFFERENCE_THRESHOLD);
 int g_min_blob_dimension(10);// Minimum blob dimension allowed
 
 // ===============================================
@@ -52,56 +48,29 @@ int g_min_blob_dimension(10);// Minimum blob dimension allowed
 
 // Pre:  "toUpdate" and "newValue" are defined
 // Post: The extrema values are stored in "toUpdate"
-void setMin(int &toUpdate, const int &newValue){
+template <class T>
+void setMin(T &toUpdate, const T &newValue){
   if (newValue < toUpdate)
     toUpdate = newValue;
-}
-void setMax(int &toUpdate, const int &newValue){
+};
+template <class T>
+void setMax(T &toUpdate, const T &newValue){
   if (newValue > toUpdate)
     toUpdate = newValue;
-}
+};
 
+template <class T>
 // Pre:  toUpdate and newPt are defined
 // Post: The extrema values are stored in "toUpdate"
-void setMinPt(Pt &toUpdate, const Pt &newPt){
+void setMinXY(T &toUpdate, const T &newPt){
   setMin(toUpdate.x, newPt.x);
   setMin(toUpdate.y, newPt.y);
-}
-void setMaxPt(Pt &toUpdate, const Pt &newPt){
+};
+template <class T>
+void setMaxXY(T &toUpdate, const T &newPt){
   setMax(toUpdate.x, newPt.x);
   setMax(toUpdate.y, newPt.y);
-}
-
-// TODO:  This function returns the absolute difference between two values
-// Pre:  "a" and "b" are defined and have comparison and subtraction operators
-// Post: The positive difference of "a" and "b"
-template <class T>
-T difference(const T &a, const T &b){
-  if (a > b)
-    return (a-b);
-  return (b-a);
-}
-
-// TODO:  This function compares the difference in x and y values of
-//        two points to a threshold 
-// Pre:  p1, p2 defined cvPoint types (either float or int)
-// Post: True if ONE of the dimensional values is similar
-template <class T>
-bool xySimilar(const T &p1, const T &p2, int diffThresh){
-  return (! ((difference(p1.x,p2.x) > diffThresh) &&
-	     (difference(p1.y,p2.y) > diffThresh))  );
-}
-
-// Pre:  "px1", "px2", g_color_difference_allowance defined, pixels have three channels
-// Post: false if the positive difference in pixel values for any ONE
-//       channel exceed "g_color_difference_allowance"
-bool channelsSimilar(const Px &px1, const Px &px2){
-  if ((difference(px1[0],px2[0]) > g_color_difference_allowance) ||
-      (difference(px1[1],px2[1]) > g_color_difference_allowance) ||
-      (difference(px1[2],px2[2]) > g_color_difference_allowance))
-    return false;
-  return true;
-}
+};
 
 // Pre:  "toUpdate" and "newValue" defined with "+=" "-" and "/" operators
 // Post: "toUpdate" is made more similar to "newValue" by a divided
@@ -115,22 +84,6 @@ void updateAverage(T &toUpdate, const T &newValue, const int &setSize){
     toUpdate -= (toUpdate - newValue) / setSize;
 }
 
-// Pre:  "toUpdate" and "newPoint" are defined
-// Post: The dynamic average function is called on x and y values,
-//	 changing "toUpdate" to be more similar to "newPoint"     
-void updatePointAverage(Pt &toUpdate, const Pt &newPoint){
-  updateAverage(toUpdate.x, newPoint.x, g_position_dynamic_avg_buffer);
-  updateAverage(toUpdate.y, newPoint.y, g_position_dynamic_avg_buffer);
-}
-
-// Pre:  "toUpdate" and "newPoint" are defined
-// Post: The dynamic average function is called on x and y values,
-//	 changing "toUpdate" to be more similar to "newPoint"     
-void updateVelocityAverage(Velocity &toUpdate, const Velocity &newVelocity){
-  updateAverage(toUpdate.x, newVelocity.x, g_position_dynamic_avg_buffer);
-  updateAverage(toUpdate.y, newVelocity.y, g_position_dynamic_avg_buffer);
-}
-
 // Pre:  "toUpdate" is defined as well as "newColor"
 // Post: The dynamic average function is called on pixel channels,
 //	 changing "toUpdate" to be more similar to "newColor"     
@@ -139,6 +92,35 @@ void updateColorAverage(Px &toUpdate, const Px &newColor){
   updateAverage(toUpdate[1], newColor[1], COLOR_DYNAMIC_AVERAGE_BUFFER);
   updateAverage(toUpdate[2], newColor[2], COLOR_DYNAMIC_AVERAGE_BUFFER);
 }   
+
+// TODO:  This function returns the absolute difference between two values
+// Pre:  "a" and "b" are defined and have comparison and subtraction operators
+// Post: The positive difference of "a" and "b"
+template <class T>
+T difference(const T &a, const T &b){
+  if (a > b)
+    return (a-b);
+  return (b-a);
+};
+
+// Pre:  p1, p2 defined cvPoint types (either float or int)
+// Post: True if ONE of the dimensional values is similar
+template <class T>
+bool xySimilar(const T &p1, const T &p2, int diffThresh){
+  return (! ((difference(p1.x,p2.x) > diffThresh) &&
+	     (difference(p1.y,p2.y) > diffThresh))  );
+};
+
+// Pre:  "px1", "px2", g_color_difference_allowance defined, pixels have three channels
+// Post: false if the positive difference in pixel values for any ONE
+//       channel exceed "g_color_difference_allowance"
+bool channelsSimilar(const Px &px1, const Px &px2){
+  if ((difference(px1[0],px2[0]) > g_color_difference_allowance) ||
+      (difference(px1[1],px2[1]) > g_color_difference_allowance) ||
+      (difference(px1[2],px2[2]) > g_color_difference_allowance))
+    return false;
+  return true;
+}
 
 // Pre:  xDir and yDir defined, only one of them is non-zero
 // Post: The next direction to travel (horizontal / vertical switch),
@@ -158,6 +140,23 @@ void setBiDirection8(int &xDir, int &yDir){
   }
 }
 
+
+// =====================
+//      Bound Class     
+// =====================
+class Bound{
+public:
+  Pt pos;
+  Physics velocity;
+
+  // TODO:  Constructor given position and velocity
+  Bound(const int &x, const int &y, const Physics &vel) :
+    pos(x,y), velocity(vel) {}
+
+  // TODO:  Constructor given another Bound
+  Bound(const Bound &bd) : pos(bd.pos), velocity(bd.velocity){}
+};
+
 // ====================
 //      Blob Class     
 // ====================
@@ -166,83 +165,22 @@ void setBiDirection8(int &xDir, int &yDir){
 // uses a two-point bounding box, the blob's coor, and velocity as data
 class Blob{
 public:
-  Pt lower;    // lower bound
-  Pt upper;    // upper bound
+  Bound lower;    // lower bound
+  Bound upper;    // upper bound
   Px color;    // sample color of this blob
-  Velocity velocity; // The blob's x and y velocity
 
   // Method:  Constructor given appropriate member data
-  Blob(const Px &Color, const Pt &Lower, const Pt &Upper){
-    color = Color;
-    lower = Lower;
-    upper = Upper;
-    velocity = Velocity(0.0,0.0);
-  }
+  Blob(const Px &Color, const Bound &Lower, const Bound &Upper) 
+    : color(Color), lower(Lower), upper(Upper) {}
 
   // Method: Constructor given another blob
-  Blob(const Blob &b){
-    color = b.color;
-    lower = b.lower;
-    upper = b.upper;
-    velocity = b.velocity;
-  }
-
-  // Pre:  This blob is defined
-  // Post: The predicted position based off current velocity is
-  //       returned in the form of a new blob
-  Blob prediction() const{
-    const Pt newLower( (lower.x + (int) velocity.x),
-		       (lower.y + (int) velocity.y) );
-    const Pt newUpper( (upper.x + (int) velocity.x),
-		       (upper.y + (int) velocity.y) );
-    return Blob(color, newLower, newUpper);
-  }
-};
-
-// ======================
-//      Object Class     
-// ======================
-
-// Class: This class is designed to hold groupings of similar blobs,
-// the natures of a tetraMedian search provides a grouped area where
-// center points are usually found.  This class is used to contain all
-// of the potential blob centers and provide a larger dataset for
-// calculating relevant values (velocity, size, color, etc.)
-class Object : public Blob{
-public:
-  BlobVec blobs;
-  float velocityVariance;
-  int lifespan;
-
-  // Constructor: Given a blob, sets lifespan and stores blob
-  Object(const Blob &blob):Blob(blob){
-    lifespan = 1;
-    blobs.push_back(blob);
-  }
-
-  // Pre:  "blob" is fully defined
-  // Post: The velocity, color, and bounds of this object are updated
-  void updateObject(const Blob &blob){
-    updateVelocityAverage(velocity, blob.velocity);
-    updateColorAverage(color, blob.color);
-    setMinPt(lower, blob.lower);
-    setMaxPt(upper, blob.upper);    
-  }
+  Blob(const Blob &b)
+    : color(b.color), lower(b.lower), upper(b.upper){ }
 };
 
 // =============================================
 //      Runtime Functions that require Blob     
 // =============================================
-
-// Pre:  box and currentBlob fully defined
-// Post: true if "currentBlob" lies entirely inside of "box"
-bool overlaps(const Blob &box, const Blob &currentBlob){
-  const Pt center(BLOB_CENTER(currentBlob));
-  return (((box.lower.x < center.x) &&
-	   (box.lower.y < center.y)) &&
-	  ((box.upper.x > center.x) &&
-	   (box.upper.y > center.y)));
-}
 
 // Pre:  blob1 and blob2 are fully defined
 // Post: True if two given blobs are similar to each other.  That
@@ -251,10 +189,31 @@ bool overlaps(const Blob &box, const Blob &currentBlob){
 //       similar
 bool blobsSimilar(const Blob &blob1, const Blob &blob2){
   return ( channelsSimilar(blob1.color, blob2.color) &&
-	   xySimilar(blob1.velocity, blob2.velocity,
-		     VELOCITY_DIFFERENCE_THRESHOLD) &&
-	   xySimilar(blob1.lower, blob2.lower, POINT_DIFFERENCE_THRESHOLD) &&
-	   xySimilar(blob1.upper, blob2.upper, POINT_DIFFERENCE_THRESHOLD));
+	   xySimilar(blob1.lower.pos, blob2.lower.pos, 
+		     g_position_difference_allowance) &&
+	   xySimilar(blob1.upper.pos, blob2.upper.pos, 
+		     g_position_difference_allowance));
+}
+
+// TODO:  This function updates a moving point with new data
+void updateBound(Bound &toUpdate, const Bound &newPt){
+  const Physics currentVelocity(newPt.pos.x - toUpdate.pos.x,
+				newPt.pos.y - toUpdate.pos.y);
+  Physics currentAcceleration(currentVelocity - toUpdate.velocity);
+
+  setMinXY(currentAcceleration, MAX_ACCELERATION);
+  setMaxXY(currentAcceleration, -MAX_ACCELERATION);
+
+  toUpdate.velocity += currentAcceleration;
+  toUpdate.pos.x += toUpdate.velocity.x;
+  toUpdate.pos.y += toUpdate.velocity.y;
+}
+
+// TODO:  This function updates the stats of a blob
+void updateBlob(Blob &toUpdate, const Blob &newBlob){
+  updateColorAverage(toUpdate.color, newBlob.color);      
+  updateBound(toUpdate.lower, newBlob.lower);
+  updateBound(toUpdate.upper, newBlob.upper);
 }
 
 // Pre:  "blob" is fully defined
@@ -264,58 +223,24 @@ bool badBlobDimensions(const Blob &blob){
 	  (BLOB_HEIGHT(blob) < g_min_blob_dimension));    
 }
 
-// Pre:  "currentBlob" and "newPt" are fully defined
-// Post: "newPt" is used to adjust the extrema of "currentBlob"
-void adjustMinMax(Blob &currentBlob, const Pt &newPt){
-  setMinPt(currentBlob.lower, newPt);
-  setMaxPt(currentBlob.upper, newPt);
-}
-
 // ===========================
 //      Tetramedian class     
 // ===========================
 
 // Class: This class provides the ability to sample an image with
-// multiple evenly distributed "tetraMedian" searches for blobs.  It
-// will produce a set of "Objects"
+// multiple evenly distributed "tetraMedian" searches for blobs.
 class TetraMedian{
 public:
   int samples;
   int trackedBlobs;
 
   Img img;
-  ObjVec objects;  
+  BlobVec blobs;
 
   // Constructor: Sets the number of samples
   TetraMedian(){
     samples = DEFAULT_IMAGE_SAMPLES;
     trackedBlobs = 0;
-  }
-
-  // ===============================
-  //      Adding Blob operation     
-  // ===============================
-
-  // Pre:  "currentBlob" fully defined
-  // Post: Cycles through all objects to check if it alligns with one
-  //       of them (it is added if there's room otherwise dropped), if
-  //       it is not similar to any current objects it is used to
-  //       found a new object
-  void addBlob(const Blob &currentBlob){
-    bool added(false);      
-    for (ObjIter obj(objects.begin()); ((obj < objects.end()) && !added); obj++){
-      if (blobsSimilar((*obj), currentBlob)){
-	added = true;
-	if (obj->blobs.size() < MAX_BLOBS_IN_OBJECT){
-	  obj->blobs.push_back(currentBlob);
-	  trackedBlobs++;
-	}
-      }
-    }
-    if (!added && (trackedBlobs < samples)){
-      objects.push_back(Object(currentBlob));
-      trackedBlobs++;
-    }
   }
 
   // =================================
@@ -340,8 +265,7 @@ public:
     while (jumpScale >= MIN_JUMP_SCALE){
       x += (xMove*jumpScale); 
       y += (yMove*jumpScale);
-      if (!(inBounds(x, y) &&
-	    channelsSimilar(blobColor, img.at<Px>(y, x)))){
+      if (!(inBounds(x, y) && channelsSimilar(blobColor, img.at<Px>(y, x)))){
 	// If (not in bounds) or (channels differ)
 	x -= (xMove*jumpScale); 
 	y -= (yMove*jumpScale);
@@ -351,89 +275,44 @@ public:
     return Pt(x,y);
   }
 
-  // TODO:  This will perform the tetra median search assuming that
-  //        start is the old blob position and end is where the new
-  //        position will be stored.  
-  //        It is assumed that:
-  //         toUpdate.lower == toUpdate.upper == BLOB_CENTER(toUpdate)
-  // Pre:  "toUpdate" is a fully defined blob where:
-  //        lower == upper == BLOB_CENTER(toUpdate)
-  // Post: The new extrema data of "toUpdate" for bounds are set after
-  //       searching the current "img" for a center starting at
-  //        "toUpdate"'s previous center point
-  void tetraMedianSearch(Blob &toUpdate) const{
-    Pt edge1(toUpdate.lower);    Pt edge2(toUpdate.lower);
+  // Pre:  lower == upper, this is the start point for the search
+  // Post: lower and upper are now the blob bounds for "color" from
+  //       the given start point 
+  void tetraMedianSearch(Pt &lower, Pt &upper, const Px &color) const{
+    Pt edge1(lower);    Pt edge2(lower);
     int  xDir(0);       int yDir(1);
     for (int i(0); i<JUMP_TO_EDGE_COMPUTATIONS_PER_BLOB; i+=2){
       const int x((edge1.x+edge2.x)/2);
       const int y((edge1.y+edge2.y)/2);
-      edge1 = jumpToEdge(x, y, xDir, yDir, toUpdate.color);
-      edge2 = jumpToEdge(x, y, -xDir, -yDir, toUpdate.color);
+      edge1 = jumpToEdge(x, y, xDir, yDir, color);
+      edge2 = jumpToEdge(x, y, -xDir, -yDir, color);
       setBiDirection8(xDir, yDir);
       // Update min and max
-      adjustMinMax(toUpdate, edge1);
-      adjustMinMax(toUpdate, edge2);
+      setMinXY(lower, edge1);      setMinXY(lower, edge2);
+      setMaxXY(upper, edge1);      setMaxXY(upper, edge2);
     }  
-  }
-
-  // Pre:  "blobToTrack" is fully defined
-  // Post: A new blob search is started from the center of
-  //       "blobToTrack", if the results of the search are similar to
-  //        the blob then it is updated and true is returned,
-  //        otherwise false is returned
-  bool trackBlob(Blob &blobToTrack) const{
-    const Pt previousCenter(BLOB_CENTER(blobToTrack));
-    Blob newBlob(img.at<Px>(previousCenter.y, previousCenter.x), 
-		 previousCenter, previousCenter);
-    if (channelsSimilar(blobToTrack.color, newBlob.color)){
-      tetraMedianSearch(newBlob);
-      updatePointAverage(blobToTrack.lower, newBlob.lower);
-      updatePointAverage(blobToTrack.upper, newBlob.upper);
-      updateColorAverage(blobToTrack.color, newBlob.color);
-      blobToTrack.velocity = (BLOB_CENTER(newBlob) - previousCenter);
-      return true;
-    }
-    return false;
-  }
-
-  // Post: All objects that are similar to each other are merged, on
-  //       the merge the farthest bounds are kept and the longest
-  //       lifespan, the less significant object is erased.
-  void mergeObjects(){
-    const int halfSize = objects.size() / 2;
-    for (ObjIter obj1(objects.begin()); obj1<objects.end(); obj1++){
-      for (ObjIter obj2(obj1+1); obj2<objects.end();obj2++){
-	if (blobsSimilar((*obj1), (*obj2))){ // If the two objects are similar
-	  setMinPt(obj1->lower, obj2->lower); // Set the min of both objects
-	  setMaxPt(obj1->upper, obj2->upper); // Set the max of both objects
-	  setMax(obj1->lifespan, obj2->lifespan); // Take the larger lifespan
-	  trackedBlobs -= obj2->blobs.size();
-	  objects.erase(obj2); // Erase the now insignificant object
-	}
-      }
-    }
   }
 
   // =============================
   //      Sampling operations     
   // =============================
 
-  // Pre:  "obj" must be defined and prediction is the predicted next
-  //       state of the object.
-  // Post: Cycles through all blobs in "obj" performs a blob search
-  //       from the previous center point, uses the new values to
-  //       update the object or erase blobs from it if need be
-  void reSampleObject(Object &obj, const Blob &prediction){
-    obj.lower = obj.upper = BLOB_CENTER(obj); // Reset bounds of object
-    for (BlobIter b(obj.blobs.begin()); b < obj.blobs.end(); b++){
-      if (trackBlob(*b) && blobsSimilar(*b, prediction)){
-	obj.updateObject(*b);
-      }
-      else{
-	obj.blobs.erase(b);
-	trackedBlobs--;
-      }
-    }    
+  // Pre:  "currentBlob" fully defined
+  // Post: Cycles through all objects to check if it alligns with one
+  //       of them (it is added if there's room otherwise dropped), if
+  //       it is not similar to any current objects it is used to
+  //       found a new object
+  void addBlob(const Blob &currentBlob){
+    bool exists(false);      
+    for (BlobIter b(blobs.begin()); b < blobs.end(); b++){
+      exists = blobsSimilar((*b), currentBlob);
+      if (exists)
+	break;
+    }
+    if (!exists && (trackedBlobs < samples)){
+      blobs.push_back(currentBlob);
+      trackedBlobs++;
+    }
   }
 
   // Pre:  numSamples > 0
@@ -443,70 +322,60 @@ public:
     const int pixels(img.rows*img.cols);
     const int step(pixels / numSamples);
     for (int pixel(0); pixel<(pixels); pixel+=step){
-      const Pt currentPoint(pixel%img.cols, pixel/img.cols);
-      Blob currentBlob(img.at<Px>(currentPoint.y, currentPoint.x),
+      const Bound currentPoint(pixel%img.cols, pixel/img.cols, Physics(0.0,0.0));
+      Blob currentBlob(img.at<Px>(currentPoint.pos.y, currentPoint.pos.x),
 		       currentPoint, currentPoint);
-      tetraMedianSearch(currentBlob);
+      tetraMedianSearch(currentBlob.lower.pos, 
+			currentBlob.upper.pos, 
+			currentBlob.color);
       if (!badBlobDimensions(currentBlob))
-	addBlob(currentBlob);    
-      img.at<Px>(currentPoint.y, currentPoint.x) = SAMPLE_COLOR;
+	addBlob(currentBlob);
     }    
   }
 
-  // ==============================================
-  //      Primary blob detection function call     
-  // ==============================================
-
-
-  // Pre:  "obj" is fully defined
-  // Post: First a prediction is established then the object is
-  //       resampled according to the prediction.  If the object is
-  //       empty then its lifespan is decremented and its member data
-  //       is set to be that of the prediction (in hope that it will
-  //       be rediscovered on another blob search) 
-  //       false is returned "obj" is out of life and can no longer be tracked
-  //       true is returned otherwise
-  bool trackObject(Object &obj){
-    if (obj.lifespan < MAX_LIFESPAN_VALUE)
-      obj.lifespan++; // Increment the current running lifespan of this object
-
-    const Blob prediction(obj.prediction());
-    reSampleObject(obj, prediction);
-    if (obj.blobs.empty()){
-      if (obj.lifespan < MIN_LIFESPAN_TO_SHOW)
-	return false;
-      else{
-	obj.lifespan -= LIFESPAN_DECREMENT_RATE;
-	obj.color = prediction.color;
-	obj.lower = prediction.lower;
-	obj.upper = prediction.upper; 
-	obj.velocity.x = obj.velocity.y = 0;
-      }
+  // Pre:  "blobToTrack" is fully defined
+  // Post: A new blob search is started from the center of
+  //       "blobToTrack", if the results of the search are similar to
+  //        the blob then it is updated and true is returned,
+  //        otherwise false is returned
+  bool trackBlob(Blob &blobToTrack) const{
+    Bound newLower(blobToTrack.lower.pos.x +
+		   blobToTrack.lower.velocity.x,
+		   blobToTrack.lower.pos.y +
+		   blobToTrack.lower.velocity.y, blobToTrack.lower.velocity);
+    Bound newUpper(blobToTrack.upper.pos.x +
+		   blobToTrack.upper.velocity.x,
+		   blobToTrack.upper.pos.y +
+		   blobToTrack.upper.velocity.y, blobToTrack.upper.velocity);
+    Bound center((newLower.pos.x+newUpper.pos.x)/2,
+		 (newLower.pos.y+newUpper.pos.y)/2,
+		 Physics((newLower.velocity.x+newUpper.velocity.x)/2,
+			 (newLower.velocity.y+newLower.velocity.y)/2));
+    Blob newBlob(img.at<Px>(center.pos.y,center.pos.x), center,center);
+    // If the color is the same (still tracking right blob)
+    if (channelsSimilar(blobToTrack.color, newBlob.color)){
+      tetraMedianSearch(newBlob.lower.pos, newBlob.upper.pos, newBlob.color);
+      updateBlob(blobToTrack, newBlob); // Update this blob
+      return true;
     }
-    return true;
+    return false;
   }
 
   // Post: If there are objects they are resampled first, then similar
   //       objects are merged together.  The remaining samples are
   //       spent uniformly across the image.
   void detectBlobs(){
-    int objectSamples(0);
-    for (ObjIter obj(objects.begin()); obj<objects.end(); obj++){	      
-      if (! trackObject(*obj)){
-	trackedBlobs -= obj->blobs.size();
-	objects.erase(obj);
-	// WARNING:  Erasing from the vector I'm cycling through    	
+    for (BlobIter b(blobs.begin()); b<blobs.end(); b++){	      
+      if (!trackBlob(*b)){
+	blobs.erase(b);
+	trackedBlobs--;
       }
-      else
-	objectSamples += obj->blobs.size();
     }
-    mergeObjects();
-    int regularSamples(samples - objectSamples);
+    int regularSamples(samples - trackedBlobs);
     if (regularSamples > 0)
       sampleImgUniform(regularSamples);
   }
 
-  
   // =========================
   //      Drawing methods     
   // =========================
@@ -517,23 +386,13 @@ public:
   //       with the color "velocityColor"
   void drawBlob(Img &outImg, const Blob &blob, 
 		const cv::Scalar &velocityColor){
-    rectangle(outImg, blob.lower, blob.upper, 
+    rectangle(outImg, blob.lower.pos, blob.upper.pos, 
 	      cv::Scalar(blob.color[0], blob.color[1], blob.color[2]));
-    const Pt center(BLOB_CENTER(blob.prediction()));
-    cv::line(outImg, BLOB_CENTER(blob), center, velocityColor, 2);
-  }
-
-  // Pre:  "outImg" is the image that "obj" was gathered from, "obj" defined
-  // Post: if "obj" has been alive for long enough it is drawn with
-  //       the velocity vector color corresponding to the length of
-  //       its life
-  void drawObject(Img &outImg, const Object &obj){
-    int life(obj.lifespan);
-    setMin(life, MAX_LIFESPAN_VALUE);
-    cv::Scalar velocityColor(life/2,life,0);
-    if (life > MIN_LIFESPAN_TO_SHOW){
-      drawBlob(outImg, obj, velocityColor);
-    }
+    const Physics vel((blob.lower.velocity.x+blob.upper.velocity.x)/2,
+		      (blob.lower.velocity.y+blob.upper.velocity.y)/2);
+    const Pt center(BLOB_CENTER(blob));
+    const Pt nextCenter(center.x+vel.x, center.y+vel.y);
+    cv::line(outImg, center, nextCenter, velocityColor, 2);
   }
 
   // Pre:  "outImg" is defined and the same as the one that
@@ -541,21 +400,9 @@ public:
   // Post: Bounding boxes and vector lines for velocity are drawn for
   //       every single blob that has been discovered in the image
   void drawAllBlobs(Img &outImg){
-    for (ObjIter obj(objects.begin()); obj<objects.end(); obj++){
-      for (BlobIter b(obj->blobs.begin()); b<(obj->blobs.end()); b++){
-	drawBlob(outImg, *b, cv::Scalar(0,200,0));
-      }    
-    }
-  }
-
-  // Pre:  "outImg" is defined, that is where the boxes are drawn
-  // Post: A box is drawn marking the lower and upper bounds of every
-  //       object, also a line is drawn at the center of the object
-  //       marking its average vector velocity (color corresponding to lifespan)
-  void drawAllObjects(Img &outImg){
-    for (ObjIter obj(objects.begin()); obj<objects.end(); obj++){
-      drawObject(outImg, *obj);
-    }
+    for (BlobIter b(blobs.begin()); b<(blobs.end()); b++){
+      drawBlob(outImg, *b, cv::Scalar(0,200,0));
+    }    
   }
 
   // ====================================
@@ -586,15 +433,19 @@ public:
 
     cv::createTrackbar("Samples", TRACKBAR_WINDOW, &samples, 
 		       (img.rows*img.cols) / 512);
-    cv::createTrackbar("Clear objects (1=true)", TRACKBAR_WINDOW,
-    		       &clearObjects, 1);
     cv::createTrackbar("Color difference threshold", TRACKBAR_WINDOW,
-		       &g_color_difference_allowance, (img.cols / 10));
-    cv::createTrackbar("Position dynamic average buffer",
-		       TRACKBAR_WINDOW, &g_position_dynamic_avg_buffer, 20);
+		       &g_color_difference_allowance, 128);
+    cv::createTrackbar("Position difference threshold", TRACKBAR_WINDOW,
+		       &g_position_difference_allowance, (img.cols / 10));
+    cv::createTrackbar("Clear objects (1=true)", TRACKBAR_WINDOW,
+		       &clearObjects, 1);
 
     // Main test runs until user presses escape key
     while (cv::waitKey(1) != ESC_KEY){
+      // Clear the vector if requested to do so
+      if (clearObjects){
+	blobs.clear();
+	trackedBlobs = 0; }      
       // Capture image for processing
       if (argc <= 2){
 	if (argc == 2){
@@ -607,24 +458,16 @@ public:
 	  vid >> temp;
 	  cv::flip(temp, img, 1); }}
       else{
-      	img = cv::imread(argv[1]);
-      }
-
+	img = cv::imread(argv[1]); }
       // Reset the blob image to black
       blobImg.setTo(cv::Scalar(0,0,0));
       // If the sliders are in valid positions then run the program
       detectBlobs(); // Build vectors of blobs in class
       drawAllBlobs(img); // Draw low level blob boundaries on original
-      drawAllObjects(blobImg); // Draw high level boxes separately
+      drawAllBlobs(blobImg); // Draw low level blob boundaries on original
       // Show both images to the user
       cv::imshow(ORIGINAL_IMAGE, img);
       cv::imshow(BLOBS_WINDOW, blobImg);
-
-      // Clear the vector if requested to do so
-      if (clearObjects){
-	objects.clear();
-	trackedBlobs = 0;
-      }      
     }
   }
 

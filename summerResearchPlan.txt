@@ -76,17 +76,21 @@ Week 7 (July 12th - July 16th)
 -> Add heirarchical object organization to my blob detector to make it
    more smooth, track "objects" of multiple blobs through frames
 -> Run Sample videos through the blob detectors and examine performance
--> Add "color of interest" to the detector and see if I can
-   intentionally follow a specified blob around the screen.
+-> Add "lifespan" to the detector and see if I can
+   rediscover objects that have been followed for some time already.
 -> Run tests and samples on the new tracking.
 -> Read papers on vision tracking and blob detection to come up with
    good metrics to compare my algorithm on.
+-> Make all velocities in the blob detection change according to a max
+   "acceleration" in order to smooth the detection process.
+-> Make the acceleration of the lower and upper bounds of the blob
+   detection independant so that I can account for shrinking and growing
+
+Week 8 (July 21st - July 25th)
 -> Bullet ideas, and then turn those into a functioning
    introduction and related works
 -> Write the Methods section of the paper
 -> Begin bulleting discussion, conclusion, and future work for paper
-
-Week 8 (July 21st - July 25th)
 -> Finalize paper, start to finish every section one at a time.  Read
    other research papers as examples for which section headings are
    most important.

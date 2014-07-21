@@ -4,6 +4,48 @@
 
 // average += (new value - average) / group size;
 
+
+int g_position_dynamic_avg_buffer(POSITION_DYNAMIC_AVERAGE_BUFFER);
+    cv::createTrackbar("Position dynamic average buffer", 
+		       TRACKBAR_WINDOW, &g_position_dynamic_avg_buffer, 20);
+
+
+// Pre:  box and currentBlob fully defined
+// Post: true if "currentBlob" lies entirely inside of "box"
+bool overlaps(const Blob &box, const Blob &currentBlob){
+  const Pt center(BLOB_CENTER(currentBlob));
+  return (((box.lower.x < center.x) &&
+	   (box.lower.y < center.y)) &&
+	  ((box.upper.x > center.x) &&
+	   (box.upper.y > center.y)));
+}
+
+
+
+  // Pre:  "blob" is fully defined
+  // Post: The velocity, color, and bounds of this object are updated
+  void updateObject(const Blob &blob){
+    updateColorAverage(color, blob.color);
+    updateMovingPoint(lower, blob.lower);
+    updateMovingPoint(upper, blob.upper);    
+  }
+
+
+// Pre:  "toUpdate" and "newPoint" are defined
+// Post: The dynamic average function is called on x and y values,
+//	 changing "toUpdate" to be more similar to "newPoint"     
+template <class T>
+void updateXYAverage(T &toUpdate, const T &newPoint){
+  updateAverage(toUpdate.x, newPoint.x, g_position_dynamic_avg_buffer);
+  updateAverage(toUpdate.y, newPoint.y, g_position_dynamic_avg_buffer);
+}
+
+
+  int minObjectsToTrack;
+    cv::createTrackbar("Minimum objects to track", TRACKBAR_WINDOW,
+		       &minObjectsToTrack, 30);
+
+
   int computations;
     computations = 16;
     cv::createTrackbar("Computations", TRACKBAR_WINDOW, 

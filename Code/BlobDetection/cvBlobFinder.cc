@@ -14,7 +14,7 @@ int main(int argc, char *argv[]){
   params.filterByColor = false;
   params.filterByCircularity = false;
   params.filterByArea = true;
-  params.minArea = 10.0f;
+  params.minArea = 100.0f;
   params.maxArea = 10000.0f;
   // ... any other params you don't want default value
 
