@@ -5,20 +5,137 @@
 // average += (new value - average) / group size;
 
 
+// Pre:  p1, p2 defined cvPoint types (either float or int)
+// Post: True if x OR y values are similar
+template <class T>
+bool xOrySimilar(const T &p1, const T &p2, int diffThresh){
+  return ( (difference(p1.x,p2.x) < diffThresh) ||
+           (difference(p1.y,p2.y) < diffThresh) );
+};
+
+
+
+  // =====================================
+  //      Blob Detection and Tracking     
+  // =====================================
+
+      if (!trackBlob(*b)){
+	blobs.erase(b);
+	trackedBlobs--;
+      }
+      else
+	b->life++;
+
+  // Pre:  "blobToTrack" is fully defined
+  // Post: A new blob search is started from the center of
+  //       "blobToTrack", if the results of the search are similar to
+  //       the blob then it is updated and true is returned,
+  //       otherwise false is returned for "cannot track"
+  bool trackBlob(Blob &blobToTrack) const{
+    IntPt newLower(PREDICTED_CENTER(blobToTrack));
+    IntPt newUpper(newLower);
+    if (inBounds(newLower.x, newLower.y)){
+      Px newColor(img.at<Px>(newLower.y, newLower.x));
+      if (channelsSimilar(blobToTrack.color, newColor)){
+	recursiveMedianSearch(newLower, newUpper, newColor);
+	updateBlob(blobToTrack, newLower, newUpper, newColor); // Update this blob
+	return true;
+      }
+    }
+    return false;
+  }
+
+	blobVelocityMagnitude(*b) >= minVelocity){
+
+	       const int minVelocity=0){
+
+#define PREDICTED_CENTER(b) cv::Point((b.lower.x+b.lowerVelocity.x +   \
+                                       b.upper.x+b.upperVelocity.x)/2, \
+                                      (b.lower.y+b.lowerVelocity.y +   \
+                                       b.upper.y+b.upperVelocity.y)/2)
+// ^^ Returns a cv::Point of the predicted center point by combining
+//    the (lower + lowerVelocity) and (upper + upperVelocity)
+
+typedef cv::Point2f FloatPt; // "FloatPt" for float point
+  FloatPt lowerVelocity;
+  FloatPt upperVelocity;
+      lowerVelocity(0.0,0.0), upperVelocity(0.0,0.0){}
+      lowerVelocity(b.lowerVelocity), upperVelocity(b.upperVelocity){}
+
+// Pre:  All defined, and oldPosition should be updated with newPosition
+// Post: Based off the change in position a new velocity is
+//       calculated, next the change in velocity is calculated and the
+//       resultant acceleration is capped as to make movement more
+//       consistant.  Based off of capped acceleration, Oldvelocity and 
+//       oldPosition are updated.
+void updatePosition(int &oldPosition, const int &newPosition, 
+		    float &oldVelocity){
+  const float newVelocity(newPosition - oldPosition);
+  float acceleration(newVelocity - oldVelocity);
+  setMin(acceleration, MAX_ACCELERATION);
+  setMax(acceleration, -MAX_ACCELERATION);
+  oldVelocity += acceleration;
+  oldPosition += oldVelocity;
+}
+
+// Pre:  toUpdate and all new data are defined
+// Post: toUpdate is modified to be more similar to the new data
+void updateBlob(Blob &toUpdate, const IntPt &newLower, 
+		const IntPt &newUpper, const Px &newColor){
+  updateColorAverage(toUpdate.color, newColor);      
+
+  updatePosition(toUpdate.lower.x, newLower.x, toUpdate.lowerVelocity.x);
+  updatePosition(toUpdate.lower.y, newLower.y, toUpdate.lowerVelocity.y);
+
+  updatePosition(toUpdate.upper.x, newUpper.x, toUpdate.upperVelocity.x);
+  updatePosition(toUpdate.upper.y, newUpper.y, toUpdate.upperVelocity.y);
+}
+
+// TODO:  This function will return the velocity magnitude of a blob
+float blobVelocityMagnitude(const Blob &b){
+  float x((b.lowerVelocity.x+b.upperVelocity.x)/2);
+  float y((b.lowerVelocity.y+b.upperVelocity.y)/2);
+  return((difference(0.0f, y) + difference(0.0f, x)) / 2);
+}
+
+      const IntPt center(BLOB_CENTER((*b)));
+      const IntPt nextCenter(PREDICTED_CENTER((*b)));
+      cv::line(outImg, center, nextCenter, cv::Scalar(0,180,0), 2);
+	blobVelocityMagnitude(*b) >= minVelocity){
+
+
+// TODO:  This function will absorb blobs to merge them
+void absorbBlob(Blob &toUpdate, Blob &toAbsorb){
+  setMin(toUpdate.lower.x, toAbsorb.lower.x);
+  setMin(toUpdate.lower.y, toAbsorb.lower.y);
+  setMax(toUpdate.upper.x, toAbsorb.upper.x);
+  setMax(toUpdate.upper.y, toAbsorb.upper.y);
+  updateColorAverage(toUpdate.color, toAbsorb.color);      
+  updateAverage(toUpdate.lowerVelocity.x, toAbsorb.lowerVelocity.x, 10);
+  updateAverage(toUpdate.lowerVelocity.y, toAbsorb.lowerVelocity.y, 10);
+}
+
+
+//       xAndySimilar for lowerVelocity OR upperVelocity
+//  &&
+	   // // ^^ "upper"s are similar
+	   // (xAndySimilar(blob1.lowerVelocity, blob2.lowerVelocity,
+	   // 		 VELOCITY_DIFFERENCE_THRESHOLD) ||
+	   //  // ^^ "lowerVelocity"s are similar
+	   //  xAndySimilar(blob1.upperVelocity, blob2.upperVelocity,
+	   // 		 VELOCITY_DIFFERENCE_THRESHOLD)) );
+	   //  // ^^ "upperVelocity"s are similar
+
+
+
+#define SAMPLE_COLOR Px(200,0,0)   // The color all samples are drawn in
+#define POSITION_DYNAMIC_AVERAGE_BUFFER 4 //Position dynamic average buffer size
+
+
 int g_position_dynamic_avg_buffer(POSITION_DYNAMIC_AVERAGE_BUFFER);
     cv::createTrackbar("Position dynamic average buffer", 
 		       TRACKBAR_WINDOW, &g_position_dynamic_avg_buffer, 20);
 
-
-// Pre:  box and currentBlob fully defined
-// Post: true if "currentBlob" lies entirely inside of "box"
-bool overlaps(const Blob &box, const Blob &currentBlob){
-  const Pt center(BLOB_CENTER(currentBlob));
-  return (((box.lower.x < center.x) &&
-	   (box.lower.y < center.y)) &&
-	  ((box.upper.x > center.x) &&
-	   (box.upper.y > center.y)));
-}
 
 
 

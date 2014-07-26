@@ -1,5 +1,3 @@
-# rm -rf CMakeCache.txt CMakeFiles cmake_install.cmake Makefile 
-# ^^ Removes all cmake files in order to rebuild (or clean)
 cmake_minimum_required(VERSION 2.8)
 find_package( OpenCV REQUIRED )
 
